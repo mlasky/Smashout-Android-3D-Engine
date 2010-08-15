@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<group name="cube">    
+<model name="cube">    
         <texture>@drawable/tex_cube</texture>
         <verts>
             <vert>-1.0</vert>
@@ -206,4 +206,4 @@
             <coord>1.0</coord>
             <coord>1.0</coord>
         </coords>
-</group>
+</model>

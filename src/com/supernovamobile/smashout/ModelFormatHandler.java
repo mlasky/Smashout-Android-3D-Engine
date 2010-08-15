@@ -10,7 +10,7 @@ import android.util.Log;
 
 public class ModelFormatHandler extends DefaultHandler {
 	public static final int STATE_UNKNOWN	= 0;
-	public static final int STATE_GROUP 	= 1;
+	public static final int STATE_MODEL 	= 1;
 	public static final int STATE_TEXTURE 	= 3;
 	public static final int STATE_VERTS		= 4;
 	public static final int STATE_VERT		= 5;
@@ -19,7 +19,7 @@ public class ModelFormatHandler extends DefaultHandler {
 	public static final int STATE_COORDS	= 8;
 	public static final int STATE_COORD		= 9;
 	
-	public static final String TAG_GROUP 	= "group";
+	public static final String TAG_MODEL 	= "model";
 	public static final String TAG_TEXTURE 	= "texture";
 	public static final String TAG_VERTS	= "verts";
 	public static final String TAG_VERT		= "vert";
@@ -28,11 +28,8 @@ public class ModelFormatHandler extends DefaultHandler {
 	public static final String TAG_COORDS 	= "coords";
 	public static final String TAG_COORD	= "coord";
 	
-	private int mState 			= STATE_UNKNOWN;
-	private int mNumGroups 		= 0;
-	
-	private Group mCurrentGroup 		= null;
-	private Group mRootGroup 			= null;
+	private int 	mState 					= STATE_UNKNOWN;
+	private Mesh	mModel					= null;
 	
 	private ArrayList<Float> mCurrentVerts 		= null;
 	private ArrayList<Integer> mCurrentIndices	= null;
@@ -50,12 +47,9 @@ public class ModelFormatHandler extends DefaultHandler {
 	
 	@Override
 	public void startElement(String uri, String localName, String qName, Attributes attributes) {
-		if (localName.equalsIgnoreCase(TAG_GROUP)) {
-			mState = STATE_GROUP;
-			mNumGroups++;
-			
-			mRootGroup = new Group();
-			
+		if (localName.equalsIgnoreCase(TAG_MODEL)) {
+			mState = STATE_MODEL;
+			mModel = new Mesh();
 		} else if (localName.equalsIgnoreCase(TAG_TEXTURE)) {
 			mState = STATE_TEXTURE;
 			
@@ -94,7 +88,7 @@ public class ModelFormatHandler extends DefaultHandler {
 				verts[i] = mCurrentVerts.get(i).floatValue();
 			}
 		
-			mRootGroup.setVertices(verts);
+			mModel.setVertices(verts);
 			mCurrentVerts = null;
 			
 		} else if (localName.equalsIgnoreCase(TAG_INDICES)) {
@@ -103,7 +97,7 @@ public class ModelFormatHandler extends DefaultHandler {
 				indices[i] = mCurrentIndices.get(i).shortValue();
 			}
 			
-			mRootGroup.setIndices(indices);
+			mModel.setIndices(indices);
 			mCurrentIndices = null;
 		
 		} else if (localName.equalsIgnoreCase(TAG_COORDS)) {
@@ -112,7 +106,7 @@ public class ModelFormatHandler extends DefaultHandler {
 				coords[i] = mCurrentCoords.get(i).floatValue();
 			}
 			
-			mRootGroup.setTextureCoords(coords);
+			mModel.setTextureCoords(coords);
 			mCurrentCoords = null;
 		
 		} 
@@ -123,7 +117,7 @@ public class ModelFormatHandler extends DefaultHandler {
 	public void characters(char[] ch, int start, int length) throws SAXException {
 		String strCharacters = new String(ch, start, length);
 		if (mState == STATE_TEXTURE) {
-			mRootGroup.setTextureStr(strCharacters);
+			mModel.setTextureStr(strCharacters);
 		} else if (mState == STATE_VERT) {
 			mCurrentVerts.add(Float.valueOf(strCharacters.trim()));
 		} else if (mState == STATE_INDEX) {
@@ -133,7 +127,7 @@ public class ModelFormatHandler extends DefaultHandler {
 		}
 	}
 	
-	public Group getRoot() {
-		return mRootGroup;
+	public Mesh getModel() {
+		return mModel;
 	}
 }

@@ -16,20 +16,25 @@ import android.util.Log;
 public class SmashoutGLRenderer implements Renderer {
 
 	private Group mScene = new Group();
+	private Model mCube;
 	
 	public SmashoutGLRenderer(Context context) throws IOException, ParserConfigurationException, SAXException {
-		Model cube = new Model(R.raw.tex_cube, context);
-		mScene.add(cube);
+		mCube = new Model(R.raw.test, context);
+		
+		mScene.add(mCube);
 	}
-	
+	 
 	@Override
 	public void onDrawFrame(GL10 gl) {
 		// TODO Auto-generated method stub
 		gl.glClear(GL10.GL_COLOR_BUFFER_BIT | GL10.GL_DEPTH_BUFFER_BIT);
 		gl.glLoadIdentity();
-		gl.glTranslatef(0.0f, 0.0f, -10.0f);
+		gl.glTranslatef(0.0f, 0.0f, -50.0f);
 		
 		gl.glPushMatrix();
+		mCube.get(0).ry++;
+		mCube.get(0).rz++;
+		mCube.get(0).rx++;
 		mScene.draw(gl);
 		gl.glPopMatrix();
 	}

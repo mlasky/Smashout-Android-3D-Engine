@@ -29,7 +29,6 @@ public class Model extends Group {
 		InputSource inputSource = new InputSource(fis);
 		xmlReader.parse(inputSource);
 		
-		add(modelHandler.getRoot());
-		Log.e("Model", ""+mChildren.size());
+		add(modelHandler.getModel());
 	}
 }
