@@ -20,20 +20,23 @@ public class ModelFormatHandler extends DefaultHandler {
 	public static final int STATE_COORD		= 9;
 	
 	public static final String TAG_MODEL 	= "model";
-	public static final String TAG_TEXTURE 	= "texture";
+	public static final String TAG_TEXTURE 	= "tex";
 	public static final String TAG_VERTS	= "verts";
-	public static final String TAG_VERT		= "vert";
+	public static final String TAG_VERT		= "v";
 	public static final String TAG_INDICES 	= "indices";
-	public static final String TAG_INDEX	= "index";
-	public static final String TAG_COORDS 	= "coords";
-	public static final String TAG_COORD	= "coord";
+	public static final String TAG_INDEX	= "i";
+	public static final String TAG_COORDS 	= "uv";
+	public static final String TAG_COORD	= "c";
 	
-	private int 	mState 					= STATE_UNKNOWN;
-	private Mesh	mModel					= null;
+	private int 		mState 					= STATE_UNKNOWN;
+	private Mesh		mModel					= null;
 	
 	private ArrayList<Float> mCurrentVerts 		= null;
 	private ArrayList<Integer> mCurrentIndices	= null;
 	private ArrayList<Float> mCurrentCoords		= null;
+	
+	public ModelFormatHandler() {
+	}
 	
 	@Override
 	public void startDocument() throws SAXException {
@@ -117,6 +120,7 @@ public class ModelFormatHandler extends DefaultHandler {
 	public void characters(char[] ch, int start, int length) throws SAXException {
 		String strCharacters = new String(ch, start, length);
 		if (mState == STATE_TEXTURE) {
+			Log.e("ModelHelper", "Found texture: " + strCharacters);
 			mModel.setTextureStr(strCharacters);
 		} else if (mState == STATE_VERT) {
 			mCurrentVerts.add(Float.valueOf(strCharacters.trim()));

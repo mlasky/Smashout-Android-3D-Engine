@@ -14,9 +14,13 @@ import org.xml.sax.XMLReader;
 import android.content.Context;
 import android.util.Log;
 
-public class Model extends Group {
+public class Model extends Mesh {
 	
-	public Model(int fileResource, Context context) throws IOException, ParserConfigurationException, SAXException {
+	boolean mLoaded = false;
+	
+	public Model(int fileResource, Context context, String name) throws IOException, ParserConfigurationException, SAXException {
+		mName = mName + ":" + name;
+		
 		InputStream fis = context.getResources().openRawResource(fileResource);
 		
 		SAXParserFactory 	saxParserFactory 	= SAXParserFactory.newInstance();
@@ -30,5 +34,6 @@ public class Model extends Group {
 		xmlReader.parse(inputSource);
 		
 		add(modelHandler.getModel());
+		mLoaded = true;
 	}
 }

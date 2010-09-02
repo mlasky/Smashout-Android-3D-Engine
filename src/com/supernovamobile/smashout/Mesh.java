@@ -10,11 +10,13 @@ import java.nio.ShortBuffer;
 import javax.microedition.khronos.opengles.GL10;
 
 import android.content.Context;
+import android.content.res.AssetManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.opengl.GLUtils;
+import android.util.Log;
 
-public class Mesh {
+public class Mesh extends Group {
 	private FloatBuffer mVerticesBuffer = null;
 	private FloatBuffer mColorBuffer 	= null;
 	private FloatBuffer mTextureBuffer  = null;
@@ -22,55 +24,58 @@ public class Mesh {
 	
 	private int 	mNumIndices 	= -1;
 	private int[] 	mTextures 		= new int[1];
-	private String  mTextureString 	= null;
 	
 	private float[] mRGBA = new float[] { 1.0f, 1.0f, 1.0f, 1.0f };
 	
-	public float x = 0;
-	public float y = 0;
-	public float z = 0;
+	private String  mTextureString 	= null;
 	
-	public float rx = 0;
-	public float ry = 0;
-	public float rz = 0;
+	public boolean mTexLoaded 		= false;
 	
-	public void draw(GL10 gl) {
+	@Override
+	public void draw(GL10 gl) throws IOException {
+		Log.e("Model", "Drawing: " + this);
+		Log.e("Model", this + " rx = " + rx);
+		super.draw(gl);
+		if (mVerticesBuffer != null) {
+			
+			gl.glFrontFace(GL10.GL_CCW);
+			gl.glEnable(GL10.GL_CULL_FACE);
+			gl.glCullFace(GL10.GL_BACK);
+			
+			gl.glEnableClientState(GL10.GL_VERTEX_ARRAY);
+			
+			gl.glVertexPointer(3, GL10.GL_FLOAT, 0, mVerticesBuffer);	
 		
-		gl.glFrontFace(GL10.GL_CCW);
-		gl.glEnable(GL10.GL_CULL_FACE);
-		gl.glCullFace(GL10.GL_BACK);
-		
-		gl.glEnableClientState(GL10.GL_VERTEX_ARRAY);
-		
-		gl.glVertexPointer(3, GL10.GL_FLOAT, 0, mVerticesBuffer);
-		
-		if (mTextureBuffer != null) {
-			gl.glBindTexture(GL10.GL_TEXTURE_2D, mTextures[0]);
-			gl.glEnableClientState(GL10.GL_TEXTURE_COORD_ARRAY);
-			gl.glTexCoordPointer(2, GL10.GL_FLOAT, 0, mTextureBuffer);
+			if (mTextureBuffer != null && mTextureString != null) {
+				gl.glBindTexture(GL10.GL_TEXTURE_2D, mTextures[0]);
+				gl.glEnableClientState(GL10.GL_TEXTURE_COORD_ARRAY);
+				gl.glTexCoordPointer(2, GL10.GL_FLOAT, 0, mTextureBuffer);
+			}
+			
+			gl.glColor4f(mRGBA[0], mRGBA[1], mRGBA[2], mRGBA[3]);
+			
+			if (mColorBuffer != null) {
+				gl.glEnableClientState(GL10.GL_COLOR_ARRAY);
+				gl.glColorPointer(4, GL10.GL_FLOAT, 0, mColorBuffer);
+			}
+			
+			gl.glPushMatrix();
+			
+			gl.glTranslatef(x, y, z);
+			gl.glRotatef(rx, 1, 0, 0);
+			gl.glRotatef(ry, 0, 1, 0);
+			gl.glRotatef(rz, 0, 0, 1);
+			
+			gl.glDrawElements(GL10.GL_TRIANGLES, mNumIndices, GL10.GL_UNSIGNED_SHORT, mIndicesBuffer);
+			
+			gl.glPopMatrix();
+			
+			gl.glDisableClientState(GL10.GL_VERTEX_ARRAY);
+			if (mTextureString != null) {
+				gl.glDisableClientState(GL10.GL_TEXTURE_COORD_ARRAY);
+			}
+			gl.glDisable(GL10.GL_CULL_FACE);
 		}
-		
-		gl.glColor4f(mRGBA[0], mRGBA[1], mRGBA[2], mRGBA[3]);
-		
-		if (mColorBuffer != null) {
-			gl.glEnableClientState(GL10.GL_COLOR_ARRAY);
-			gl.glColorPointer(4, GL10.GL_FLOAT, 0, mColorBuffer);
-		}
-		
-		gl.glPushMatrix();
-		
-		gl.glTranslatef(x, y, z);
-		gl.glRotatef(rx, 1, 0, 0);
-		gl.glRotatef(ry, 0, 1, 0);
-		gl.glRotatef(rz, 0, 0, 1);
-		
-		gl.glDrawElements(GL10.GL_TRIANGLES, mNumIndices, GL10.GL_UNSIGNED_SHORT, mIndicesBuffer);
-		
-		gl.glPopMatrix();
-		
-		gl.glDisableClientState(GL10.GL_VERTEX_ARRAY);
-		gl.glDisableClientState(GL10.GL_TEXTURE_COORD_ARRAY);
-		gl.glDisable(GL10.GL_CULL_FACE);
 	}
 	
 	public void setVertices(float[] vertices) {
@@ -99,11 +104,13 @@ public class Mesh {
 		mTextureBuffer.position(0);
 	}
 	
-	protected void loadTexture(GL10 gl, Context context, int tex) {
-		InputStream is = context.getResources().openRawResource(tex);
+	protected void loadTexture(GL10 gl, Context context) throws IOException {
+		Log.e("Mesh", "Loading texture: " + mTextureString);
+		AssetManager assetManager = context.getAssets();
+		InputStream is = assetManager.open(mTextureString);
 		Bitmap bitmap = null;
 		
-		try {
+		try { 
 			bitmap = BitmapFactory.decodeStream(is);
 		} finally {
 			try {
@@ -122,6 +129,8 @@ public class Mesh {
 		gl.glTexParameterf(GL10.GL_TEXTURE_2D, GL10.GL_TEXTURE_WRAP_T, GL10.GL_REPEAT);
 		
 		GLUtils.texImage2D(GL10.GL_TEXTURE_2D, 0, bitmap, 0);
+		
+		mTexLoaded = true;
 		
 		bitmap.recycle();
 	}
@@ -142,6 +151,11 @@ public class Mesh {
 	}
 	
 	public void setTextureStr(String texture) {
+		Log.e("mesh", "setTextureString: " + texture);
 		mTextureString = texture;
+	}
+	
+	public String getTextureStr() {
+		return mTextureString;
 	}
 }

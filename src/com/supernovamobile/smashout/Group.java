@@ -1,45 +1,66 @@
 package com.supernovamobile.smashout;
 
+import java.io.IOException;
 import java.util.Vector;
 
 import javax.microedition.khronos.opengles.GL10;
 
-public class Group extends Mesh {
-	protected Vector<Mesh> mChildren = new Vector<Mesh>();
+import android.util.Log;
+
+public class Group {
+
+	protected Vector<Group> mChildren = new Vector<Group>();
+	protected String mName = "" + this.hashCode();
 	
-	@Override
-	public void draw(GL10 gl) {
+	public float x = 0;
+	public float y = 0;
+	public float z = 0;
+	
+	public float rx = 0;
+	public float ry = 0;
+	public float rz = 0;
+	
+	public void draw(GL10 gl) throws IOException {
 		int size = mChildren.size();
 		for (int i = 0; i < size; i++) {
 			mChildren.get(i).draw(gl);
 		}
 	}
 	
-	public void add(int location, Mesh object) {
-		mChildren.add(location, object);
+	public void add(int location, Group group) {
+		mChildren.add(location, group);
 	}
 	
-	public boolean add(Mesh object) {
-		return mChildren.add(object);
+	public boolean add(Mesh mesh) {
+		return mChildren.add(mesh);
+	}
+	
+	public boolean add(Group group) {
+		return mChildren.add(group);
 	}
 	
 	public void clear() {
-		mChildren.clear();
-	}
+		mChildren.clear(); 
+ 	}
 	
-	public Mesh get(int location) {
+	public Group get(int location) {
 		return mChildren.get(location);
 	}
-	
-	public Mesh remove(int location) {
+		
+	public Group remove(int location) {
 		return mChildren.remove(location);
 	}
 	
-	public boolean remove(Object object) {
-		return mChildren.remove(object);
+	public boolean remove(Group group) {
+		return mChildren.remove(group);
 	}
 	
 	public int size() {
 		return mChildren.size();
+	}
+	
+	@Override
+	public String toString() {
+		return mName;
 	}
 }
