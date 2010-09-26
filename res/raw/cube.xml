@@ -1,149 +1,603 @@
 <model>
-	<verts>
-		<v>1.000000</v>
-		<v>1.000000</v>
-		<v>-1.000000</v>
+	<face>
+		<normal>
+			<nx>0.000000</nx>
+			<ny>1.000000</ny>
+			<nz>0.000000</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>1.000000</vx>
+				<vy>0.999999</vy>
+				<vz>1.000000</vz>
 
-		<v>1.000000</v>
-		<v>-1.000000</v>
-		<v>-1.000000</v>
+				<vnormal>
+					<vnx>0.666646</vnx>
+					<vny>0.666646</vny>
+					<vnz>0.333323</vnz>
+				</vnormal>
+				<index>0</index>
+			</vert>
+			<vert>
+				<vx>1.000000</vx>
+				<vy>1.000000</vy>
+				<vz>-1.000000</vz>
 
-		<v>-1.000000</v>
-		<v>-1.000000</v>
-		<v>-1.000000</v>
+				<vnormal>
+					<vnx>0.408246</vnx>
+					<vny>0.408246</vny>
+					<vnz>-0.816492</vnz>
+				</vnormal>
+				<index>1</index>
+			</vert>
+			<vert>
+				<vx>-1.000000</vx>
+				<vy>1.000000</vy>
+				<vz>-1.000000</vz>
 
-		<v>-1.000000</v>
-		<v>1.000000</v>
-		<v>-1.000000</v>
+				<vnormal>
+					<vnx>-0.408246</vnx>
+					<vny>0.816492</vny>
+					<vnz>-0.408246</vnz>
+				</vnormal>
+				<index>2</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>-0.000261</u>  <v>1.002240</v>
+			<u>0.000000</u>  <v>0.001529</v>
+			<u>0.999514</u>  <v>0.000000</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.000000</nx>
+			<ny>1.000000</ny>
+			<nz>0.000000</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>1.000000</vx>
+				<vy>0.999999</vy>
+				<vz>1.000000</vz>
 
-		<v>1.000000</v>
-		<v>0.999999</v>
-		<v>1.000000</v>
+				<vnormal>
+					<vnx>0.666646</vnx>
+					<vny>0.666646</vny>
+					<vnz>0.333323</vnz>
+				</vnormal>
+				<index>3</index>
+			</vert>
+			<vert>
+				<vx>-1.000000</vx>
+				<vy>1.000000</vy>
+				<vz>-1.000000</vz>
 
-		<v>0.999999</v>
-		<v>-1.000001</v>
-		<v>1.000000</v>
+				<vnormal>
+					<vnx>-0.408246</vnx>
+					<vny>0.816492</vny>
+					<vnz>-0.408246</vnz>
+				</vnormal>
+				<index>4</index>
+			</vert>
+			<vert>
+				<vx>-1.000000</vx>
+				<vy>1.000000</vy>
+				<vz>1.000000</vz>
 
-		<v>-1.000000</v>
-		<v>-1.000000</v>
-		<v>1.000000</v>
+				<vnormal>
+					<vnx>-0.666646</vnx>
+					<vny>0.333323</vny>
+					<vnz>0.666646</vnz>
+				</vnormal>
+				<index>5</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>-0.000261</u>  <v>1.002240</v>
+			<u>0.999514</u>  <v>0.000000</v>
+			<u>0.999253</u>  <v>1.000711</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-1.000000</nx>
+			<ny>0.000000</ny>
+			<nz>-0.000000</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>-1.000000</vx>
+				<vy>-1.000000</vy>
+				<vz>-1.000000</vz>
 
-		<v>-1.000000</v>
-		<v>1.000000</v>
-		<v>1.000000</v>
+				<vnormal>
+					<vnx>-0.577349</vnx>
+					<vny>-0.577349</vny>
+					<vnz>-0.577349</vnz>
+				</vnormal>
+				<index>6</index>
+			</vert>
+			<vert>
+				<vx>-1.000000</vx>
+				<vy>-1.000000</vy>
+				<vz>1.000000</vz>
 
-	</verts>
-	<indices>
-		<i>4</i>
-		<i>0</i>
-		<i>3</i>
-		<i>4</i>
-		<i>3</i>
-		<i>7</i>
-		<i>2</i>
-		<i>6</i>
-		<i>7</i>
-		<i>2</i>
-		<i>7</i>
-		<i>3</i>
-		<i>1</i>
-		<i>5</i>
-		<i>2</i>
-		<i>5</i>
-		<i>6</i>
-		<i>2</i>
-		<i>0</i>
-		<i>4</i>
-		<i>1</i>
-		<i>4</i>
-		<i>5</i>
-		<i>1</i>
-		<i>4</i>
-		<i>7</i>
-		<i>5</i>
-		<i>7</i>
-		<i>6</i>
-		<i>5</i>
-		<i>0</i>
-		<i>1</i>
-		<i>2</i>
-		<i>0</i>
-		<i>2</i>
-		<i>3</i>
-	</indices>
-	<uv>
-		<c>0.000000</c>
-		<c>0.000000</c>
-		<c>0.000000</c>
-		<c>-1.000000</c>
-		<c>-1.000000</c>
-		<c>-1.000000</c>
-		<c>0.000000</c>
-		<c>0.000000</c>
-		<c>-1.000000</c>
-		<c>-1.000000</c>
-		<c>-1.000000</c>
-		<c>0.000000</c>
-		<c>0.000000</c>
-		<c>0.000000</c>
-		<c>0.000000</c>
-		<c>1.000000</c>
-		<c>1.000000</c>
-		<c>1.000000</c>
-		<c>0.000000</c>
-		<c>0.000000</c>
-		<c>1.000000</c>
-		<c>1.000000</c>
-		<c>1.000000</c>
-		<c>0.000000</c>
-		<c>0.000000</c>
-		<c>0.000000</c>
-		<c>-0.000000</c>
-		<c>1.000000</c>
-		<c>-1.000000</c>
-		<c>0.000000</c>
-		<c>1.000000</c>
-		<c>0.000000</c>
-		<c>-0.000000</c>
-		<c>0.000000</c>
-		<c>-0.000000</c>
-		<c>-1.000000</c>
-		<c>0.000000</c>
-		<c>0.000000</c>
-		<c>-0.000000</c>
-		<c>1.000000</c>
-		<c>-1.000000</c>
-		<c>0.000000</c>
-		<c>1.000000</c>
-		<c>0.000000</c>
-		<c>-0.000000</c>
-		<c>0.000000</c>
-		<c>0.000000</c>
-		<c>-1.000000</c>
-		<c>0.000000</c>
-		<c>1.000000</c>
-		<c>-1.000000</c>
-		<c>1.000000</c>
-		<c>-0.000000</c>
-		<c>-0.000000</c>
-		<c>0.000000</c>
-		<c>0.000000</c>
-		<c>-0.000000</c>
-		<c>-1.000000</c>
-		<c>1.000000</c>
-		<c>-1.000000</c>
-		<c>0.000000</c>
-		<c>0.000000</c>
-		<c>0.000000</c>
-		<c>-1.000000</c>
-		<c>-1.000000</c>
-		<c>-1.000000</c>
-		<c>0.000000</c>
-		<c>0.000000</c>
-		<c>-1.000000</c>
-		<c>-1.000000</c>
-		<c>-1.000000</c>
-		<c>0.000000</c>
-	</uv>
-	<tex>281747641764b0d1d0a0b</tex>
+				<vnormal>
+					<vnx>-0.577349</vnx>
+					<vny>-0.577349</vny>
+					<vnz>0.577349</vnz>
+				</vnormal>
+				<index>7</index>
+			</vert>
+			<vert>
+				<vx>-1.000000</vx>
+				<vy>1.000000</vy>
+				<vz>1.000000</vz>
+
+				<vnormal>
+					<vnx>-0.666646</vnx>
+					<vny>0.333323</vny>
+					<vnz>0.666646</vnz>
+				</vnormal>
+				<index>8</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.002133</u>  <v>1.000071</v>
+			<u>0.003153</u>  <v>0.005600</v>
+			<u>1.001067</u>  <v>0.005529</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-1.000000</nx>
+			<ny>0.000000</ny>
+			<nz>-0.000000</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>-1.000000</vx>
+				<vy>-1.000000</vy>
+				<vz>-1.000000</vz>
+
+				<vnormal>
+					<vnx>-0.577349</vnx>
+					<vny>-0.577349</vny>
+					<vnz>-0.577349</vnz>
+				</vnormal>
+				<index>9</index>
+			</vert>
+			<vert>
+				<vx>-1.000000</vx>
+				<vy>1.000000</vy>
+				<vz>1.000000</vz>
+
+				<vnormal>
+					<vnx>-0.666646</vnx>
+					<vny>0.333323</vny>
+					<vnz>0.666646</vnz>
+				</vnormal>
+				<index>10</index>
+			</vert>
+			<vert>
+				<vx>-1.000000</vx>
+				<vy>1.000000</vy>
+				<vz>-1.000000</vz>
+
+				<vnormal>
+					<vnx>-0.408246</vnx>
+					<vny>0.816492</vny>
+					<vnz>-0.408246</vnz>
+				</vnormal>
+				<index>11</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.002133</u>  <v>1.000071</v>
+			<u>1.001067</u>  <v>0.005529</v>
+			<u>1.000047</u>  <v>1.000000</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.000000</nx>
+			<ny>-1.000000</ny>
+			<nz>-0.000000</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>1.000000</vx>
+				<vy>-1.000000</vy>
+				<vz>-1.000000</vz>
+
+				<vnormal>
+					<vnx>0.816492</vnx>
+					<vny>-0.408246</vny>
+					<vnz>-0.408246</vnz>
+				</vnormal>
+				<index>12</index>
+			</vert>
+			<vert>
+				<vx>0.999999</vx>
+				<vy>-1.000001</vy>
+				<vz>1.000000</vz>
+
+				<vnormal>
+					<vnx>0.333323</vnx>
+					<vny>-0.666646</vny>
+					<vnz>0.666646</vnz>
+				</vnormal>
+				<index>13</index>
+			</vert>
+			<vert>
+				<vx>-1.000000</vx>
+				<vy>-1.000000</vy>
+				<vz>-1.000000</vz>
+
+				<vnormal>
+					<vnx>-0.577349</vnx>
+					<vny>-0.577349</vny>
+					<vnz>-0.577349</vnz>
+				</vnormal>
+				<index>14</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>1.001114</u>  <v>0.000800</v>
+			<u>1.000533</u>  <v>1.000071</v>
+			<u>0.001600</u>  <v>0.000729</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.000000</nx>
+			<ny>-1.000000</ny>
+			<nz>0.000000</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.999999</vx>
+				<vy>-1.000001</vy>
+				<vz>1.000000</vz>
+
+				<vnormal>
+					<vnx>0.333323</vnx>
+					<vny>-0.666646</vny>
+					<vnz>0.666646</vnz>
+				</vnormal>
+				<index>15</index>
+			</vert>
+			<vert>
+				<vx>-1.000000</vx>
+				<vy>-1.000000</vy>
+				<vz>1.000000</vz>
+
+				<vnormal>
+					<vnx>-0.577349</vnx>
+					<vny>-0.577349</vny>
+					<vnz>0.577349</vnz>
+				</vnormal>
+				<index>16</index>
+			</vert>
+			<vert>
+				<vx>-1.000000</vx>
+				<vy>-1.000000</vy>
+				<vz>-1.000000</vz>
+
+				<vnormal>
+					<vnx>-0.577349</vnx>
+					<vny>-0.577349</vny>
+					<vnz>-0.577349</vnz>
+				</vnormal>
+				<index>17</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>1.000533</u>  <v>1.000071</v>
+			<u>0.001020</u>  <v>1.000000</v>
+			<u>0.001600</u>  <v>0.000729</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>1.000000</nx>
+			<ny>0.000000</ny>
+			<nz>-0.000000</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>1.000000</vx>
+				<vy>1.000000</vy>
+				<vz>-1.000000</vz>
+
+				<vnormal>
+					<vnx>0.408246</vnx>
+					<vny>0.408246</vny>
+					<vnz>-0.816492</vnz>
+				</vnormal>
+				<index>18</index>
+			</vert>
+			<vert>
+				<vx>1.000000</vx>
+				<vy>0.999999</vy>
+				<vz>1.000000</vz>
+
+				<vnormal>
+					<vnx>0.666646</vnx>
+					<vny>0.666646</vny>
+					<vnz>0.333323</vnz>
+				</vnormal>
+				<index>19</index>
+			</vert>
+			<vert>
+				<vx>1.000000</vx>
+				<vy>-1.000000</vy>
+				<vz>-1.000000</vz>
+
+				<vnormal>
+					<vnx>0.816492</vnx>
+					<vny>-0.408246</vny>
+					<vnz>-0.408246</vnz>
+				</vnormal>
+				<index>20</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.998447</u>  <v>0.003200</v>
+			<u>0.999467</u>  <v>1.002471</v>
+			<u>0.000533</u>  <v>0.001529</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>1.000000</nx>
+			<ny>-0.000001</ny>
+			<nz>0.000000</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>1.000000</vx>
+				<vy>0.999999</vy>
+				<vz>1.000000</vz>
+
+				<vnormal>
+					<vnx>0.666646</vnx>
+					<vny>0.666646</vny>
+					<vnz>0.333323</vnz>
+				</vnormal>
+				<index>21</index>
+			</vert>
+			<vert>
+				<vx>0.999999</vx>
+				<vy>-1.000001</vy>
+				<vz>1.000000</vz>
+
+				<vnormal>
+					<vnx>0.333323</vnx>
+					<vny>-0.666646</vny>
+					<vnz>0.666646</vnz>
+				</vnormal>
+				<index>22</index>
+			</vert>
+			<vert>
+				<vx>1.000000</vx>
+				<vy>-1.000000</vy>
+				<vz>-1.000000</vz>
+
+				<vnormal>
+					<vnx>0.816492</vnx>
+					<vny>-0.408246</vny>
+					<vnz>-0.408246</vnz>
+				</vnormal>
+				<index>23</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.999467</u>  <v>1.002471</v>
+			<u>0.001553</u>  <v>1.000800</v>
+			<u>0.000533</u>  <v>0.001529</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.000000</nx>
+			<ny>-0.000000</ny>
+			<nz>1.000000</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>1.000000</vx>
+				<vy>0.999999</vy>
+				<vz>1.000000</vz>
+
+				<vnormal>
+					<vnx>0.666646</vnx>
+					<vny>0.666646</vny>
+					<vnz>0.333323</vnz>
+				</vnormal>
+				<index>24</index>
+			</vert>
+			<vert>
+				<vx>-1.000000</vx>
+				<vy>1.000000</vy>
+				<vz>1.000000</vz>
+
+				<vnormal>
+					<vnx>-0.666646</vnx>
+					<vny>0.333323</vny>
+					<vnz>0.666646</vnz>
+				</vnormal>
+				<index>25</index>
+			</vert>
+			<vert>
+				<vx>0.999999</vx>
+				<vy>-1.000001</vy>
+				<vz>1.000000</vz>
+
+				<vnormal>
+					<vnx>0.333323</vnx>
+					<vny>-0.666646</vny>
+					<vnz>0.666646</vnz>
+				</vnormal>
+				<index>26</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.000386</u>  <v>0.002500</v>
+			<u>0.997500</u>  <v>0.001529</v>
+			<u>0.001867</u>  <v>1.000971</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.000000</nx>
+			<ny>-0.000000</ny>
+			<nz>1.000000</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>-1.000000</vx>
+				<vy>1.000000</vy>
+				<vz>1.000000</vz>
+
+				<vnormal>
+					<vnx>-0.666646</vnx>
+					<vny>0.333323</vny>
+					<vnz>0.666646</vnz>
+				</vnormal>
+				<index>27</index>
+			</vert>
+			<vert>
+				<vx>-1.000000</vx>
+				<vy>-1.000000</vy>
+				<vz>1.000000</vz>
+
+				<vnormal>
+					<vnx>-0.577349</vnx>
+					<vny>-0.577349</vny>
+					<vnz>0.577349</vnz>
+				</vnormal>
+				<index>28</index>
+			</vert>
+			<vert>
+				<vx>0.999999</vx>
+				<vy>-1.000001</vy>
+				<vz>1.000000</vz>
+
+				<vnormal>
+					<vnx>0.333323</vnx>
+					<vny>-0.666646</vny>
+					<vnz>0.666646</vnz>
+				</vnormal>
+				<index>29</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.997500</u>  <v>0.001529</v>
+			<u>0.998980</u>  <v>1.000000</v>
+			<u>0.001867</u>  <v>1.000971</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.000000</nx>
+			<ny>0.000000</ny>
+			<nz>-1.000000</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>1.000000</vx>
+				<vy>1.000000</vy>
+				<vz>-1.000000</vz>
+
+				<vnormal>
+					<vnx>0.408246</vnx>
+					<vny>0.408246</vny>
+					<vnz>-0.816492</vnz>
+				</vnormal>
+				<index>30</index>
+			</vert>
+			<vert>
+				<vx>1.000000</vx>
+				<vy>-1.000000</vy>
+				<vz>-1.000000</vz>
+
+				<vnormal>
+					<vnx>0.816492</vnx>
+					<vny>-0.408246</vny>
+					<vnz>-0.408246</vnz>
+				</vnormal>
+				<index>31</index>
+			</vert>
+			<vert>
+				<vx>-1.000000</vx>
+				<vy>-1.000000</vy>
+				<vz>-1.000000</vz>
+
+				<vnormal>
+					<vnx>-0.577349</vnx>
+					<vny>-0.577349</vny>
+					<vnz>-0.577349</vnz>
+				</vnormal>
+				<index>32</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.998400</u>  <v>1.008870</v>
+			<u>-0.002714</u>  <v>1.008800</v>
+			<u>-0.002133</u>  <v>-0.000071</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.000000</nx>
+			<ny>-0.000000</ny>
+			<nz>-1.000000</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>1.000000</vx>
+				<vy>1.000000</vy>
+				<vz>-1.000000</vz>
+
+				<vnormal>
+					<vnx>0.408246</vnx>
+					<vny>0.408246</vny>
+					<vnz>-0.816492</vnz>
+				</vnormal>
+				<index>33</index>
+			</vert>
+			<vert>
+				<vx>-1.000000</vx>
+				<vy>-1.000000</vy>
+				<vz>-1.000000</vz>
+
+				<vnormal>
+					<vnx>-0.577349</vnx>
+					<vny>-0.577349</vny>
+					<vnz>-0.577349</vnz>
+				</vnormal>
+				<index>34</index>
+			</vert>
+			<vert>
+				<vx>-1.000000</vx>
+				<vy>1.000000</vy>
+				<vz>-1.000000</vz>
+
+				<vnormal>
+					<vnx>-0.408246</vnx>
+					<vny>0.816492</vny>
+					<vnz>-0.408246</vnz>
+				</vnormal>
+				<index>35</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.998400</u>  <v>1.008870</v>
+			<u>-0.002133</u>  <v>-0.000071</v>
+			<u>0.998981</u>  <v>0.000000</v>
+		</uv>
+	</face>
+	<tex>crate.bmp</tex>
 </model>

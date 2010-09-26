@@ -1,0 +1,4939 @@
+<model>
+	<verts>
+		<vert>0.437500</vert>
+		<vert>0.164062</vert>
+		<vert>0.765625</vert>
+
+		<vert>-0.437500</vert>
+		<vert>0.164062</vert>
+		<vert>0.765625</vert>
+
+		<vert>0.500000</vert>
+		<vert>0.093750</vert>
+		<vert>0.687500</vert>
+
+		<vert>-0.500000</vert>
+		<vert>0.093750</vert>
+		<vert>0.687500</vert>
+
+		<vert>0.546875</vert>
+		<vert>0.054688</vert>
+		<vert>0.578125</vert>
+
+		<vert>-0.546875</vert>
+		<vert>0.054688</vert>
+		<vert>0.578125</vert>
+
+		<vert>0.351562</vert>
+		<vert>-0.023438</vert>
+		<vert>0.617188</vert>
+
+		<vert>-0.351562</vert>
+		<vert>-0.023438</vert>
+		<vert>0.617188</vert>
+
+		<vert>0.351562</vert>
+		<vert>0.031250</vert>
+		<vert>0.718750</vert>
+
+		<vert>-0.351562</vert>
+		<vert>0.031250</vert>
+		<vert>0.718750</vert>
+
+		<vert>0.351562</vert>
+		<vert>0.132812</vert>
+		<vert>0.781250</vert>
+
+		<vert>-0.351562</vert>
+		<vert>0.132812</vert>
+		<vert>0.781250</vert>
+
+		<vert>0.273438</vert>
+		<vert>0.164062</vert>
+		<vert>0.796875</vert>
+
+		<vert>-0.273438</vert>
+		<vert>0.164062</vert>
+		<vert>0.796875</vert>
+
+		<vert>0.203125</vert>
+		<vert>0.093750</vert>
+		<vert>0.742188</vert>
+
+		<vert>-0.203125</vert>
+		<vert>0.093750</vert>
+		<vert>0.742188</vert>
+
+		<vert>0.156250</vert>
+		<vert>0.054688</vert>
+		<vert>0.648438</vert>
+
+		<vert>-0.156250</vert>
+		<vert>0.054688</vert>
+		<vert>0.648438</vert>
+
+		<vert>0.078125</vert>
+		<vert>0.242188</vert>
+		<vert>0.656250</vert>
+
+		<vert>-0.078125</vert>
+		<vert>0.242188</vert>
+		<vert>0.656250</vert>
+
+		<vert>0.140625</vert>
+		<vert>0.242188</vert>
+		<vert>0.742188</vert>
+
+		<vert>-0.140625</vert>
+		<vert>0.242188</vert>
+		<vert>0.742188</vert>
+
+		<vert>0.242188</vert>
+		<vert>0.242188</vert>
+		<vert>0.796875</vert>
+
+		<vert>-0.242188</vert>
+		<vert>0.242188</vert>
+		<vert>0.796875</vert>
+
+		<vert>0.273438</vert>
+		<vert>0.328125</vert>
+		<vert>0.796875</vert>
+
+		<vert>-0.273438</vert>
+		<vert>0.328125</vert>
+		<vert>0.796875</vert>
+
+		<vert>0.203125</vert>
+		<vert>0.390625</vert>
+		<vert>0.742188</vert>
+
+		<vert>-0.203125</vert>
+		<vert>0.390625</vert>
+		<vert>0.742188</vert>
+
+		<vert>0.156250</vert>
+		<vert>0.437500</vert>
+		<vert>0.648438</vert>
+
+		<vert>-0.156250</vert>
+		<vert>0.437500</vert>
+		<vert>0.648438</vert>
+
+		<vert>0.351562</vert>
+		<vert>0.515625</vert>
+		<vert>0.617188</vert>
+
+		<vert>-0.351562</vert>
+		<vert>0.515625</vert>
+		<vert>0.617188</vert>
+
+		<vert>0.351562</vert>
+		<vert>0.453125</vert>
+		<vert>0.718750</vert>
+
+		<vert>-0.351562</vert>
+		<vert>0.453125</vert>
+		<vert>0.718750</vert>
+
+		<vert>0.351562</vert>
+		<vert>0.359375</vert>
+		<vert>0.781250</vert>
+
+		<vert>-0.351562</vert>
+		<vert>0.359375</vert>
+		<vert>0.781250</vert>
+
+		<vert>0.437500</vert>
+		<vert>0.328125</vert>
+		<vert>0.765625</vert>
+
+		<vert>-0.437500</vert>
+		<vert>0.328125</vert>
+		<vert>0.765625</vert>
+
+		<vert>0.500000</vert>
+		<vert>0.390625</vert>
+		<vert>0.687500</vert>
+
+		<vert>-0.500000</vert>
+		<vert>0.390625</vert>
+		<vert>0.687500</vert>
+
+		<vert>0.546875</vert>
+		<vert>0.437500</vert>
+		<vert>0.578125</vert>
+
+		<vert>-0.546875</vert>
+		<vert>0.437500</vert>
+		<vert>0.578125</vert>
+
+		<vert>0.625000</vert>
+		<vert>0.242188</vert>
+		<vert>0.562500</vert>
+
+		<vert>-0.625000</vert>
+		<vert>0.242188</vert>
+		<vert>0.562500</vert>
+
+		<vert>0.562500</vert>
+		<vert>0.242188</vert>
+		<vert>0.671875</vert>
+
+		<vert>-0.562500</vert>
+		<vert>0.242188</vert>
+		<vert>0.671875</vert>
+
+		<vert>0.468750</vert>
+		<vert>0.242188</vert>
+		<vert>0.757812</vert>
+
+		<vert>-0.468750</vert>
+		<vert>0.242188</vert>
+		<vert>0.757812</vert>
+
+		<vert>0.476562</vert>
+		<vert>0.242188</vert>
+		<vert>0.773438</vert>
+
+		<vert>-0.476562</vert>
+		<vert>0.242188</vert>
+		<vert>0.773438</vert>
+
+		<vert>0.445312</vert>
+		<vert>0.335938</vert>
+		<vert>0.781250</vert>
+
+		<vert>-0.445312</vert>
+		<vert>0.335938</vert>
+		<vert>0.781250</vert>
+
+		<vert>0.351562</vert>
+		<vert>0.375000</vert>
+		<vert>0.804688</vert>
+
+		<vert>-0.351562</vert>
+		<vert>0.375000</vert>
+		<vert>0.804688</vert>
+
+		<vert>0.265625</vert>
+		<vert>0.335938</vert>
+		<vert>0.820312</vert>
+
+		<vert>-0.265625</vert>
+		<vert>0.335938</vert>
+		<vert>0.820312</vert>
+
+		<vert>0.226562</vert>
+		<vert>0.242188</vert>
+		<vert>0.820312</vert>
+
+		<vert>-0.226562</vert>
+		<vert>0.242188</vert>
+		<vert>0.820312</vert>
+
+		<vert>0.265625</vert>
+		<vert>0.156250</vert>
+		<vert>0.820312</vert>
+
+		<vert>-0.265625</vert>
+		<vert>0.156250</vert>
+		<vert>0.820312</vert>
+
+		<vert>0.351562</vert>
+		<vert>0.242188</vert>
+		<vert>0.828125</vert>
+
+		<vert>-0.351562</vert>
+		<vert>0.242188</vert>
+		<vert>0.828125</vert>
+
+		<vert>0.351562</vert>
+		<vert>0.117188</vert>
+		<vert>0.804688</vert>
+
+		<vert>-0.351562</vert>
+		<vert>0.117188</vert>
+		<vert>0.804688</vert>
+
+		<vert>0.445312</vert>
+		<vert>0.156250</vert>
+		<vert>0.781250</vert>
+
+		<vert>-0.445312</vert>
+		<vert>0.156250</vert>
+		<vert>0.781250</vert>
+
+		<vert>0.000000</vert>
+		<vert>0.429688</vert>
+		<vert>0.742188</vert>
+
+		<vert>0.000000</vert>
+		<vert>0.351562</vert>
+		<vert>0.820312</vert>
+
+		<vert>0.000000</vert>
+		<vert>-0.679688</vert>
+		<vert>0.734375</vert>
+
+		<vert>0.000000</vert>
+		<vert>-0.320312</vert>
+		<vert>0.781250</vert>
+
+		<vert>0.000000</vert>
+		<vert>-0.187500</vert>
+		<vert>0.796875</vert>
+
+		<vert>0.000000</vert>
+		<vert>-0.773438</vert>
+		<vert>0.718750</vert>
+
+		<vert>0.000000</vert>
+		<vert>0.406250</vert>
+		<vert>0.601562</vert>
+
+		<vert>0.000000</vert>
+		<vert>0.570312</vert>
+		<vert>0.570312</vert>
+
+		<vert>0.000000</vert>
+		<vert>0.898438</vert>
+		<vert>-0.546875</vert>
+
+		<vert>0.000000</vert>
+		<vert>0.562500</vert>
+		<vert>-0.851562</vert>
+
+		<vert>0.000000</vert>
+		<vert>0.070312</vert>
+		<vert>-0.828125</vert>
+
+		<vert>0.000000</vert>
+		<vert>-0.382812</vert>
+		<vert>-0.351562</vert>
+
+		<vert>0.203125</vert>
+		<vert>-0.187500</vert>
+		<vert>0.562500</vert>
+
+		<vert>-0.203125</vert>
+		<vert>-0.187500</vert>
+		<vert>0.562500</vert>
+
+		<vert>0.312500</vert>
+		<vert>-0.437500</vert>
+		<vert>0.570312</vert>
+
+		<vert>-0.312500</vert>
+		<vert>-0.437500</vert>
+		<vert>0.570312</vert>
+
+		<vert>0.351562</vert>
+		<vert>-0.695312</vert>
+		<vert>0.570312</vert>
+
+		<vert>-0.351562</vert>
+		<vert>-0.695312</vert>
+		<vert>0.570312</vert>
+
+		<vert>0.367188</vert>
+		<vert>-0.890625</vert>
+		<vert>0.531250</vert>
+
+		<vert>-0.367188</vert>
+		<vert>-0.890625</vert>
+		<vert>0.531250</vert>
+
+		<vert>0.328125</vert>
+		<vert>-0.945312</vert>
+		<vert>0.523438</vert>
+
+		<vert>-0.328125</vert>
+		<vert>-0.945312</vert>
+		<vert>0.523438</vert>
+
+		<vert>0.179688</vert>
+		<vert>-0.968750</vert>
+		<vert>0.554688</vert>
+
+		<vert>-0.179688</vert>
+		<vert>-0.968750</vert>
+		<vert>0.554688</vert>
+
+		<vert>0.000000</vert>
+		<vert>-0.984375</vert>
+		<vert>0.578125</vert>
+
+		<vert>0.437500</vert>
+		<vert>-0.140625</vert>
+		<vert>0.531250</vert>
+
+		<vert>-0.437500</vert>
+		<vert>-0.140625</vert>
+		<vert>0.531250</vert>
+
+		<vert>0.632812</vert>
+		<vert>-0.039062</vert>
+		<vert>0.539062</vert>
+
+		<vert>-0.632812</vert>
+		<vert>-0.039062</vert>
+		<vert>0.539062</vert>
+
+		<vert>0.828125</vert>
+		<vert>0.148438</vert>
+		<vert>0.445312</vert>
+
+		<vert>-0.828125</vert>
+		<vert>0.148438</vert>
+		<vert>0.445312</vert>
+
+		<vert>0.859375</vert>
+		<vert>0.429688</vert>
+		<vert>0.593750</vert>
+
+		<vert>-0.859375</vert>
+		<vert>0.429688</vert>
+		<vert>0.593750</vert>
+
+		<vert>0.710938</vert>
+		<vert>0.484375</vert>
+		<vert>0.625000</vert>
+
+		<vert>-0.710938</vert>
+		<vert>0.484375</vert>
+		<vert>0.625000</vert>
+
+		<vert>0.492188</vert>
+		<vert>0.601562</vert>
+		<vert>0.687500</vert>
+
+		<vert>-0.492188</vert>
+		<vert>0.601562</vert>
+		<vert>0.687500</vert>
+
+		<vert>0.320312</vert>
+		<vert>0.757812</vert>
+		<vert>0.734375</vert>
+
+		<vert>-0.320312</vert>
+		<vert>0.757812</vert>
+		<vert>0.734375</vert>
+
+		<vert>0.156250</vert>
+		<vert>0.718750</vert>
+		<vert>0.757812</vert>
+
+		<vert>-0.156250</vert>
+		<vert>0.718750</vert>
+		<vert>0.757812</vert>
+
+		<vert>0.062500</vert>
+		<vert>0.492188</vert>
+		<vert>0.750000</vert>
+
+		<vert>-0.062500</vert>
+		<vert>0.492188</vert>
+		<vert>0.750000</vert>
+
+		<vert>0.164062</vert>
+		<vert>0.414062</vert>
+		<vert>0.773438</vert>
+
+		<vert>-0.164062</vert>
+		<vert>0.414062</vert>
+		<vert>0.773438</vert>
+
+		<vert>0.125000</vert>
+		<vert>0.304688</vert>
+		<vert>0.765625</vert>
+
+		<vert>-0.125000</vert>
+		<vert>0.304688</vert>
+		<vert>0.765625</vert>
+
+		<vert>0.203125</vert>
+		<vert>0.093750</vert>
+		<vert>0.742188</vert>
+
+		<vert>-0.203125</vert>
+		<vert>0.093750</vert>
+		<vert>0.742188</vert>
+
+		<vert>0.375000</vert>
+		<vert>0.015625</vert>
+		<vert>0.703125</vert>
+
+		<vert>-0.375000</vert>
+		<vert>0.015625</vert>
+		<vert>0.703125</vert>
+
+		<vert>0.492188</vert>
+		<vert>0.062500</vert>
+		<vert>0.671875</vert>
+
+		<vert>-0.492188</vert>
+		<vert>0.062500</vert>
+		<vert>0.671875</vert>
+
+		<vert>0.625000</vert>
+		<vert>0.187500</vert>
+		<vert>0.648438</vert>
+
+		<vert>-0.625000</vert>
+		<vert>0.187500</vert>
+		<vert>0.648438</vert>
+
+		<vert>0.640625</vert>
+		<vert>0.296875</vert>
+		<vert>0.648438</vert>
+
+		<vert>-0.640625</vert>
+		<vert>0.296875</vert>
+		<vert>0.648438</vert>
+
+		<vert>0.601562</vert>
+		<vert>0.375000</vert>
+		<vert>0.664062</vert>
+
+		<vert>-0.601562</vert>
+		<vert>0.375000</vert>
+		<vert>0.664062</vert>
+
+		<vert>0.429688</vert>
+		<vert>0.437500</vert>
+		<vert>0.718750</vert>
+
+		<vert>-0.429688</vert>
+		<vert>0.437500</vert>
+		<vert>0.718750</vert>
+
+		<vert>0.250000</vert>
+		<vert>0.468750</vert>
+		<vert>0.757812</vert>
+
+		<vert>-0.250000</vert>
+		<vert>0.468750</vert>
+		<vert>0.757812</vert>
+
+		<vert>0.000000</vert>
+		<vert>-0.765625</vert>
+		<vert>0.734375</vert>
+
+		<vert>0.109375</vert>
+		<vert>-0.718750</vert>
+		<vert>0.734375</vert>
+
+		<vert>-0.109375</vert>
+		<vert>-0.718750</vert>
+		<vert>0.734375</vert>
+
+		<vert>0.117188</vert>
+		<vert>-0.835938</vert>
+		<vert>0.710938</vert>
+
+		<vert>-0.117188</vert>
+		<vert>-0.835938</vert>
+		<vert>0.710938</vert>
+
+		<vert>0.062500</vert>
+		<vert>-0.882812</vert>
+		<vert>0.695312</vert>
+
+		<vert>-0.062500</vert>
+		<vert>-0.882812</vert>
+		<vert>0.695312</vert>
+
+		<vert>0.000000</vert>
+		<vert>-0.890625</vert>
+		<vert>0.687500</vert>
+
+		<vert>0.000000</vert>
+		<vert>-0.195312</vert>
+		<vert>0.750000</vert>
+
+		<vert>0.000000</vert>
+		<vert>-0.140625</vert>
+		<vert>0.742188</vert>
+
+		<vert>0.101562</vert>
+		<vert>-0.148438</vert>
+		<vert>0.742188</vert>
+
+		<vert>-0.101562</vert>
+		<vert>-0.148438</vert>
+		<vert>0.742188</vert>
+
+		<vert>0.125000</vert>
+		<vert>-0.226562</vert>
+		<vert>0.750000</vert>
+
+		<vert>-0.125000</vert>
+		<vert>-0.226562</vert>
+		<vert>0.750000</vert>
+
+		<vert>0.085938</vert>
+		<vert>-0.289062</vert>
+		<vert>0.742188</vert>
+
+		<vert>-0.085938</vert>
+		<vert>-0.289062</vert>
+		<vert>0.742188</vert>
+
+		<vert>0.398438</vert>
+		<vert>-0.046875</vert>
+		<vert>0.671875</vert>
+
+		<vert>-0.398438</vert>
+		<vert>-0.046875</vert>
+		<vert>0.671875</vert>
+
+		<vert>0.617188</vert>
+		<vert>0.054688</vert>
+		<vert>0.625000</vert>
+
+		<vert>-0.617188</vert>
+		<vert>0.054688</vert>
+		<vert>0.625000</vert>
+
+		<vert>0.726562</vert>
+		<vert>0.203125</vert>
+		<vert>0.601562</vert>
+
+		<vert>-0.726562</vert>
+		<vert>0.203125</vert>
+		<vert>0.601562</vert>
+
+		<vert>0.742188</vert>
+		<vert>0.375000</vert>
+		<vert>0.656250</vert>
+
+		<vert>-0.742188</vert>
+		<vert>0.375000</vert>
+		<vert>0.656250</vert>
+
+		<vert>0.687500</vert>
+		<vert>0.414062</vert>
+		<vert>0.726562</vert>
+
+		<vert>-0.687500</vert>
+		<vert>0.414062</vert>
+		<vert>0.726562</vert>
+
+		<vert>0.437500</vert>
+		<vert>0.546875</vert>
+		<vert>0.796875</vert>
+
+		<vert>-0.437500</vert>
+		<vert>0.546875</vert>
+		<vert>0.796875</vert>
+
+		<vert>0.312500</vert>
+		<vert>0.640625</vert>
+		<vert>0.835938</vert>
+
+		<vert>-0.312500</vert>
+		<vert>0.640625</vert>
+		<vert>0.835938</vert>
+
+		<vert>0.203125</vert>
+		<vert>0.617188</vert>
+		<vert>0.851562</vert>
+
+		<vert>-0.203125</vert>
+		<vert>0.617188</vert>
+		<vert>0.851562</vert>
+
+		<vert>0.101562</vert>
+		<vert>0.429688</vert>
+		<vert>0.843750</vert>
+
+		<vert>-0.101562</vert>
+		<vert>0.429688</vert>
+		<vert>0.843750</vert>
+
+		<vert>0.125000</vert>
+		<vert>-0.101562</vert>
+		<vert>0.812500</vert>
+
+		<vert>-0.125000</vert>
+		<vert>-0.101562</vert>
+		<vert>0.812500</vert>
+
+		<vert>0.210938</vert>
+		<vert>-0.445312</vert>
+		<vert>0.710938</vert>
+
+		<vert>-0.210938</vert>
+		<vert>-0.445312</vert>
+		<vert>0.710938</vert>
+
+		<vert>0.250000</vert>
+		<vert>-0.703125</vert>
+		<vert>0.687500</vert>
+
+		<vert>-0.250000</vert>
+		<vert>-0.703125</vert>
+		<vert>0.687500</vert>
+
+		<vert>0.265625</vert>
+		<vert>-0.820312</vert>
+		<vert>0.664062</vert>
+
+		<vert>-0.265625</vert>
+		<vert>-0.820312</vert>
+		<vert>0.664062</vert>
+
+		<vert>0.234375</vert>
+		<vert>-0.914062</vert>
+		<vert>0.632812</vert>
+
+		<vert>-0.234375</vert>
+		<vert>-0.914062</vert>
+		<vert>0.632812</vert>
+
+		<vert>0.164062</vert>
+		<vert>-0.929688</vert>
+		<vert>0.632812</vert>
+
+		<vert>-0.164062</vert>
+		<vert>-0.929688</vert>
+		<vert>0.632812</vert>
+
+		<vert>0.000000</vert>
+		<vert>-0.945312</vert>
+		<vert>0.640625</vert>
+
+		<vert>0.000000</vert>
+		<vert>0.046875</vert>
+		<vert>0.726562</vert>
+
+		<vert>0.000000</vert>
+		<vert>0.210938</vert>
+		<vert>0.765625</vert>
+
+		<vert>0.328125</vert>
+		<vert>0.476562</vert>
+		<vert>0.742188</vert>
+
+		<vert>-0.328125</vert>
+		<vert>0.476562</vert>
+		<vert>0.742188</vert>
+
+		<vert>0.164062</vert>
+		<vert>0.140625</vert>
+		<vert>0.750000</vert>
+
+		<vert>-0.164062</vert>
+		<vert>0.140625</vert>
+		<vert>0.750000</vert>
+
+		<vert>0.132812</vert>
+		<vert>0.210938</vert>
+		<vert>0.757812</vert>
+
+		<vert>-0.132812</vert>
+		<vert>0.210938</vert>
+		<vert>0.757812</vert>
+
+		<vert>0.117188</vert>
+		<vert>-0.687500</vert>
+		<vert>0.734375</vert>
+
+		<vert>-0.117188</vert>
+		<vert>-0.687500</vert>
+		<vert>0.734375</vert>
+
+		<vert>0.078125</vert>
+		<vert>-0.445312</vert>
+		<vert>0.750000</vert>
+
+		<vert>-0.078125</vert>
+		<vert>-0.445312</vert>
+		<vert>0.750000</vert>
+
+		<vert>0.000000</vert>
+		<vert>-0.445312</vert>
+		<vert>0.750000</vert>
+
+		<vert>0.000000</vert>
+		<vert>-0.328125</vert>
+		<vert>0.742188</vert>
+
+		<vert>0.093750</vert>
+		<vert>-0.273438</vert>
+		<vert>0.781250</vert>
+
+		<vert>-0.093750</vert>
+		<vert>-0.273438</vert>
+		<vert>0.781250</vert>
+
+		<vert>0.132812</vert>
+		<vert>-0.226562</vert>
+		<vert>0.796875</vert>
+
+		<vert>-0.132812</vert>
+		<vert>-0.226562</vert>
+		<vert>0.796875</vert>
+
+		<vert>0.109375</vert>
+		<vert>-0.132812</vert>
+		<vert>0.781250</vert>
+
+		<vert>-0.109375</vert>
+		<vert>-0.132812</vert>
+		<vert>0.781250</vert>
+
+		<vert>0.039062</vert>
+		<vert>-0.125000</vert>
+		<vert>0.781250</vert>
+
+		<vert>-0.039062</vert>
+		<vert>-0.125000</vert>
+		<vert>0.781250</vert>
+
+		<vert>0.000000</vert>
+		<vert>-0.203125</vert>
+		<vert>0.828125</vert>
+
+		<vert>0.046875</vert>
+		<vert>-0.148438</vert>
+		<vert>0.812500</vert>
+
+		<vert>-0.046875</vert>
+		<vert>-0.148438</vert>
+		<vert>0.812500</vert>
+
+		<vert>0.093750</vert>
+		<vert>-0.156250</vert>
+		<vert>0.812500</vert>
+
+		<vert>-0.093750</vert>
+		<vert>-0.156250</vert>
+		<vert>0.812500</vert>
+
+		<vert>0.109375</vert>
+		<vert>-0.226562</vert>
+		<vert>0.828125</vert>
+
+		<vert>-0.109375</vert>
+		<vert>-0.226562</vert>
+		<vert>0.828125</vert>
+
+		<vert>0.078125</vert>
+		<vert>-0.250000</vert>
+		<vert>0.804688</vert>
+
+		<vert>-0.078125</vert>
+		<vert>-0.250000</vert>
+		<vert>0.804688</vert>
+
+		<vert>0.000000</vert>
+		<vert>-0.289062</vert>
+		<vert>0.804688</vert>
+
+		<vert>0.257812</vert>
+		<vert>-0.312500</vert>
+		<vert>0.554688</vert>
+
+		<vert>-0.257812</vert>
+		<vert>-0.312500</vert>
+		<vert>0.554688</vert>
+
+		<vert>0.164062</vert>
+		<vert>-0.242188</vert>
+		<vert>0.710938</vert>
+
+		<vert>-0.164062</vert>
+		<vert>-0.242188</vert>
+		<vert>0.710938</vert>
+
+		<vert>0.179688</vert>
+		<vert>-0.312500</vert>
+		<vert>0.710938</vert>
+
+		<vert>-0.179688</vert>
+		<vert>-0.312500</vert>
+		<vert>0.710938</vert>
+
+		<vert>0.234375</vert>
+		<vert>-0.250000</vert>
+		<vert>0.554688</vert>
+
+		<vert>-0.234375</vert>
+		<vert>-0.250000</vert>
+		<vert>0.554688</vert>
+
+		<vert>0.000000</vert>
+		<vert>-0.875000</vert>
+		<vert>0.687500</vert>
+
+		<vert>0.046875</vert>
+		<vert>-0.867188</vert>
+		<vert>0.687500</vert>
+
+		<vert>-0.046875</vert>
+		<vert>-0.867188</vert>
+		<vert>0.687500</vert>
+
+		<vert>0.093750</vert>
+		<vert>-0.820312</vert>
+		<vert>0.710938</vert>
+
+		<vert>-0.093750</vert>
+		<vert>-0.820312</vert>
+		<vert>0.710938</vert>
+
+		<vert>0.093750</vert>
+		<vert>-0.742188</vert>
+		<vert>0.726562</vert>
+
+		<vert>-0.093750</vert>
+		<vert>-0.742188</vert>
+		<vert>0.726562</vert>
+
+		<vert>0.000000</vert>
+		<vert>-0.781250</vert>
+		<vert>0.656250</vert>
+
+		<vert>0.093750</vert>
+		<vert>-0.750000</vert>
+		<vert>0.664062</vert>
+
+		<vert>-0.093750</vert>
+		<vert>-0.750000</vert>
+		<vert>0.664062</vert>
+
+		<vert>0.093750</vert>
+		<vert>-0.812500</vert>
+		<vert>0.640625</vert>
+
+		<vert>-0.093750</vert>
+		<vert>-0.812500</vert>
+		<vert>0.640625</vert>
+
+		<vert>0.046875</vert>
+		<vert>-0.851562</vert>
+		<vert>0.632812</vert>
+
+		<vert>-0.046875</vert>
+		<vert>-0.851562</vert>
+		<vert>0.632812</vert>
+
+		<vert>0.000000</vert>
+		<vert>-0.859375</vert>
+		<vert>0.632812</vert>
+
+		<vert>0.171875</vert>
+		<vert>0.218750</vert>
+		<vert>0.781250</vert>
+
+		<vert>-0.171875</vert>
+		<vert>0.218750</vert>
+		<vert>0.781250</vert>
+
+		<vert>0.187500</vert>
+		<vert>0.156250</vert>
+		<vert>0.773438</vert>
+
+		<vert>-0.187500</vert>
+		<vert>0.156250</vert>
+		<vert>0.773438</vert>
+
+		<vert>0.335938</vert>
+		<vert>0.429688</vert>
+		<vert>0.757812</vert>
+
+		<vert>-0.335938</vert>
+		<vert>0.429688</vert>
+		<vert>0.757812</vert>
+
+		<vert>0.273438</vert>
+		<vert>0.421875</vert>
+		<vert>0.773438</vert>
+
+		<vert>-0.273438</vert>
+		<vert>0.421875</vert>
+		<vert>0.773438</vert>
+
+		<vert>0.421875</vert>
+		<vert>0.398438</vert>
+		<vert>0.773438</vert>
+
+		<vert>-0.421875</vert>
+		<vert>0.398438</vert>
+		<vert>0.773438</vert>
+
+		<vert>0.562500</vert>
+		<vert>0.351562</vert>
+		<vert>0.695312</vert>
+
+		<vert>-0.562500</vert>
+		<vert>0.351562</vert>
+		<vert>0.695312</vert>
+
+		<vert>0.585938</vert>
+		<vert>0.289062</vert>
+		<vert>0.687500</vert>
+
+		<vert>-0.585938</vert>
+		<vert>0.289062</vert>
+		<vert>0.687500</vert>
+
+		<vert>0.578125</vert>
+		<vert>0.195312</vert>
+		<vert>0.679688</vert>
+
+		<vert>-0.578125</vert>
+		<vert>0.195312</vert>
+		<vert>0.679688</vert>
+
+		<vert>0.476562</vert>
+		<vert>0.101562</vert>
+		<vert>0.718750</vert>
+
+		<vert>-0.476562</vert>
+		<vert>0.101562</vert>
+		<vert>0.718750</vert>
+
+		<vert>0.375000</vert>
+		<vert>0.062500</vert>
+		<vert>0.742188</vert>
+
+		<vert>-0.375000</vert>
+		<vert>0.062500</vert>
+		<vert>0.742188</vert>
+
+		<vert>0.226562</vert>
+		<vert>0.109375</vert>
+		<vert>0.781250</vert>
+
+		<vert>-0.226562</vert>
+		<vert>0.109375</vert>
+		<vert>0.781250</vert>
+
+		<vert>0.179688</vert>
+		<vert>0.296875</vert>
+		<vert>0.781250</vert>
+
+		<vert>-0.179688</vert>
+		<vert>0.296875</vert>
+		<vert>0.781250</vert>
+
+		<vert>0.210938</vert>
+		<vert>0.375000</vert>
+		<vert>0.781250</vert>
+
+		<vert>-0.210938</vert>
+		<vert>0.375000</vert>
+		<vert>0.781250</vert>
+
+		<vert>0.234375</vert>
+		<vert>0.359375</vert>
+		<vert>0.757812</vert>
+
+		<vert>-0.234375</vert>
+		<vert>0.359375</vert>
+		<vert>0.757812</vert>
+
+		<vert>0.195312</vert>
+		<vert>0.296875</vert>
+		<vert>0.757812</vert>
+
+		<vert>-0.195312</vert>
+		<vert>0.296875</vert>
+		<vert>0.757812</vert>
+
+		<vert>0.242188</vert>
+		<vert>0.125000</vert>
+		<vert>0.757812</vert>
+
+		<vert>-0.242188</vert>
+		<vert>0.125000</vert>
+		<vert>0.757812</vert>
+
+		<vert>0.375000</vert>
+		<vert>0.085938</vert>
+		<vert>0.726562</vert>
+
+		<vert>-0.375000</vert>
+		<vert>0.085938</vert>
+		<vert>0.726562</vert>
+
+		<vert>0.460938</vert>
+		<vert>0.117188</vert>
+		<vert>0.703125</vert>
+
+		<vert>-0.460938</vert>
+		<vert>0.117188</vert>
+		<vert>0.703125</vert>
+
+		<vert>0.546875</vert>
+		<vert>0.210938</vert>
+		<vert>0.671875</vert>
+
+		<vert>-0.546875</vert>
+		<vert>0.210938</vert>
+		<vert>0.671875</vert>
+
+		<vert>0.554688</vert>
+		<vert>0.281250</vert>
+		<vert>0.671875</vert>
+
+		<vert>-0.554688</vert>
+		<vert>0.281250</vert>
+		<vert>0.671875</vert>
+
+		<vert>0.531250</vert>
+		<vert>0.335938</vert>
+		<vert>0.679688</vert>
+
+		<vert>-0.531250</vert>
+		<vert>0.335938</vert>
+		<vert>0.679688</vert>
+
+		<vert>0.414062</vert>
+		<vert>0.390625</vert>
+		<vert>0.750000</vert>
+
+		<vert>-0.414062</vert>
+		<vert>0.390625</vert>
+		<vert>0.750000</vert>
+
+		<vert>0.281250</vert>
+		<vert>0.398438</vert>
+		<vert>0.765625</vert>
+
+		<vert>-0.281250</vert>
+		<vert>0.398438</vert>
+		<vert>0.765625</vert>
+
+		<vert>0.335938</vert>
+		<vert>0.406250</vert>
+		<vert>0.750000</vert>
+
+		<vert>-0.335938</vert>
+		<vert>0.406250</vert>
+		<vert>0.750000</vert>
+
+		<vert>0.203125</vert>
+		<vert>0.171875</vert>
+		<vert>0.750000</vert>
+
+		<vert>-0.203125</vert>
+		<vert>0.171875</vert>
+		<vert>0.750000</vert>
+
+		<vert>0.195312</vert>
+		<vert>0.226562</vert>
+		<vert>0.750000</vert>
+
+		<vert>-0.195312</vert>
+		<vert>0.226562</vert>
+		<vert>0.750000</vert>
+
+		<vert>0.109375</vert>
+		<vert>0.460938</vert>
+		<vert>0.609375</vert>
+
+		<vert>-0.109375</vert>
+		<vert>0.460938</vert>
+		<vert>0.609375</vert>
+
+		<vert>0.195312</vert>
+		<vert>0.664062</vert>
+		<vert>0.617188</vert>
+
+		<vert>-0.195312</vert>
+		<vert>0.664062</vert>
+		<vert>0.617188</vert>
+
+		<vert>0.335938</vert>
+		<vert>0.687500</vert>
+		<vert>0.593750</vert>
+
+		<vert>-0.335938</vert>
+		<vert>0.687500</vert>
+		<vert>0.593750</vert>
+
+		<vert>0.484375</vert>
+		<vert>0.554688</vert>
+		<vert>0.554688</vert>
+
+		<vert>-0.484375</vert>
+		<vert>0.554688</vert>
+		<vert>0.554688</vert>
+
+		<vert>0.679688</vert>
+		<vert>0.453125</vert>
+		<vert>0.492188</vert>
+
+		<vert>-0.679688</vert>
+		<vert>0.453125</vert>
+		<vert>0.492188</vert>
+
+		<vert>0.796875</vert>
+		<vert>0.406250</vert>
+		<vert>0.460938</vert>
+
+		<vert>-0.796875</vert>
+		<vert>0.406250</vert>
+		<vert>0.460938</vert>
+
+		<vert>0.773438</vert>
+		<vert>0.164062</vert>
+		<vert>0.375000</vert>
+
+		<vert>-0.773438</vert>
+		<vert>0.164062</vert>
+		<vert>0.375000</vert>
+
+		<vert>0.601562</vert>
+		<vert>0.000000</vert>
+		<vert>0.414062</vert>
+
+		<vert>-0.601562</vert>
+		<vert>0.000000</vert>
+		<vert>0.414062</vert>
+
+		<vert>0.437500</vert>
+		<vert>-0.093750</vert>
+		<vert>0.468750</vert>
+
+		<vert>-0.437500</vert>
+		<vert>-0.093750</vert>
+		<vert>0.468750</vert>
+
+		<vert>0.000000</vert>
+		<vert>0.898438</vert>
+		<vert>0.289062</vert>
+
+		<vert>0.000000</vert>
+		<vert>0.984375</vert>
+		<vert>-0.078125</vert>
+
+		<vert>0.000000</vert>
+		<vert>-0.195312</vert>
+		<vert>-0.671875</vert>
+
+		<vert>0.000000</vert>
+		<vert>-0.460938</vert>
+		<vert>0.187500</vert>
+
+		<vert>0.000000</vert>
+		<vert>-0.976562</vert>
+		<vert>0.460938</vert>
+
+		<vert>0.000000</vert>
+		<vert>-0.804688</vert>
+		<vert>0.343750</vert>
+
+		<vert>0.000000</vert>
+		<vert>-0.570312</vert>
+		<vert>0.320312</vert>
+
+		<vert>0.000000</vert>
+		<vert>-0.484375</vert>
+		<vert>0.281250</vert>
+
+		<vert>0.851562</vert>
+		<vert>0.234375</vert>
+		<vert>0.054688</vert>
+
+		<vert>-0.851562</vert>
+		<vert>0.234375</vert>
+		<vert>0.054688</vert>
+
+		<vert>0.859375</vert>
+		<vert>0.320312</vert>
+		<vert>-0.046875</vert>
+
+		<vert>-0.859375</vert>
+		<vert>0.320312</vert>
+		<vert>-0.046875</vert>
+
+		<vert>0.773438</vert>
+		<vert>0.265625</vert>
+		<vert>-0.437500</vert>
+
+		<vert>-0.773438</vert>
+		<vert>0.265625</vert>
+		<vert>-0.437500</vert>
+
+		<vert>0.460938</vert>
+		<vert>0.437500</vert>
+		<vert>-0.703125</vert>
+
+		<vert>-0.460938</vert>
+		<vert>0.437500</vert>
+		<vert>-0.703125</vert>
+
+		<vert>0.734375</vert>
+		<vert>-0.046875</vert>
+		<vert>0.070312</vert>
+
+		<vert>-0.734375</vert>
+		<vert>-0.046875</vert>
+		<vert>0.070312</vert>
+
+		<vert>0.593750</vert>
+		<vert>-0.125000</vert>
+		<vert>-0.164062</vert>
+
+		<vert>-0.593750</vert>
+		<vert>-0.125000</vert>
+		<vert>-0.164062</vert>
+
+		<vert>0.640625</vert>
+		<vert>-0.007812</vert>
+		<vert>-0.429688</vert>
+
+		<vert>-0.640625</vert>
+		<vert>-0.007812</vert>
+		<vert>-0.429688</vert>
+
+		<vert>0.335938</vert>
+		<vert>0.054688</vert>
+		<vert>-0.664062</vert>
+
+		<vert>-0.335938</vert>
+		<vert>0.054688</vert>
+		<vert>-0.664062</vert>
+
+		<vert>0.234375</vert>
+		<vert>-0.351562</vert>
+		<vert>0.406250</vert>
+
+		<vert>-0.234375</vert>
+		<vert>-0.351562</vert>
+		<vert>0.406250</vert>
+
+		<vert>0.179688</vert>
+		<vert>-0.414062</vert>
+		<vert>0.257812</vert>
+
+		<vert>-0.179688</vert>
+		<vert>-0.414062</vert>
+		<vert>0.257812</vert>
+
+		<vert>0.289062</vert>
+		<vert>-0.710938</vert>
+		<vert>0.382812</vert>
+
+		<vert>-0.289062</vert>
+		<vert>-0.710938</vert>
+		<vert>0.382812</vert>
+
+		<vert>0.250000</vert>
+		<vert>-0.500000</vert>
+		<vert>0.390625</vert>
+
+		<vert>-0.250000</vert>
+		<vert>-0.500000</vert>
+		<vert>0.390625</vert>
+
+		<vert>0.328125</vert>
+		<vert>-0.914062</vert>
+		<vert>0.398438</vert>
+
+		<vert>-0.328125</vert>
+		<vert>-0.914062</vert>
+		<vert>0.398438</vert>
+
+		<vert>0.140625</vert>
+		<vert>-0.757812</vert>
+		<vert>0.367188</vert>
+
+		<vert>-0.140625</vert>
+		<vert>-0.757812</vert>
+		<vert>0.367188</vert>
+
+		<vert>0.125000</vert>
+		<vert>-0.539062</vert>
+		<vert>0.359375</vert>
+
+		<vert>-0.125000</vert>
+		<vert>-0.539062</vert>
+		<vert>0.359375</vert>
+
+		<vert>0.164062</vert>
+		<vert>-0.945312</vert>
+		<vert>0.437500</vert>
+
+		<vert>-0.164062</vert>
+		<vert>-0.945312</vert>
+		<vert>0.437500</vert>
+
+		<vert>0.218750</vert>
+		<vert>-0.281250</vert>
+		<vert>0.429688</vert>
+
+		<vert>-0.218750</vert>
+		<vert>-0.281250</vert>
+		<vert>0.429688</vert>
+
+		<vert>0.210938</vert>
+		<vert>-0.226562</vert>
+		<vert>0.468750</vert>
+
+		<vert>-0.210938</vert>
+		<vert>-0.226562</vert>
+		<vert>0.468750</vert>
+
+		<vert>0.203125</vert>
+		<vert>-0.171875</vert>
+		<vert>0.500000</vert>
+
+		<vert>-0.203125</vert>
+		<vert>-0.171875</vert>
+		<vert>0.500000</vert>
+
+		<vert>0.210938</vert>
+		<vert>-0.390625</vert>
+		<vert>0.164062</vert>
+
+		<vert>-0.210938</vert>
+		<vert>-0.390625</vert>
+		<vert>0.164062</vert>
+
+		<vert>0.296875</vert>
+		<vert>-0.312500</vert>
+		<vert>-0.265625</vert>
+
+		<vert>-0.296875</vert>
+		<vert>-0.312500</vert>
+		<vert>-0.265625</vert>
+
+		<vert>0.343750</vert>
+		<vert>-0.148438</vert>
+		<vert>-0.539062</vert>
+
+		<vert>-0.343750</vert>
+		<vert>-0.148438</vert>
+		<vert>-0.539062</vert>
+
+		<vert>0.453125</vert>
+		<vert>0.867188</vert>
+		<vert>-0.382812</vert>
+
+		<vert>-0.453125</vert>
+		<vert>0.867188</vert>
+		<vert>-0.382812</vert>
+
+		<vert>0.453125</vert>
+		<vert>0.929688</vert>
+		<vert>-0.070312</vert>
+
+		<vert>-0.453125</vert>
+		<vert>0.929688</vert>
+		<vert>-0.070312</vert>
+
+		<vert>0.453125</vert>
+		<vert>0.851562</vert>
+		<vert>0.234375</vert>
+
+		<vert>-0.453125</vert>
+		<vert>0.851562</vert>
+		<vert>0.234375</vert>
+
+		<vert>0.460938</vert>
+		<vert>0.523438</vert>
+		<vert>0.429688</vert>
+
+		<vert>-0.460938</vert>
+		<vert>0.523438</vert>
+		<vert>0.429688</vert>
+
+		<vert>0.726562</vert>
+		<vert>0.406250</vert>
+		<vert>0.335938</vert>
+
+		<vert>-0.726562</vert>
+		<vert>0.406250</vert>
+		<vert>0.335938</vert>
+
+		<vert>0.632812</vert>
+		<vert>0.453125</vert>
+		<vert>0.281250</vert>
+
+		<vert>-0.632812</vert>
+		<vert>0.453125</vert>
+		<vert>0.281250</vert>
+
+		<vert>0.640625</vert>
+		<vert>0.703125</vert>
+		<vert>0.054688</vert>
+
+		<vert>-0.640625</vert>
+		<vert>0.703125</vert>
+		<vert>0.054688</vert>
+
+		<vert>0.796875</vert>
+		<vert>0.562500</vert>
+		<vert>0.125000</vert>
+
+		<vert>-0.796875</vert>
+		<vert>0.562500</vert>
+		<vert>0.125000</vert>
+
+		<vert>0.796875</vert>
+		<vert>0.617188</vert>
+		<vert>-0.117188</vert>
+
+		<vert>-0.796875</vert>
+		<vert>0.617188</vert>
+		<vert>-0.117188</vert>
+
+		<vert>0.640625</vert>
+		<vert>0.750000</vert>
+		<vert>-0.195312</vert>
+
+		<vert>-0.640625</vert>
+		<vert>0.750000</vert>
+		<vert>-0.195312</vert>
+
+		<vert>0.640625</vert>
+		<vert>0.679688</vert>
+		<vert>-0.445312</vert>
+
+		<vert>-0.640625</vert>
+		<vert>0.679688</vert>
+		<vert>-0.445312</vert>
+
+		<vert>0.796875</vert>
+		<vert>0.539062</vert>
+		<vert>-0.359375</vert>
+
+		<vert>-0.796875</vert>
+		<vert>0.539062</vert>
+		<vert>-0.359375</vert>
+
+		<vert>0.617188</vert>
+		<vert>0.328125</vert>
+		<vert>-0.585938</vert>
+
+		<vert>-0.617188</vert>
+		<vert>0.328125</vert>
+		<vert>-0.585938</vert>
+
+		<vert>0.484375</vert>
+		<vert>0.023438</vert>
+		<vert>-0.546875</vert>
+
+		<vert>-0.484375</vert>
+		<vert>0.023438</vert>
+		<vert>-0.546875</vert>
+
+		<vert>0.820312</vert>
+		<vert>0.328125</vert>
+		<vert>-0.203125</vert>
+
+		<vert>-0.820312</vert>
+		<vert>0.328125</vert>
+		<vert>-0.203125</vert>
+
+		<vert>0.406250</vert>
+		<vert>-0.171875</vert>
+		<vert>0.148438</vert>
+
+		<vert>-0.406250</vert>
+		<vert>-0.171875</vert>
+		<vert>0.148438</vert>
+
+		<vert>0.429688</vert>
+		<vert>-0.195312</vert>
+		<vert>-0.210938</vert>
+
+		<vert>-0.429688</vert>
+		<vert>-0.195312</vert>
+		<vert>-0.210938</vert>
+
+		<vert>0.890625</vert>
+		<vert>0.406250</vert>
+		<vert>-0.234375</vert>
+
+		<vert>-0.890625</vert>
+		<vert>0.406250</vert>
+		<vert>-0.234375</vert>
+
+		<vert>0.773438</vert>
+		<vert>-0.140625</vert>
+		<vert>-0.125000</vert>
+
+		<vert>-0.773438</vert>
+		<vert>-0.140625</vert>
+		<vert>-0.125000</vert>
+
+		<vert>1.039062</vert>
+		<vert>-0.101562</vert>
+		<vert>-0.328125</vert>
+
+		<vert>-1.039062</vert>
+		<vert>-0.101562</vert>
+		<vert>-0.328125</vert>
+
+		<vert>1.281250</vert>
+		<vert>0.054688</vert>
+		<vert>-0.429688</vert>
+
+		<vert>-1.281250</vert>
+		<vert>0.054688</vert>
+		<vert>-0.429688</vert>
+
+		<vert>1.351562</vert>
+		<vert>0.320312</vert>
+		<vert>-0.421875</vert>
+
+		<vert>-1.351562</vert>
+		<vert>0.320312</vert>
+		<vert>-0.421875</vert>
+
+		<vert>1.234375</vert>
+		<vert>0.507812</vert>
+		<vert>-0.421875</vert>
+
+		<vert>-1.234375</vert>
+		<vert>0.507812</vert>
+		<vert>-0.421875</vert>
+
+		<vert>1.023438</vert>
+		<vert>0.476562</vert>
+		<vert>-0.312500</vert>
+
+		<vert>-1.023438</vert>
+		<vert>0.476562</vert>
+		<vert>-0.312500</vert>
+
+		<vert>1.015625</vert>
+		<vert>0.414062</vert>
+		<vert>-0.289062</vert>
+
+		<vert>-1.015625</vert>
+		<vert>0.414062</vert>
+		<vert>-0.289062</vert>
+
+		<vert>1.187500</vert>
+		<vert>0.437500</vert>
+		<vert>-0.390625</vert>
+
+		<vert>-1.187500</vert>
+		<vert>0.437500</vert>
+		<vert>-0.390625</vert>
+
+		<vert>1.265625</vert>
+		<vert>0.289062</vert>
+		<vert>-0.406250</vert>
+
+		<vert>-1.265625</vert>
+		<vert>0.289062</vert>
+		<vert>-0.406250</vert>
+
+		<vert>1.210938</vert>
+		<vert>0.078125</vert>
+		<vert>-0.406250</vert>
+
+		<vert>-1.210938</vert>
+		<vert>0.078125</vert>
+		<vert>-0.406250</vert>
+
+		<vert>1.031250</vert>
+		<vert>-0.039062</vert>
+		<vert>-0.304688</vert>
+
+		<vert>-1.031250</vert>
+		<vert>-0.039062</vert>
+		<vert>-0.304688</vert>
+
+		<vert>0.828125</vert>
+		<vert>-0.070312</vert>
+		<vert>-0.132812</vert>
+
+		<vert>-0.828125</vert>
+		<vert>-0.070312</vert>
+		<vert>-0.132812</vert>
+
+		<vert>0.921875</vert>
+		<vert>0.359375</vert>
+		<vert>-0.218750</vert>
+
+		<vert>-0.921875</vert>
+		<vert>0.359375</vert>
+		<vert>-0.218750</vert>
+
+		<vert>0.945312</vert>
+		<vert>0.304688</vert>
+		<vert>-0.289062</vert>
+
+		<vert>-0.945312</vert>
+		<vert>0.304688</vert>
+		<vert>-0.289062</vert>
+
+		<vert>0.882812</vert>
+		<vert>-0.023438</vert>
+		<vert>-0.210938</vert>
+
+		<vert>-0.882812</vert>
+		<vert>-0.023438</vert>
+		<vert>-0.210938</vert>
+
+		<vert>1.039062</vert>
+		<vert>0.000000</vert>
+		<vert>-0.367188</vert>
+
+		<vert>-1.039062</vert>
+		<vert>0.000000</vert>
+		<vert>-0.367188</vert>
+
+		<vert>1.187500</vert>
+		<vert>0.093750</vert>
+		<vert>-0.445312</vert>
+
+		<vert>-1.187500</vert>
+		<vert>0.093750</vert>
+		<vert>-0.445312</vert>
+
+		<vert>1.234375</vert>
+		<vert>0.250000</vert>
+		<vert>-0.445312</vert>
+
+		<vert>-1.234375</vert>
+		<vert>0.250000</vert>
+		<vert>-0.445312</vert>
+
+		<vert>1.171875</vert>
+		<vert>0.359375</vert>
+		<vert>-0.437500</vert>
+
+		<vert>-1.171875</vert>
+		<vert>0.359375</vert>
+		<vert>-0.437500</vert>
+
+		<vert>1.023438</vert>
+		<vert>0.343750</vert>
+		<vert>-0.359375</vert>
+
+		<vert>-1.023438</vert>
+		<vert>0.343750</vert>
+		<vert>-0.359375</vert>
+
+		<vert>0.843750</vert>
+		<vert>0.289062</vert>
+		<vert>-0.210938</vert>
+
+		<vert>-0.843750</vert>
+		<vert>0.289062</vert>
+		<vert>-0.210938</vert>
+
+		<vert>0.835938</vert>
+		<vert>0.171875</vert>
+		<vert>-0.273438</vert>
+
+		<vert>-0.835938</vert>
+		<vert>0.171875</vert>
+		<vert>-0.273438</vert>
+
+		<vert>0.757812</vert>
+		<vert>0.093750</vert>
+		<vert>-0.273438</vert>
+
+		<vert>-0.757812</vert>
+		<vert>0.093750</vert>
+		<vert>-0.273438</vert>
+
+		<vert>0.820312</vert>
+		<vert>0.085938</vert>
+		<vert>-0.273438</vert>
+
+		<vert>-0.820312</vert>
+		<vert>0.085938</vert>
+		<vert>-0.273438</vert>
+
+		<vert>0.843750</vert>
+		<vert>0.015625</vert>
+		<vert>-0.273438</vert>
+
+		<vert>-0.843750</vert>
+		<vert>0.015625</vert>
+		<vert>-0.273438</vert>
+
+		<vert>0.812500</vert>
+		<vert>-0.015625</vert>
+		<vert>-0.273438</vert>
+
+		<vert>-0.812500</vert>
+		<vert>-0.015625</vert>
+		<vert>-0.273438</vert>
+
+		<vert>0.726562</vert>
+		<vert>0.000000</vert>
+		<vert>-0.070312</vert>
+
+		<vert>-0.726562</vert>
+		<vert>0.000000</vert>
+		<vert>-0.070312</vert>
+
+		<vert>0.718750</vert>
+		<vert>-0.023438</vert>
+		<vert>-0.171875</vert>
+
+		<vert>-0.718750</vert>
+		<vert>-0.023438</vert>
+		<vert>-0.171875</vert>
+
+		<vert>0.718750</vert>
+		<vert>0.039062</vert>
+		<vert>-0.187500</vert>
+
+		<vert>-0.718750</vert>
+		<vert>0.039062</vert>
+		<vert>-0.187500</vert>
+
+		<vert>0.796875</vert>
+		<vert>0.203125</vert>
+		<vert>-0.210938</vert>
+
+		<vert>-0.796875</vert>
+		<vert>0.203125</vert>
+		<vert>-0.210938</vert>
+
+		<vert>0.890625</vert>
+		<vert>0.242188</vert>
+		<vert>-0.265625</vert>
+
+		<vert>-0.890625</vert>
+		<vert>0.242188</vert>
+		<vert>-0.265625</vert>
+
+		<vert>0.890625</vert>
+		<vert>0.234375</vert>
+		<vert>-0.320312</vert>
+
+		<vert>-0.890625</vert>
+		<vert>0.234375</vert>
+		<vert>-0.320312</vert>
+
+		<vert>0.812500</vert>
+		<vert>-0.015625</vert>
+		<vert>-0.320312</vert>
+
+		<vert>-0.812500</vert>
+		<vert>-0.015625</vert>
+		<vert>-0.320312</vert>
+
+		<vert>0.851562</vert>
+		<vert>0.015625</vert>
+		<vert>-0.320312</vert>
+
+		<vert>-0.851562</vert>
+		<vert>0.015625</vert>
+		<vert>-0.320312</vert>
+
+		<vert>0.828125</vert>
+		<vert>0.078125</vert>
+		<vert>-0.320312</vert>
+
+		<vert>-0.828125</vert>
+		<vert>0.078125</vert>
+		<vert>-0.320312</vert>
+
+		<vert>0.765625</vert>
+		<vert>0.093750</vert>
+		<vert>-0.320312</vert>
+
+		<vert>-0.765625</vert>
+		<vert>0.093750</vert>
+		<vert>-0.320312</vert>
+
+		<vert>0.843750</vert>
+		<vert>0.171875</vert>
+		<vert>-0.320312</vert>
+
+		<vert>-0.843750</vert>
+		<vert>0.171875</vert>
+		<vert>-0.320312</vert>
+
+		<vert>1.039062</vert>
+		<vert>0.328125</vert>
+		<vert>-0.414062</vert>
+
+		<vert>-1.039062</vert>
+		<vert>0.328125</vert>
+		<vert>-0.414062</vert>
+
+		<vert>1.187500</vert>
+		<vert>0.343750</vert>
+		<vert>-0.484375</vert>
+
+		<vert>-1.187500</vert>
+		<vert>0.343750</vert>
+		<vert>-0.484375</vert>
+
+		<vert>1.257812</vert>
+		<vert>0.242188</vert>
+		<vert>-0.492188</vert>
+
+		<vert>-1.257812</vert>
+		<vert>0.242188</vert>
+		<vert>-0.492188</vert>
+
+		<vert>1.210938</vert>
+		<vert>0.085938</vert>
+		<vert>-0.484375</vert>
+
+		<vert>-1.210938</vert>
+		<vert>0.085938</vert>
+		<vert>-0.484375</vert>
+
+		<vert>1.046875</vert>
+		<vert>0.000000</vert>
+		<vert>-0.421875</vert>
+
+		<vert>-1.046875</vert>
+		<vert>0.000000</vert>
+		<vert>-0.421875</vert>
+
+		<vert>0.882812</vert>
+		<vert>-0.015625</vert>
+		<vert>-0.265625</vert>
+
+		<vert>-0.882812</vert>
+		<vert>-0.015625</vert>
+		<vert>-0.265625</vert>
+
+		<vert>0.953125</vert>
+		<vert>0.289062</vert>
+		<vert>-0.343750</vert>
+
+		<vert>-0.953125</vert>
+		<vert>0.289062</vert>
+		<vert>-0.343750</vert>
+
+		<vert>0.890625</vert>
+		<vert>0.109375</vert>
+		<vert>-0.328125</vert>
+
+		<vert>-0.890625</vert>
+		<vert>0.109375</vert>
+		<vert>-0.328125</vert>
+
+		<vert>0.937500</vert>
+		<vert>0.062500</vert>
+		<vert>-0.335938</vert>
+
+		<vert>-0.937500</vert>
+		<vert>0.062500</vert>
+		<vert>-0.335938</vert>
+
+		<vert>1.000000</vert>
+		<vert>0.125000</vert>
+		<vert>-0.367188</vert>
+
+		<vert>-1.000000</vert>
+		<vert>0.125000</vert>
+		<vert>-0.367188</vert>
+
+		<vert>0.960938</vert>
+		<vert>0.171875</vert>
+		<vert>-0.351562</vert>
+
+		<vert>-0.960938</vert>
+		<vert>0.171875</vert>
+		<vert>-0.351562</vert>
+
+		<vert>1.015625</vert>
+		<vert>0.234375</vert>
+		<vert>-0.375000</vert>
+
+		<vert>-1.015625</vert>
+		<vert>0.234375</vert>
+		<vert>-0.375000</vert>
+
+		<vert>1.054688</vert>
+		<vert>0.187500</vert>
+		<vert>-0.382812</vert>
+
+		<vert>-1.054688</vert>
+		<vert>0.187500</vert>
+		<vert>-0.382812</vert>
+
+		<vert>1.109375</vert>
+		<vert>0.210938</vert>
+		<vert>-0.390625</vert>
+
+		<vert>-1.109375</vert>
+		<vert>0.210938</vert>
+		<vert>-0.390625</vert>
+
+		<vert>1.085938</vert>
+		<vert>0.273438</vert>
+		<vert>-0.390625</vert>
+
+		<vert>-1.085938</vert>
+		<vert>0.273438</vert>
+		<vert>-0.390625</vert>
+
+		<vert>1.023438</vert>
+		<vert>0.437500</vert>
+		<vert>-0.484375</vert>
+
+		<vert>-1.023438</vert>
+		<vert>0.437500</vert>
+		<vert>-0.484375</vert>
+
+		<vert>1.250000</vert>
+		<vert>0.468750</vert>
+		<vert>-0.546875</vert>
+
+		<vert>-1.250000</vert>
+		<vert>0.468750</vert>
+		<vert>-0.546875</vert>
+
+		<vert>1.367188</vert>
+		<vert>0.296875</vert>
+		<vert>-0.500000</vert>
+
+		<vert>-1.367188</vert>
+		<vert>0.296875</vert>
+		<vert>-0.500000</vert>
+
+		<vert>1.312500</vert>
+		<vert>0.054688</vert>
+		<vert>-0.531250</vert>
+
+		<vert>-1.312500</vert>
+		<vert>0.054688</vert>
+		<vert>-0.531250</vert>
+
+		<vert>1.039062</vert>
+		<vert>-0.085938</vert>
+		<vert>-0.492188</vert>
+
+		<vert>-1.039062</vert>
+		<vert>-0.085938</vert>
+		<vert>-0.492188</vert>
+
+		<vert>0.789062</vert>
+		<vert>-0.125000</vert>
+		<vert>-0.328125</vert>
+
+		<vert>-0.789062</vert>
+		<vert>-0.125000</vert>
+		<vert>-0.328125</vert>
+
+		<vert>0.859375</vert>
+		<vert>0.382812</vert>
+		<vert>-0.382812</vert>
+
+		<vert>-0.859375</vert>
+		<vert>0.382812</vert>
+		<vert>-0.382812</vert>
+
+	</verts>
+	<indices>
+		<i>60</i>
+		<i>64</i>
+		<i>48</i>
+		<i>49</i>
+		<i>65</i>
+		<i>61</i>
+		<i>62</i>
+		<i>64</i>
+		<i>60</i>
+		<i>61</i>
+		<i>65</i>
+		<i>63</i>
+		<i>60</i>
+		<i>58</i>
+		<i>62</i>
+		<i>63</i>
+		<i>59</i>
+		<i>61</i>
+		<i>60</i>
+		<i>56</i>
+		<i>58</i>
+		<i>59</i>
+		<i>57</i>
+		<i>61</i>
+		<i>60</i>
+		<i>54</i>
+		<i>56</i>
+		<i>57</i>
+		<i>55</i>
+		<i>61</i>
+		<i>60</i>
+		<i>52</i>
+		<i>54</i>
+		<i>55</i>
+		<i>53</i>
+		<i>61</i>
+		<i>60</i>
+		<i>50</i>
+		<i>52</i>
+		<i>53</i>
+		<i>51</i>
+		<i>61</i>
+		<i>60</i>
+		<i>48</i>
+		<i>50</i>
+		<i>51</i>
+		<i>49</i>
+		<i>61</i>
+		<i>224</i>
+		<i>228</i>
+		<i>226</i>
+		<i>227</i>
+		<i>229</i>
+		<i>225</i>
+		<i>72</i>
+		<i>283</i>
+		<i>73</i>
+		<i>73</i>
+		<i>284</i>
+		<i>72</i>
+		<i>341</i>
+		<i>347</i>
+		<i>383</i>
+		<i>384</i>
+		<i>348</i>
+		<i>342</i>
+		<i>299</i>
+		<i>345</i>
+		<i>343</i>
+		<i>344</i>
+		<i>346</i>
+		<i>300</i>
+		<i>323</i>
+		<i>379</i>
+		<i>351</i>
+		<i>352</i>
+		<i>380</i>
+		<i>324</i>
+		<i>441</i>
+		<i>443</i>
+		<i>445</i>
+		<i>446</i>
+		<i>444</i>
+		<i>442</i>
+		<i>463</i>
+		<i>491</i>
+		<i>465</i>
+		<i>466</i>
+		<i>492</i>
+		<i>464</i>
+		<i>495</i>
+		<i>497</i>
+		<i>499</i>
+		<i>500</i>
+		<i>498</i>
+		<i>496</i>
+		<i>504</i>
+		<i>322</i>
+		<i>320</i>
+		<i>504</i>
+		<i>320</i>
+		<i>390</i>
+		<i>319</i>
+		<i>321</i>
+		<i>503</i>
+		<i>319</i>
+		<i>503</i>
+		<i>389</i>
+		<i>504</i>
+		<i>506</i>
+		<i>314</i>
+		<i>504</i>
+		<i>314</i>
+		<i>322</i>
+		<i>313</i>
+		<i>505</i>
+		<i>503</i>
+		<i>313</i>
+		<i>503</i>
+		<i>321</i>
+		<i>388</i>
+		<i>382</i>
+		<i>506</i>
+		<i>382</i>
+		<i>314</i>
+		<i>506</i>
+		<i>313</i>
+		<i>381</i>
+		<i>505</i>
+		<i>381</i>
+		<i>387</i>
+		<i>505</i>
+		<i>500</i>
+		<i>496</i>
+		<i>494</i>
+		<i>500</i>
+		<i>494</i>
+		<i>502</i>
+		<i>493</i>
+		<i>495</i>
+		<i>499</i>
+		<i>493</i>
+		<i>499</i>
+		<i>501</i>
+		<i>504</i>
+		<i>502</i>
+		<i>506</i>
+		<i>502</i>
+		<i>494</i>
+		<i>506</i>
+		<i>493</i>
+		<i>501</i>
+		<i>505</i>
+		<i>501</i>
+		<i>503</i>
+		<i>505</i>
+		<i>494</i>
+		<i>400</i>
+		<i>506</i>
+		<i>400</i>
+		<i>388</i>
+		<i>506</i>
+		<i>387</i>
+		<i>399</i>
+		<i>505</i>
+		<i>399</i>
+		<i>493</i>
+		<i>505</i>
+		<i>496</i>
+		<i>398</i>
+		<i>494</i>
+		<i>398</i>
+		<i>400</i>
+		<i>494</i>
+		<i>399</i>
+		<i>397</i>
+		<i>493</i>
+		<i>397</i>
+		<i>495</i>
+		<i>493</i>
+		<i>498</i>
+		<i>396</i>
+		<i>496</i>
+		<i>396</i>
+		<i>398</i>
+		<i>496</i>
+		<i>397</i>
+		<i>395</i>
+		<i>495</i>
+		<i>395</i>
+		<i>497</i>
+		<i>495</i>
+		<i>500</i>
+		<i>394</i>
+		<i>498</i>
+		<i>394</i>
+		<i>396</i>
+		<i>498</i>
+		<i>395</i>
+		<i>393</i>
+		<i>497</i>
+		<i>393</i>
+		<i>499</i>
+		<i>497</i>
+		<i>502</i>
+		<i>392</i>
+		<i>394</i>
+		<i>502</i>
+		<i>394</i>
+		<i>500</i>
+		<i>393</i>
+		<i>391</i>
+		<i>501</i>
+		<i>393</i>
+		<i>501</i>
+		<i>499</i>
+		<i>504</i>
+		<i>390</i>
+		<i>392</i>
+		<i>504</i>
+		<i>392</i>
+		<i>502</i>
+		<i>391</i>
+		<i>389</i>
+		<i>503</i>
+		<i>391</i>
+		<i>503</i>
+		<i>501</i>
+		<i>490</i>
+		<i>492</i>
+		<i>466</i>
+		<i>490</i>
+		<i>466</i>
+		<i>468</i>
+		<i>465</i>
+		<i>491</i>
+		<i>489</i>
+		<i>465</i>
+		<i>489</i>
+		<i>467</i>
+		<i>488</i>
+		<i>490</i>
+		<i>470</i>
+		<i>490</i>
+		<i>468</i>
+		<i>470</i>
+		<i>467</i>
+		<i>489</i>
+		<i>469</i>
+		<i>489</i>
+		<i>487</i>
+		<i>469</i>
+		<i>482</i>
+		<i>488</i>
+		<i>472</i>
+		<i>488</i>
+		<i>470</i>
+		<i>472</i>
+		<i>469</i>
+		<i>487</i>
+		<i>471</i>
+		<i>487</i>
+		<i>481</i>
+		<i>471</i>
+		<i>480</i>
+		<i>482</i>
+		<i>472</i>
+		<i>480</i>
+		<i>472</i>
+		<i>474</i>
+		<i>471</i>
+		<i>481</i>
+		<i>479</i>
+		<i>471</i>
+		<i>479</i>
+		<i>473</i>
+		<i>480</i>
+		<i>474</i>
+		<i>456</i>
+		<i>474</i>
+		<i>454</i>
+		<i>456</i>
+		<i>453</i>
+		<i>473</i>
+		<i>455</i>
+		<i>473</i>
+		<i>479</i>
+		<i>455</i>
+		<i>462</i>
+		<i>478</i>
+		<i>458</i>
+		<i>462</i>
+		<i>458</i>
+		<i>460</i>
+		<i>457</i>
+		<i>477</i>
+		<i>461</i>
+		<i>457</i>
+		<i>461</i>
+		<i>459</i>
+		<i>478</i>
+		<i>462</i>
+		<i>484</i>
+		<i>462</i>
+		<i>452</i>
+		<i>484</i>
+		<i>451</i>
+		<i>461</i>
+		<i>483</i>
+		<i>461</i>
+		<i>477</i>
+		<i>483</i>
+		<i>486</i>
+		<i>484</i>
+		<i>476</i>
+		<i>484</i>
+		<i>452</i>
+		<i>476</i>
+		<i>451</i>
+		<i>483</i>
+		<i>475</i>
+		<i>483</i>
+		<i>485</i>
+		<i>475</i>
+		<i>486</i>
+		<i>476</i>
+		<i>464</i>
+		<i>486</i>
+		<i>464</i>
+		<i>492</i>
+		<i>463</i>
+		<i>475</i>
+		<i>485</i>
+		<i>463</i>
+		<i>485</i>
+		<i>491</i>
+		<i>490</i>
+		<i>488</i>
+		<i>492</i>
+		<i>488</i>
+		<i>486</i>
+		<i>492</i>
+		<i>485</i>
+		<i>487</i>
+		<i>491</i>
+		<i>487</i>
+		<i>489</i>
+		<i>491</i>
+		<i>488</i>
+		<i>482</i>
+		<i>484</i>
+		<i>488</i>
+		<i>484</i>
+		<i>486</i>
+		<i>483</i>
+		<i>481</i>
+		<i>487</i>
+		<i>483</i>
+		<i>487</i>
+		<i>485</i>
+		<i>482</i>
+		<i>480</i>
+		<i>484</i>
+		<i>480</i>
+		<i>478</i>
+		<i>484</i>
+		<i>477</i>
+		<i>479</i>
+		<i>483</i>
+		<i>479</i>
+		<i>481</i>
+		<i>483</i>
+		<i>480</i>
+		<i>456</i>
+		<i>478</i>
+		<i>456</i>
+		<i>458</i>
+		<i>478</i>
+		<i>457</i>
+		<i>455</i>
+		<i>477</i>
+		<i>455</i>
+		<i>479</i>
+		<i>477</i>
+		<i>472</i>
+		<i>420</i>
+		<i>474</i>
+		<i>420</i>
+		<i>418</i>
+		<i>474</i>
+		<i>417</i>
+		<i>419</i>
+		<i>473</i>
+		<i>419</i>
+		<i>471</i>
+		<i>473</i>
+		<i>470</i>
+		<i>422</i>
+		<i>472</i>
+		<i>422</i>
+		<i>420</i>
+		<i>472</i>
+		<i>419</i>
+		<i>421</i>
+		<i>471</i>
+		<i>421</i>
+		<i>469</i>
+		<i>471</i>
+		<i>468</i>
+		<i>424</i>
+		<i>470</i>
+		<i>424</i>
+		<i>422</i>
+		<i>470</i>
+		<i>421</i>
+		<i>423</i>
+		<i>469</i>
+		<i>423</i>
+		<i>467</i>
+		<i>469</i>
+		<i>466</i>
+		<i>426</i>
+		<i>424</i>
+		<i>466</i>
+		<i>424</i>
+		<i>468</i>
+		<i>423</i>
+		<i>425</i>
+		<i>465</i>
+		<i>423</i>
+		<i>465</i>
+		<i>467</i>
+		<i>464</i>
+		<i>428</i>
+		<i>426</i>
+		<i>464</i>
+		<i>426</i>
+		<i>466</i>
+		<i>425</i>
+		<i>427</i>
+		<i>463</i>
+		<i>425</i>
+		<i>463</i>
+		<i>465</i>
+		<i>476</i>
+		<i>416</i>
+		<i>428</i>
+		<i>476</i>
+		<i>428</i>
+		<i>464</i>
+		<i>427</i>
+		<i>415</i>
+		<i>475</i>
+		<i>427</i>
+		<i>475</i>
+		<i>463</i>
+		<i>474</i>
+		<i>418</i>
+		<i>440</i>
+		<i>474</i>
+		<i>440</i>
+		<i>454</i>
+		<i>439</i>
+		<i>417</i>
+		<i>473</i>
+		<i>439</i>
+		<i>473</i>
+		<i>453</i>
+		<i>454</i>
+		<i>440</i>
+		<i>438</i>
+		<i>454</i>
+		<i>438</i>
+		<i>456</i>
+		<i>437</i>
+		<i>439</i>
+		<i>453</i>
+		<i>437</i>
+		<i>453</i>
+		<i>455</i>
+		<i>456</i>
+		<i>438</i>
+		<i>458</i>
+		<i>438</i>
+		<i>436</i>
+		<i>458</i>
+		<i>435</i>
+		<i>437</i>
+		<i>457</i>
+		<i>437</i>
+		<i>455</i>
+		<i>457</i>
+		<i>458</i>
+		<i>436</i>
+		<i>460</i>
+		<i>436</i>
+		<i>434</i>
+		<i>460</i>
+		<i>433</i>
+		<i>435</i>
+		<i>459</i>
+		<i>435</i>
+		<i>457</i>
+		<i>459</i>
+		<i>460</i>
+		<i>434</i>
+		<i>432</i>
+		<i>460</i>
+		<i>432</i>
+		<i>462</i>
+		<i>431</i>
+		<i>433</i>
+		<i>459</i>
+		<i>431</i>
+		<i>459</i>
+		<i>461</i>
+		<i>462</i>
+		<i>432</i>
+		<i>452</i>
+		<i>432</i>
+		<i>450</i>
+		<i>452</i>
+		<i>449</i>
+		<i>431</i>
+		<i>451</i>
+		<i>431</i>
+		<i>461</i>
+		<i>451</i>
+		<i>452</i>
+		<i>450</i>
+		<i>416</i>
+		<i>452</i>
+		<i>416</i>
+		<i>476</i>
+		<i>415</i>
+		<i>449</i>
+		<i>451</i>
+		<i>415</i>
+		<i>451</i>
+		<i>475</i>
+		<i>446</i>
+		<i>442</i>
+		<i>448</i>
+		<i>442</i>
+		<i>312</i>
+		<i>448</i>
+		<i>311</i>
+		<i>441</i>
+		<i>447</i>
+		<i>441</i>
+		<i>445</i>
+		<i>447</i>
+		<i>430</i>
+		<i>448</i>
+		<i>382</i>
+		<i>448</i>
+		<i>312</i>
+		<i>382</i>
+		<i>311</i>
+		<i>447</i>
+		<i>381</i>
+		<i>447</i>
+		<i>429</i>
+		<i>381</i>
+		<i>450</i>
+		<i>430</i>
+		<i>416</i>
+		<i>430</i>
+		<i>414</i>
+		<i>416</i>
+		<i>413</i>
+		<i>429</i>
+		<i>415</i>
+		<i>429</i>
+		<i>449</i>
+		<i>415</i>
+		<i>432</i>
+		<i>448</i>
+		<i>450</i>
+		<i>448</i>
+		<i>430</i>
+		<i>450</i>
+		<i>429</i>
+		<i>447</i>
+		<i>449</i>
+		<i>447</i>
+		<i>431</i>
+		<i>449</i>
+		<i>446</i>
+		<i>448</i>
+		<i>434</i>
+		<i>448</i>
+		<i>432</i>
+		<i>434</i>
+		<i>431</i>
+		<i>447</i>
+		<i>433</i>
+		<i>447</i>
+		<i>445</i>
+		<i>433</i>
+		<i>438</i>
+		<i>446</i>
+		<i>434</i>
+		<i>438</i>
+		<i>434</i>
+		<i>436</i>
+		<i>433</i>
+		<i>445</i>
+		<i>437</i>
+		<i>433</i>
+		<i>437</i>
+		<i>435</i>
+		<i>444</i>
+		<i>446</i>
+		<i>440</i>
+		<i>446</i>
+		<i>438</i>
+		<i>440</i>
+		<i>437</i>
+		<i>445</i>
+		<i>439</i>
+		<i>445</i>
+		<i>443</i>
+		<i>439</i>
+		<i>440</i>
+		<i>418</i>
+		<i>412</i>
+		<i>440</i>
+		<i>412</i>
+		<i>444</i>
+		<i>411</i>
+		<i>417</i>
+		<i>439</i>
+		<i>411</i>
+		<i>439</i>
+		<i>443</i>
+		<i>414</i>
+		<i>430</i>
+		<i>382</i>
+		<i>414</i>
+		<i>382</i>
+		<i>388</i>
+		<i>381</i>
+		<i>429</i>
+		<i>413</i>
+		<i>381</i>
+		<i>413</i>
+		<i>387</i>
+		<i>442</i>
+		<i>318</i>
+		<i>310</i>
+		<i>442</i>
+		<i>310</i>
+		<i>312</i>
+		<i>309</i>
+		<i>317</i>
+		<i>441</i>
+		<i>309</i>
+		<i>441</i>
+		<i>311</i>
+		<i>412</i>
+		<i>390</i>
+		<i>444</i>
+		<i>390</i>
+		<i>320</i>
+		<i>444</i>
+		<i>319</i>
+		<i>389</i>
+		<i>443</i>
+		<i>389</i>
+		<i>411</i>
+		<i>443</i>
+		<i>444</i>
+		<i>320</i>
+		<i>442</i>
+		<i>320</i>
+		<i>318</i>
+		<i>442</i>
+		<i>317</i>
+		<i>319</i>
+		<i>441</i>
+		<i>319</i>
+		<i>443</i>
+		<i>441</i>
+		<i>416</i>
+		<i>414</i>
+		<i>402</i>
+		<i>416</i>
+		<i>402</i>
+		<i>428</i>
+		<i>401</i>
+		<i>413</i>
+		<i>415</i>
+		<i>401</i>
+		<i>415</i>
+		<i>427</i>
+		<i>426</i>
+		<i>428</i>
+		<i>404</i>
+		<i>428</i>
+		<i>402</i>
+		<i>404</i>
+		<i>401</i>
+		<i>427</i>
+		<i>403</i>
+		<i>427</i>
+		<i>425</i>
+		<i>403</i>
+		<i>424</i>
+		<i>426</i>
+		<i>406</i>
+		<i>426</i>
+		<i>404</i>
+		<i>406</i>
+		<i>403</i>
+		<i>425</i>
+		<i>405</i>
+		<i>425</i>
+		<i>423</i>
+		<i>405</i>
+		<i>422</i>
+		<i>424</i>
+		<i>408</i>
+		<i>424</i>
+		<i>406</i>
+		<i>408</i>
+		<i>405</i>
+		<i>423</i>
+		<i>407</i>
+		<i>423</i>
+		<i>421</i>
+		<i>407</i>
+		<i>420</i>
+		<i>422</i>
+		<i>408</i>
+		<i>420</i>
+		<i>408</i>
+		<i>410</i>
+		<i>407</i>
+		<i>421</i>
+		<i>419</i>
+		<i>407</i>
+		<i>419</i>
+		<i>409</i>
+		<i>418</i>
+		<i>420</i>
+		<i>410</i>
+		<i>418</i>
+		<i>410</i>
+		<i>412</i>
+		<i>409</i>
+		<i>419</i>
+		<i>417</i>
+		<i>409</i>
+		<i>417</i>
+		<i>411</i>
+		<i>412</i>
+		<i>410</i>
+		<i>392</i>
+		<i>412</i>
+		<i>392</i>
+		<i>390</i>
+		<i>391</i>
+		<i>409</i>
+		<i>411</i>
+		<i>391</i>
+		<i>411</i>
+		<i>389</i>
+		<i>410</i>
+		<i>408</i>
+		<i>392</i>
+		<i>408</i>
+		<i>394</i>
+		<i>392</i>
+		<i>393</i>
+		<i>407</i>
+		<i>391</i>
+		<i>407</i>
+		<i>409</i>
+		<i>391</i>
+		<i>408</i>
+		<i>406</i>
+		<i>394</i>
+		<i>406</i>
+		<i>396</i>
+		<i>394</i>
+		<i>395</i>
+		<i>405</i>
+		<i>393</i>
+		<i>405</i>
+		<i>407</i>
+		<i>393</i>
+		<i>406</i>
+		<i>404</i>
+		<i>396</i>
+		<i>404</i>
+		<i>398</i>
+		<i>396</i>
+		<i>397</i>
+		<i>403</i>
+		<i>395</i>
+		<i>403</i>
+		<i>405</i>
+		<i>395</i>
+		<i>404</i>
+		<i>402</i>
+		<i>400</i>
+		<i>404</i>
+		<i>400</i>
+		<i>398</i>
+		<i>399</i>
+		<i>401</i>
+		<i>403</i>
+		<i>399</i>
+		<i>403</i>
+		<i>397</i>
+		<i>414</i>
+		<i>388</i>
+		<i>402</i>
+		<i>388</i>
+		<i>400</i>
+		<i>402</i>
+		<i>399</i>
+		<i>387</i>
+		<i>401</i>
+		<i>387</i>
+		<i>413</i>
+		<i>401</i>
+		<i>380</i>
+		<i>352</i>
+		<i>386</i>
+		<i>352</i>
+		<i>350</i>
+		<i>386</i>
+		<i>349</i>
+		<i>351</i>
+		<i>385</i>
+		<i>351</i>
+		<i>379</i>
+		<i>385</i>
+		<i>380</i>
+		<i>386</i>
+		<i>322</i>
+		<i>386</i>
+		<i>320</i>
+		<i>322</i>
+		<i>319</i>
+		<i>385</i>
+		<i>321</i>
+		<i>385</i>
+		<i>379</i>
+		<i>321</i>
+		<i>380</i>
+		<i>378</i>
+		<i>324</i>
+		<i>378</i>
+		<i>316</i>
+		<i>324</i>
+		<i>315</i>
+		<i>377</i>
+		<i>323</i>
+		<i>377</i>
+		<i>379</i>
+		<i>323</i>
+		<i>380</i>
+		<i>322</i>
+		<i>378</i>
+		<i>322</i>
+		<i>314</i>
+		<i>378</i>
+		<i>313</i>
+		<i>321</i>
+		<i>377</i>
+		<i>321</i>
+		<i>379</i>
+		<i>377</i>
+		<i>342</i>
+		<i>344</i>
+		<i>300</i>
+		<i>342</i>
+		<i>300</i>
+		<i>384</i>
+		<i>299</i>
+		<i>343</i>
+		<i>341</i>
+		<i>299</i>
+		<i>341</i>
+		<i>383</i>
+		<i>384</i>
+		<i>300</i>
+		<i>298</i>
+		<i>384</i>
+		<i>298</i>
+		<i>318</i>
+		<i>297</i>
+		<i>299</i>
+		<i>383</i>
+		<i>297</i>
+		<i>383</i>
+		<i>317</i>
+		<i>386</i>
+		<i>384</i>
+		<i>320</i>
+		<i>384</i>
+		<i>318</i>
+		<i>320</i>
+		<i>317</i>
+		<i>383</i>
+		<i>319</i>
+		<i>383</i>
+		<i>385</i>
+		<i>319</i>
+		<i>386</i>
+		<i>350</i>
+		<i>384</i>
+		<i>350</i>
+		<i>348</i>
+		<i>384</i>
+		<i>347</i>
+		<i>349</i>
+		<i>383</i>
+		<i>349</i>
+		<i>385</i>
+		<i>383</i>
+		<i>370</i>
+		<i>376</i>
+		<i>382</i>
+		<i>376</i>
+		<i>314</i>
+		<i>382</i>
+		<i>313</i>
+		<i>375</i>
+		<i>381</i>
+		<i>375</i>
+		<i>369</i>
+		<i>381</i>
+		<i>370</i>
+		<i>382</i>
+		<i>312</i>
+		<i>370</i>
+		<i>312</i>
+		<i>368</i>
+		<i>311</i>
+		<i>381</i>
+		<i>369</i>
+		<i>311</i>
+		<i>369</i>
+		<i>367</i>
+		<i>368</i>
+		<i>312</i>
+		<i>310</i>
+		<i>368</i>
+		<i>310</i>
+		<i>362</i>
+		<i>309</i>
+		<i>311</i>
+		<i>367</i>
+		<i>309</i>
+		<i>367</i>
+		<i>361</i>
+		<i>310</i>
+		<i>296</i>
+		<i>362</i>
+		<i>296</i>
+		<i>294</i>
+		<i>362</i>
+		<i>293</i>
+		<i>295</i>
+		<i>361</i>
+		<i>295</i>
+		<i>309</i>
+		<i>361</i>
+		<i>360</i>
+		<i>290</i>
+		<i>284</i>
+		<i>360</i>
+		<i>284</i>
+		<i>73</i>
+		<i>283</i>
+		<i>289</i>
+		<i>359</i>
+		<i>283</i>
+		<i>359</i>
+		<i>73</i>
+		<i>288</i>
+		<i>286</i>
+		<i>290</i>
+		<i>286</i>
+		<i>284</i>
+		<i>290</i>
+		<i>283</i>
+		<i>285</i>
+		<i>289</i>
+		<i>285</i>
+		<i>287</i>
+		<i>289</i>
+		<i>358</i>
+		<i>360</i>
+		<i>301</i>
+		<i>360</i>
+		<i>73</i>
+		<i>301</i>
+		<i>73</i>
+		<i>359</i>
+		<i>301</i>
+		<i>359</i>
+		<i>357</i>
+		<i>301</i>
+		<i>364</i>
+		<i>292</i>
+		<i>360</i>
+		<i>292</i>
+		<i>290</i>
+		<i>360</i>
+		<i>289</i>
+		<i>291</i>
+		<i>359</i>
+		<i>291</i>
+		<i>363</i>
+		<i>359</i>
+		<i>364</i>
+		<i>360</i>
+		<i>358</i>
+		<i>364</i>
+		<i>358</i>
+		<i>366</i>
+		<i>357</i>
+		<i>359</i>
+		<i>363</i>
+		<i>357</i>
+		<i>363</i>
+		<i>365</i>
+		<i>366</i>
+		<i>358</i>
+		<i>356</i>
+		<i>366</i>
+		<i>356</i>
+		<i>372</i>
+		<i>355</i>
+		<i>357</i>
+		<i>365</i>
+		<i>355</i>
+		<i>365</i>
+		<i>371</i>
+		<i>372</i>
+		<i>356</i>
+		<i>354</i>
+		<i>372</i>
+		<i>354</i>
+		<i>374</i>
+		<i>353</i>
+		<i>355</i>
+		<i>371</i>
+		<i>353</i>
+		<i>371</i>
+		<i>373</i>
+		<i>374</i>
+		<i>354</i>
+		<i>316</i>
+		<i>374</i>
+		<i>316</i>
+		<i>378</i>
+		<i>315</i>
+		<i>353</i>
+		<i>373</i>
+		<i>315</i>
+		<i>373</i>
+		<i>377</i>
+		<i>374</i>
+		<i>378</i>
+		<i>376</i>
+		<i>378</i>
+		<i>314</i>
+		<i>376</i>
+		<i>313</i>
+		<i>377</i>
+		<i>375</i>
+		<i>377</i>
+		<i>373</i>
+		<i>375</i>
+		<i>376</i>
+		<i>370</i>
+		<i>372</i>
+		<i>376</i>
+		<i>372</i>
+		<i>374</i>
+		<i>371</i>
+		<i>369</i>
+		<i>375</i>
+		<i>371</i>
+		<i>375</i>
+		<i>373</i>
+		<i>370</i>
+		<i>368</i>
+		<i>366</i>
+		<i>370</i>
+		<i>366</i>
+		<i>372</i>
+		<i>365</i>
+		<i>367</i>
+		<i>369</i>
+		<i>365</i>
+		<i>369</i>
+		<i>371</i>
+		<i>368</i>
+		<i>362</i>
+		<i>364</i>
+		<i>368</i>
+		<i>364</i>
+		<i>366</i>
+		<i>363</i>
+		<i>361</i>
+		<i>367</i>
+		<i>363</i>
+		<i>367</i>
+		<i>365</i>
+		<i>362</i>
+		<i>294</i>
+		<i>292</i>
+		<i>362</i>
+		<i>292</i>
+		<i>364</i>
+		<i>291</i>
+		<i>293</i>
+		<i>361</i>
+		<i>291</i>
+		<i>361</i>
+		<i>363</i>
+		<i>316</i>
+		<i>354</i>
+		<i>74</i>
+		<i>316</i>
+		<i>74</i>
+		<i>75</i>
+		<i>74</i>
+		<i>353</i>
+		<i>315</i>
+		<i>74</i>
+		<i>315</i>
+		<i>75</i>
+		<i>354</i>
+		<i>356</i>
+		<i>302</i>
+		<i>354</i>
+		<i>302</i>
+		<i>74</i>
+		<i>302</i>
+		<i>355</i>
+		<i>353</i>
+		<i>302</i>
+		<i>353</i>
+		<i>74</i>
+		<i>356</i>
+		<i>358</i>
+		<i>302</i>
+		<i>358</i>
+		<i>301</i>
+		<i>302</i>
+		<i>301</i>
+		<i>357</i>
+		<i>302</i>
+		<i>357</i>
+		<i>355</i>
+		<i>302</i>
+		<i>324</i>
+		<i>316</i>
+		<i>76</i>
+		<i>316</i>
+		<i>75</i>
+		<i>76</i>
+		<i>75</i>
+		<i>315</i>
+		<i>76</i>
+		<i>315</i>
+		<i>323</i>
+		<i>76</i>
+		<i>318</i>
+		<i>298</i>
+		<i>296</i>
+		<i>318</i>
+		<i>296</i>
+		<i>310</i>
+		<i>295</i>
+		<i>297</i>
+		<i>317</i>
+		<i>295</i>
+		<i>317</i>
+		<i>309</i>
+		<i>348</i>
+		<i>328</i>
+		<i>342</i>
+		<i>328</i>
+		<i>326</i>
+		<i>342</i>
+		<i>325</i>
+		<i>327</i>
+		<i>341</i>
+		<i>327</i>
+		<i>347</i>
+		<i>341</i>
+		<i>328</i>
+		<i>348</i>
+		<i>304</i>
+		<i>328</i>
+		<i>304</i>
+		<i>308</i>
+		<i>304</i>
+		<i>347</i>
+		<i>327</i>
+		<i>304</i>
+		<i>327</i>
+		<i>308</i>
+		<i>348</i>
+		<i>350</i>
+		<i>77</i>
+		<i>348</i>
+		<i>77</i>
+		<i>304</i>
+		<i>77</i>
+		<i>349</i>
+		<i>347</i>
+		<i>77</i>
+		<i>347</i>
+		<i>304</i>
+		<i>350</i>
+		<i>352</i>
+		<i>77</i>
+		<i>352</i>
+		<i>303</i>
+		<i>77</i>
+		<i>303</i>
+		<i>351</i>
+		<i>77</i>
+		<i>351</i>
+		<i>349</i>
+		<i>77</i>
+		<i>352</i>
+		<i>324</i>
+		<i>303</i>
+		<i>324</i>
+		<i>76</i>
+		<i>303</i>
+		<i>76</i>
+		<i>323</i>
+		<i>303</i>
+		<i>323</i>
+		<i>351</i>
+		<i>303</i>
+		<i>300</i>
+		<i>346</i>
+		<i>92</i>
+		<i>346</i>
+		<i>79</i>
+		<i>92</i>
+		<i>78</i>
+		<i>345</i>
+		<i>91</i>
+		<i>345</i>
+		<i>299</i>
+		<i>91</i>
+		<i>344</i>
+		<i>215</i>
+		<i>346</i>
+		<i>215</i>
+		<i>79</i>
+		<i>346</i>
+		<i>78</i>
+		<i>214</i>
+		<i>345</i>
+		<i>214</i>
+		<i>343</i>
+		<i>345</i>
+		<i>342</i>
+		<i>326</i>
+		<i>209</i>
+		<i>326</i>
+		<i>81</i>
+		<i>209</i>
+		<i>80</i>
+		<i>325</i>
+		<i>208</i>
+		<i>325</i>
+		<i>341</i>
+		<i>208</i>
+		<i>344</i>
+		<i>342</i>
+		<i>215</i>
+		<i>342</i>
+		<i>209</i>
+		<i>215</i>
+		<i>208</i>
+		<i>341</i>
+		<i>214</i>
+		<i>341</i>
+		<i>343</i>
+		<i>214</i>
+		<i>332</i>
+		<i>83</i>
+		<i>81</i>
+		<i>332</i>
+		<i>81</i>
+		<i>326</i>
+		<i>80</i>
+		<i>82</i>
+		<i>331</i>
+		<i>80</i>
+		<i>331</i>
+		<i>325</i>
+		<i>338</i>
+		<i>332</i>
+		<i>328</i>
+		<i>332</i>
+		<i>326</i>
+		<i>328</i>
+		<i>325</i>
+		<i>331</i>
+		<i>327</i>
+		<i>331</i>
+		<i>337</i>
+		<i>327</i>
+		<i>340</i>
+		<i>334</i>
+		<i>336</i>
+		<i>334</i>
+		<i>330</i>
+		<i>336</i>
+		<i>329</i>
+		<i>333</i>
+		<i>335</i>
+		<i>333</i>
+		<i>339</i>
+		<i>335</i>
+		<i>338</i>
+		<i>336</i>
+		<i>330</i>
+		<i>338</i>
+		<i>330</i>
+		<i>332</i>
+		<i>329</i>
+		<i>335</i>
+		<i>337</i>
+		<i>329</i>
+		<i>337</i>
+		<i>331</i>
+		<i>330</i>
+		<i>85</i>
+		<i>83</i>
+		<i>330</i>
+		<i>83</i>
+		<i>332</i>
+		<i>82</i>
+		<i>84</i>
+		<i>329</i>
+		<i>82</i>
+		<i>329</i>
+		<i>331</i>
+		<i>334</i>
+		<i>87</i>
+		<i>85</i>
+		<i>334</i>
+		<i>85</i>
+		<i>330</i>
+		<i>84</i>
+		<i>86</i>
+		<i>333</i>
+		<i>84</i>
+		<i>333</i>
+		<i>329</i>
+		<i>340</i>
+		<i>89</i>
+		<i>87</i>
+		<i>340</i>
+		<i>87</i>
+		<i>334</i>
+		<i>86</i>
+		<i>88</i>
+		<i>339</i>
+		<i>86</i>
+		<i>339</i>
+		<i>333</i>
+		<i>305</i>
+		<i>90</i>
+		<i>89</i>
+		<i>305</i>
+		<i>89</i>
+		<i>340</i>
+		<i>88</i>
+		<i>90</i>
+		<i>305</i>
+		<i>88</i>
+		<i>305</i>
+		<i>339</i>
+		<i>336</i>
+		<i>306</i>
+		<i>340</i>
+		<i>306</i>
+		<i>305</i>
+		<i>340</i>
+		<i>305</i>
+		<i>306</i>
+		<i>339</i>
+		<i>306</i>
+		<i>335</i>
+		<i>339</i>
+		<i>338</i>
+		<i>307</i>
+		<i>336</i>
+		<i>307</i>
+		<i>306</i>
+		<i>336</i>
+		<i>306</i>
+		<i>307</i>
+		<i>335</i>
+		<i>307</i>
+		<i>337</i>
+		<i>335</i>
+		<i>328</i>
+		<i>308</i>
+		<i>338</i>
+		<i>308</i>
+		<i>307</i>
+		<i>338</i>
+		<i>307</i>
+		<i>308</i>
+		<i>337</i>
+		<i>308</i>
+		<i>327</i>
+		<i>337</i>
+		<i>300</i>
+		<i>92</i>
+		<i>94</i>
+		<i>300</i>
+		<i>94</i>
+		<i>298</i>
+		<i>93</i>
+		<i>91</i>
+		<i>299</i>
+		<i>93</i>
+		<i>299</i>
+		<i>297</i>
+		<i>298</i>
+		<i>94</i>
+		<i>96</i>
+		<i>298</i>
+		<i>96</i>
+		<i>296</i>
+		<i>95</i>
+		<i>93</i>
+		<i>297</i>
+		<i>95</i>
+		<i>297</i>
+		<i>295</i>
+		<i>296</i>
+		<i>96</i>
+		<i>294</i>
+		<i>96</i>
+		<i>98</i>
+		<i>294</i>
+		<i>97</i>
+		<i>95</i>
+		<i>293</i>
+		<i>95</i>
+		<i>295</i>
+		<i>293</i>
+		<i>294</i>
+		<i>98</i>
+		<i>100</i>
+		<i>294</i>
+		<i>100</i>
+		<i>292</i>
+		<i>99</i>
+		<i>97</i>
+		<i>293</i>
+		<i>99</i>
+		<i>293</i>
+		<i>291</i>
+		<i>292</i>
+		<i>100</i>
+		<i>290</i>
+		<i>100</i>
+		<i>102</i>
+		<i>290</i>
+		<i>101</i>
+		<i>99</i>
+		<i>289</i>
+		<i>99</i>
+		<i>291</i>
+		<i>289</i>
+		<i>290</i>
+		<i>102</i>
+		<i>288</i>
+		<i>102</i>
+		<i>104</i>
+		<i>288</i>
+		<i>103</i>
+		<i>101</i>
+		<i>287</i>
+		<i>101</i>
+		<i>289</i>
+		<i>287</i>
+		<i>288</i>
+		<i>104</i>
+		<i>286</i>
+		<i>104</i>
+		<i>106</i>
+		<i>286</i>
+		<i>105</i>
+		<i>103</i>
+		<i>285</i>
+		<i>103</i>
+		<i>287</i>
+		<i>285</i>
+		<i>286</i>
+		<i>106</i>
+		<i>108</i>
+		<i>286</i>
+		<i>108</i>
+		<i>284</i>
+		<i>107</i>
+		<i>105</i>
+		<i>285</i>
+		<i>107</i>
+		<i>285</i>
+		<i>283</i>
+		<i>284</i>
+		<i>108</i>
+		<i>66</i>
+		<i>284</i>
+		<i>66</i>
+		<i>72</i>
+		<i>66</i>
+		<i>107</i>
+		<i>283</i>
+		<i>66</i>
+		<i>283</i>
+		<i>72</i>
+		<i>280</i>
+		<i>234</i>
+		<i>232</i>
+		<i>280</i>
+		<i>232</i>
+		<i>282</i>
+		<i>231</i>
+		<i>233</i>
+		<i>279</i>
+		<i>231</i>
+		<i>279</i>
+		<i>281</i>
+		<i>282</i>
+		<i>232</i>
+		<i>254</i>
+		<i>282</i>
+		<i>254</i>
+		<i>260</i>
+		<i>253</i>
+		<i>231</i>
+		<i>281</i>
+		<i>253</i>
+		<i>281</i>
+		<i>259</i>
+		<i>260</i>
+		<i>254</i>
+		<i>256</i>
+		<i>260</i>
+		<i>256</i>
+		<i>258</i>
+		<i>255</i>
+		<i>253</i>
+		<i>259</i>
+		<i>255</i>
+		<i>259</i>
+		<i>257</i>
+		<i>262</i>
+		<i>252</i>
+		<i>234</i>
+		<i>262</i>
+		<i>234</i>
+		<i>280</i>
+		<i>233</i>
+		<i>251</i>
+		<i>261</i>
+		<i>233</i>
+		<i>261</i>
+		<i>279</i>
+		<i>264</i>
+		<i>250</i>
+		<i>262</i>
+		<i>250</i>
+		<i>252</i>
+		<i>262</i>
+		<i>251</i>
+		<i>249</i>
+		<i>261</i>
+		<i>249</i>
+		<i>263</i>
+		<i>261</i>
+		<i>266</i>
+		<i>248</i>
+		<i>264</i>
+		<i>248</i>
+		<i>250</i>
+		<i>264</i>
+		<i>249</i>
+		<i>247</i>
+		<i>263</i>
+		<i>247</i>
+		<i>265</i>
+		<i>263</i>
+		<i>268</i>
+		<i>246</i>
+		<i>248</i>
+		<i>268</i>
+		<i>248</i>
+		<i>266</i>
+		<i>247</i>
+		<i>245</i>
+		<i>267</i>
+		<i>247</i>
+		<i>267</i>
+		<i>265</i>
+		<i>270</i>
+		<i>244</i>
+		<i>268</i>
+		<i>244</i>
+		<i>246</i>
+		<i>268</i>
+		<i>245</i>
+		<i>243</i>
+		<i>267</i>
+		<i>243</i>
+		<i>269</i>
+		<i>267</i>
+		<i>272</i>
+		<i>242</i>
+		<i>244</i>
+		<i>272</i>
+		<i>244</i>
+		<i>270</i>
+		<i>243</i>
+		<i>241</i>
+		<i>271</i>
+		<i>243</i>
+		<i>271</i>
+		<i>269</i>
+		<i>274</i>
+		<i>240</i>
+		<i>272</i>
+		<i>240</i>
+		<i>242</i>
+		<i>272</i>
+		<i>241</i>
+		<i>239</i>
+		<i>271</i>
+		<i>239</i>
+		<i>273</i>
+		<i>271</i>
+		<i>278</i>
+		<i>236</i>
+		<i>274</i>
+		<i>236</i>
+		<i>240</i>
+		<i>274</i>
+		<i>239</i>
+		<i>235</i>
+		<i>273</i>
+		<i>235</i>
+		<i>277</i>
+		<i>273</i>
+		<i>276</i>
+		<i>238</i>
+		<i>236</i>
+		<i>276</i>
+		<i>236</i>
+		<i>278</i>
+		<i>235</i>
+		<i>237</i>
+		<i>275</i>
+		<i>235</i>
+		<i>275</i>
+		<i>277</i>
+		<i>258</i>
+		<i>256</i>
+		<i>238</i>
+		<i>258</i>
+		<i>238</i>
+		<i>276</i>
+		<i>237</i>
+		<i>255</i>
+		<i>257</i>
+		<i>237</i>
+		<i>257</i>
+		<i>275</i>
+		<i>256</i>
+		<i>110</i>
+		<i>128</i>
+		<i>256</i>
+		<i>128</i>
+		<i>238</i>
+		<i>127</i>
+		<i>109</i>
+		<i>255</i>
+		<i>127</i>
+		<i>255</i>
+		<i>237</i>
+		<i>238</i>
+		<i>128</i>
+		<i>179</i>
+		<i>238</i>
+		<i>179</i>
+		<i>236</i>
+		<i>178</i>
+		<i>127</i>
+		<i>237</i>
+		<i>178</i>
+		<i>237</i>
+		<i>235</i>
+		<i>236</i>
+		<i>179</i>
+		<i>126</i>
+		<i>236</i>
+		<i>126</i>
+		<i>240</i>
+		<i>125</i>
+		<i>178</i>
+		<i>235</i>
+		<i>125</i>
+		<i>235</i>
+		<i>239</i>
+		<i>240</i>
+		<i>126</i>
+		<i>242</i>
+		<i>126</i>
+		<i>124</i>
+		<i>242</i>
+		<i>123</i>
+		<i>125</i>
+		<i>241</i>
+		<i>125</i>
+		<i>239</i>
+		<i>241</i>
+		<i>242</i>
+		<i>124</i>
+		<i>244</i>
+		<i>124</i>
+		<i>122</i>
+		<i>244</i>
+		<i>121</i>
+		<i>123</i>
+		<i>243</i>
+		<i>123</i>
+		<i>241</i>
+		<i>243</i>
+		<i>244</i>
+		<i>122</i>
+		<i>120</i>
+		<i>244</i>
+		<i>120</i>
+		<i>246</i>
+		<i>119</i>
+		<i>121</i>
+		<i>243</i>
+		<i>119</i>
+		<i>243</i>
+		<i>245</i>
+		<i>246</i>
+		<i>120</i>
+		<i>118</i>
+		<i>246</i>
+		<i>118</i>
+		<i>248</i>
+		<i>117</i>
+		<i>119</i>
+		<i>245</i>
+		<i>117</i>
+		<i>245</i>
+		<i>247</i>
+		<i>248</i>
+		<i>118</i>
+		<i>116</i>
+		<i>248</i>
+		<i>116</i>
+		<i>250</i>
+		<i>115</i>
+		<i>117</i>
+		<i>247</i>
+		<i>115</i>
+		<i>247</i>
+		<i>249</i>
+		<i>250</i>
+		<i>116</i>
+		<i>114</i>
+		<i>250</i>
+		<i>114</i>
+		<i>252</i>
+		<i>113</i>
+		<i>115</i>
+		<i>249</i>
+		<i>113</i>
+		<i>249</i>
+		<i>251</i>
+		<i>252</i>
+		<i>114</i>
+		<i>234</i>
+		<i>114</i>
+		<i>181</i>
+		<i>234</i>
+		<i>180</i>
+		<i>113</i>
+		<i>233</i>
+		<i>113</i>
+		<i>251</i>
+		<i>233</i>
+		<i>254</i>
+		<i>112</i>
+		<i>256</i>
+		<i>112</i>
+		<i>110</i>
+		<i>256</i>
+		<i>109</i>
+		<i>111</i>
+		<i>255</i>
+		<i>111</i>
+		<i>253</i>
+		<i>255</i>
+		<i>232</i>
+		<i>183</i>
+		<i>112</i>
+		<i>232</i>
+		<i>112</i>
+		<i>254</i>
+		<i>111</i>
+		<i>182</i>
+		<i>231</i>
+		<i>111</i>
+		<i>231</i>
+		<i>253</i>
+		<i>234</i>
+		<i>181</i>
+		<i>183</i>
+		<i>234</i>
+		<i>183</i>
+		<i>232</i>
+		<i>182</i>
+		<i>180</i>
+		<i>233</i>
+		<i>182</i>
+		<i>233</i>
+		<i>231</i>
+		<i>229</i>
+		<i>230</i>
+		<i>223</i>
+		<i>229</i>
+		<i>223</i>
+		<i>225</i>
+		<i>223</i>
+		<i>230</i>
+		<i>228</i>
+		<i>223</i>
+		<i>228</i>
+		<i>224</i>
+		<i>223</i>
+		<i>71</i>
+		<i>225</i>
+		<i>71</i>
+		<i>222</i>
+		<i>225</i>
+		<i>221</i>
+		<i>71</i>
+		<i>224</i>
+		<i>71</i>
+		<i>223</i>
+		<i>224</i>
+		<i>225</i>
+		<i>222</i>
+		<i>220</i>
+		<i>225</i>
+		<i>220</i>
+		<i>227</i>
+		<i>219</i>
+		<i>221</i>
+		<i>224</i>
+		<i>219</i>
+		<i>224</i>
+		<i>226</i>
+		<i>227</i>
+		<i>220</i>
+		<i>218</i>
+		<i>227</i>
+		<i>218</i>
+		<i>229</i>
+		<i>217</i>
+		<i>219</i>
+		<i>226</i>
+		<i>217</i>
+		<i>226</i>
+		<i>228</i>
+		<i>229</i>
+		<i>218</i>
+		<i>230</i>
+		<i>218</i>
+		<i>216</i>
+		<i>230</i>
+		<i>216</i>
+		<i>217</i>
+		<i>230</i>
+		<i>217</i>
+		<i>228</i>
+		<i>230</i>
+		<i>218</i>
+		<i>135</i>
+		<i>136</i>
+		<i>218</i>
+		<i>136</i>
+		<i>216</i>
+		<i>136</i>
+		<i>134</i>
+		<i>217</i>
+		<i>136</i>
+		<i>217</i>
+		<i>216</i>
+		<i>220</i>
+		<i>133</i>
+		<i>135</i>
+		<i>220</i>
+		<i>135</i>
+		<i>218</i>
+		<i>134</i>
+		<i>132</i>
+		<i>219</i>
+		<i>134</i>
+		<i>219</i>
+		<i>217</i>
+		<i>222</i>
+		<i>131</i>
+		<i>133</i>
+		<i>222</i>
+		<i>133</i>
+		<i>220</i>
+		<i>132</i>
+		<i>130</i>
+		<i>221</i>
+		<i>132</i>
+		<i>221</i>
+		<i>219</i>
+		<i>71</i>
+		<i>129</i>
+		<i>222</i>
+		<i>129</i>
+		<i>131</i>
+		<i>222</i>
+		<i>130</i>
+		<i>129</i>
+		<i>221</i>
+		<i>129</i>
+		<i>71</i>
+		<i>221</i>
+		<i>211</i>
+		<i>164</i>
+		<i>79</i>
+		<i>211</i>
+		<i>79</i>
+		<i>215</i>
+		<i>78</i>
+		<i>163</i>
+		<i>210</i>
+		<i>78</i>
+		<i>210</i>
+		<i>214</i>
+		<i>211</i>
+		<i>215</i>
+		<i>213</i>
+		<i>215</i>
+		<i>209</i>
+		<i>213</i>
+		<i>208</i>
+		<i>214</i>
+		<i>212</i>
+		<i>214</i>
+		<i>210</i>
+		<i>212</i>
+		<i>213</i>
+		<i>209</i>
+		<i>166</i>
+		<i>209</i>
+		<i>81</i>
+		<i>166</i>
+		<i>80</i>
+		<i>208</i>
+		<i>165</i>
+		<i>208</i>
+		<i>212</i>
+		<i>165</i>
+		<i>166</i>
+		<i>187</i>
+		<i>213</i>
+		<i>187</i>
+		<i>144</i>
+		<i>213</i>
+		<i>143</i>
+		<i>186</i>
+		<i>212</i>
+		<i>186</i>
+		<i>165</i>
+		<i>212</i>
+		<i>213</i>
+		<i>144</i>
+		<i>211</i>
+		<i>144</i>
+		<i>142</i>
+		<i>211</i>
+		<i>141</i>
+		<i>143</i>
+		<i>210</i>
+		<i>143</i>
+		<i>212</i>
+		<i>210</i>
+		<i>211</i>
+		<i>142</i>
+		<i>140</i>
+		<i>211</i>
+		<i>140</i>
+		<i>164</i>
+		<i>139</i>
+		<i>141</i>
+		<i>210</i>
+		<i>139</i>
+		<i>210</i>
+		<i>163</i>
+		<i>164</i>
+		<i>140</i>
+		<i>138</i>
+		<i>164</i>
+		<i>138</i>
+		<i>176</i>
+		<i>138</i>
+		<i>139</i>
+		<i>163</i>
+		<i>138</i>
+		<i>163</i>
+		<i>176</i>
+		<i>206</i>
+		<i>207</i>
+		<i>198</i>
+		<i>206</i>
+		<i>198</i>
+		<i>204</i>
+		<i>198</i>
+		<i>207</i>
+		<i>205</i>
+		<i>198</i>
+		<i>205</i>
+		<i>203</i>
+		<i>202</i>
+		<i>204</i>
+		<i>200</i>
+		<i>204</i>
+		<i>198</i>
+		<i>200</i>
+		<i>198</i>
+		<i>203</i>
+		<i>199</i>
+		<i>203</i>
+		<i>201</i>
+		<i>199</i>
+		<i>206</i>
+		<i>204</i>
+		<i>193</i>
+		<i>206</i>
+		<i>193</i>
+		<i>191</i>
+		<i>192</i>
+		<i>203</i>
+		<i>205</i>
+		<i>192</i>
+		<i>205</i>
+		<i>190</i>
+		<i>204</i>
+		<i>202</i>
+		<i>193</i>
+		<i>202</i>
+		<i>195</i>
+		<i>193</i>
+		<i>194</i>
+		<i>201</i>
+		<i>192</i>
+		<i>201</i>
+		<i>203</i>
+		<i>192</i>
+		<i>202</i>
+		<i>200</i>
+		<i>197</i>
+		<i>202</i>
+		<i>197</i>
+		<i>195</i>
+		<i>196</i>
+		<i>199</i>
+		<i>201</i>
+		<i>196</i>
+		<i>201</i>
+		<i>194</i>
+		<i>200</i>
+		<i>198</i>
+		<i>70</i>
+		<i>200</i>
+		<i>70</i>
+		<i>197</i>
+		<i>70</i>
+		<i>198</i>
+		<i>199</i>
+		<i>70</i>
+		<i>199</i>
+		<i>196</i>
+		<i>206</i>
+		<i>191</i>
+		<i>207</i>
+		<i>191</i>
+		<i>69</i>
+		<i>207</i>
+		<i>69</i>
+		<i>190</i>
+		<i>207</i>
+		<i>190</i>
+		<i>205</i>
+		<i>207</i>
+		<i>191</i>
+		<i>144</i>
+		<i>69</i>
+		<i>144</i>
+		<i>189</i>
+		<i>69</i>
+		<i>189</i>
+		<i>143</i>
+		<i>69</i>
+		<i>143</i>
+		<i>190</i>
+		<i>69</i>
+		<i>197</i>
+		<i>70</i>
+		<i>138</i>
+		<i>70</i>
+		<i>137</i>
+		<i>138</i>
+		<i>137</i>
+		<i>70</i>
+		<i>138</i>
+		<i>70</i>
+		<i>196</i>
+		<i>138</i>
+		<i>195</i>
+		<i>197</i>
+		<i>140</i>
+		<i>197</i>
+		<i>138</i>
+		<i>140</i>
+		<i>138</i>
+		<i>196</i>
+		<i>139</i>
+		<i>196</i>
+		<i>194</i>
+		<i>139</i>
+		<i>193</i>
+		<i>195</i>
+		<i>142</i>
+		<i>195</i>
+		<i>140</i>
+		<i>142</i>
+		<i>139</i>
+		<i>194</i>
+		<i>141</i>
+		<i>194</i>
+		<i>192</i>
+		<i>141</i>
+		<i>191</i>
+		<i>193</i>
+		<i>142</i>
+		<i>191</i>
+		<i>142</i>
+		<i>144</i>
+		<i>141</i>
+		<i>192</i>
+		<i>190</i>
+		<i>141</i>
+		<i>190</i>
+		<i>143</i>
+		<i>185</i>
+		<i>131</i>
+		<i>68</i>
+		<i>131</i>
+		<i>129</i>
+		<i>68</i>
+		<i>129</i>
+		<i>130</i>
+		<i>68</i>
+		<i>130</i>
+		<i>184</i>
+		<i>68</i>
+		<i>188</i>
+		<i>187</i>
+		<i>68</i>
+		<i>187</i>
+		<i>185</i>
+		<i>68</i>
+		<i>184</i>
+		<i>186</i>
+		<i>68</i>
+		<i>186</i>
+		<i>188</i>
+		<i>68</i>
+		<i>188</i>
+		<i>189</i>
+		<i>187</i>
+		<i>189</i>
+		<i>144</i>
+		<i>187</i>
+		<i>143</i>
+		<i>189</i>
+		<i>186</i>
+		<i>189</i>
+		<i>188</i>
+		<i>186</i>
+		<i>168</i>
+		<i>170</i>
+		<i>131</i>
+		<i>168</i>
+		<i>131</i>
+		<i>185</i>
+		<i>130</i>
+		<i>169</i>
+		<i>167</i>
+		<i>130</i>
+		<i>167</i>
+		<i>184</i>
+		<i>185</i>
+		<i>187</i>
+		<i>166</i>
+		<i>185</i>
+		<i>166</i>
+		<i>168</i>
+		<i>165</i>
+		<i>186</i>
+		<i>184</i>
+		<i>165</i>
+		<i>184</i>
+		<i>167</i>
+		<i>172</i>
+		<i>133</i>
+		<i>170</i>
+		<i>133</i>
+		<i>131</i>
+		<i>170</i>
+		<i>130</i>
+		<i>132</i>
+		<i>169</i>
+		<i>132</i>
+		<i>171</i>
+		<i>169</i>
+		<i>174</i>
+		<i>135</i>
+		<i>133</i>
+		<i>174</i>
+		<i>133</i>
+		<i>172</i>
+		<i>132</i>
+		<i>134</i>
+		<i>173</i>
+		<i>132</i>
+		<i>173</i>
+		<i>171</i>
+		<i>175</i>
+		<i>136</i>
+		<i>135</i>
+		<i>175</i>
+		<i>135</i>
+		<i>174</i>
+		<i>134</i>
+		<i>136</i>
+		<i>175</i>
+		<i>134</i>
+		<i>175</i>
+		<i>173</i>
+		<i>183</i>
+		<i>181</i>
+		<i>177</i>
+		<i>181</i>
+		<i>176</i>
+		<i>177</i>
+		<i>176</i>
+		<i>180</i>
+		<i>177</i>
+		<i>180</i>
+		<i>182</i>
+		<i>177</i>
+		<i>177</i>
+		<i>67</i>
+		<i>112</i>
+		<i>177</i>
+		<i>112</i>
+		<i>183</i>
+		<i>111</i>
+		<i>67</i>
+		<i>177</i>
+		<i>111</i>
+		<i>177</i>
+		<i>182</i>
+		<i>67</i>
+		<i>162</i>
+		<i>112</i>
+		<i>162</i>
+		<i>110</i>
+		<i>112</i>
+		<i>109</i>
+		<i>161</i>
+		<i>111</i>
+		<i>161</i>
+		<i>67</i>
+		<i>111</i>
+		<i>176</i>
+		<i>181</i>
+		<i>114</i>
+		<i>176</i>
+		<i>114</i>
+		<i>164</i>
+		<i>113</i>
+		<i>180</i>
+		<i>176</i>
+		<i>113</i>
+		<i>176</i>
+		<i>163</i>
+		<i>146</i>
+		<i>164</i>
+		<i>114</i>
+		<i>146</i>
+		<i>114</i>
+		<i>116</i>
+		<i>113</i>
+		<i>163</i>
+		<i>145</i>
+		<i>113</i>
+		<i>145</i>
+		<i>115</i>
+		<i>148</i>
+		<i>146</i>
+		<i>118</i>
+		<i>146</i>
+		<i>116</i>
+		<i>118</i>
+		<i>115</i>
+		<i>145</i>
+		<i>117</i>
+		<i>145</i>
+		<i>147</i>
+		<i>117</i>
+		<i>150</i>
+		<i>148</i>
+		<i>120</i>
+		<i>148</i>
+		<i>118</i>
+		<i>120</i>
+		<i>117</i>
+		<i>147</i>
+		<i>119</i>
+		<i>147</i>
+		<i>149</i>
+		<i>119</i>
+		<i>152</i>
+		<i>150</i>
+		<i>122</i>
+		<i>150</i>
+		<i>120</i>
+		<i>122</i>
+		<i>119</i>
+		<i>149</i>
+		<i>121</i>
+		<i>149</i>
+		<i>151</i>
+		<i>121</i>
+		<i>154</i>
+		<i>152</i>
+		<i>124</i>
+		<i>152</i>
+		<i>122</i>
+		<i>124</i>
+		<i>121</i>
+		<i>151</i>
+		<i>123</i>
+		<i>151</i>
+		<i>153</i>
+		<i>123</i>
+		<i>156</i>
+		<i>154</i>
+		<i>126</i>
+		<i>154</i>
+		<i>124</i>
+		<i>126</i>
+		<i>123</i>
+		<i>153</i>
+		<i>125</i>
+		<i>153</i>
+		<i>155</i>
+		<i>125</i>
+		<i>158</i>
+		<i>156</i>
+		<i>179</i>
+		<i>156</i>
+		<i>126</i>
+		<i>179</i>
+		<i>125</i>
+		<i>155</i>
+		<i>178</i>
+		<i>155</i>
+		<i>157</i>
+		<i>178</i>
+		<i>158</i>
+		<i>179</i>
+		<i>128</i>
+		<i>158</i>
+		<i>128</i>
+		<i>160</i>
+		<i>127</i>
+		<i>178</i>
+		<i>157</i>
+		<i>127</i>
+		<i>157</i>
+		<i>159</i>
+		<i>160</i>
+		<i>128</i>
+		<i>162</i>
+		<i>128</i>
+		<i>110</i>
+		<i>162</i>
+		<i>109</i>
+		<i>127</i>
+		<i>161</i>
+		<i>127</i>
+		<i>159</i>
+		<i>161</i>
+		<i>67</i>
+		<i>66</i>
+		<i>162</i>
+		<i>66</i>
+		<i>108</i>
+		<i>162</i>
+		<i>107</i>
+		<i>66</i>
+		<i>161</i>
+		<i>66</i>
+		<i>67</i>
+		<i>161</i>
+		<i>162</i>
+		<i>108</i>
+		<i>160</i>
+		<i>108</i>
+		<i>106</i>
+		<i>160</i>
+		<i>105</i>
+		<i>107</i>
+		<i>159</i>
+		<i>107</i>
+		<i>161</i>
+		<i>159</i>
+		<i>160</i>
+		<i>106</i>
+		<i>158</i>
+		<i>106</i>
+		<i>104</i>
+		<i>158</i>
+		<i>103</i>
+		<i>105</i>
+		<i>157</i>
+		<i>105</i>
+		<i>159</i>
+		<i>157</i>
+		<i>158</i>
+		<i>104</i>
+		<i>102</i>
+		<i>158</i>
+		<i>102</i>
+		<i>156</i>
+		<i>101</i>
+		<i>103</i>
+		<i>157</i>
+		<i>101</i>
+		<i>157</i>
+		<i>155</i>
+		<i>156</i>
+		<i>102</i>
+		<i>154</i>
+		<i>102</i>
+		<i>100</i>
+		<i>154</i>
+		<i>99</i>
+		<i>101</i>
+		<i>153</i>
+		<i>101</i>
+		<i>155</i>
+		<i>153</i>
+		<i>154</i>
+		<i>100</i>
+		<i>152</i>
+		<i>100</i>
+		<i>98</i>
+		<i>152</i>
+		<i>97</i>
+		<i>99</i>
+		<i>151</i>
+		<i>99</i>
+		<i>153</i>
+		<i>151</i>
+		<i>152</i>
+		<i>98</i>
+		<i>150</i>
+		<i>98</i>
+		<i>96</i>
+		<i>150</i>
+		<i>95</i>
+		<i>97</i>
+		<i>149</i>
+		<i>97</i>
+		<i>151</i>
+		<i>149</i>
+		<i>150</i>
+		<i>96</i>
+		<i>94</i>
+		<i>150</i>
+		<i>94</i>
+		<i>148</i>
+		<i>93</i>
+		<i>95</i>
+		<i>149</i>
+		<i>93</i>
+		<i>149</i>
+		<i>147</i>
+		<i>148</i>
+		<i>94</i>
+		<i>146</i>
+		<i>94</i>
+		<i>92</i>
+		<i>146</i>
+		<i>91</i>
+		<i>93</i>
+		<i>145</i>
+		<i>93</i>
+		<i>147</i>
+		<i>145</i>
+		<i>146</i>
+		<i>92</i>
+		<i>79</i>
+		<i>146</i>
+		<i>79</i>
+		<i>164</i>
+		<i>78</i>
+		<i>91</i>
+		<i>145</i>
+		<i>78</i>
+		<i>145</i>
+		<i>163</i>
+		<i>168</i>
+		<i>166</i>
+		<i>81</i>
+		<i>168</i>
+		<i>81</i>
+		<i>83</i>
+		<i>80</i>
+		<i>165</i>
+		<i>167</i>
+		<i>80</i>
+		<i>167</i>
+		<i>82</i>
+		<i>170</i>
+		<i>168</i>
+		<i>83</i>
+		<i>170</i>
+		<i>83</i>
+		<i>85</i>
+		<i>82</i>
+		<i>167</i>
+		<i>169</i>
+		<i>82</i>
+		<i>169</i>
+		<i>84</i>
+		<i>172</i>
+		<i>170</i>
+		<i>85</i>
+		<i>172</i>
+		<i>85</i>
+		<i>87</i>
+		<i>84</i>
+		<i>169</i>
+		<i>171</i>
+		<i>84</i>
+		<i>171</i>
+		<i>86</i>
+		<i>174</i>
+		<i>172</i>
+		<i>89</i>
+		<i>172</i>
+		<i>87</i>
+		<i>89</i>
+		<i>86</i>
+		<i>171</i>
+		<i>88</i>
+		<i>171</i>
+		<i>173</i>
+		<i>88</i>
+		<i>175</i>
+		<i>174</i>
+		<i>90</i>
+		<i>174</i>
+		<i>89</i>
+		<i>90</i>
+		<i>88</i>
+		<i>173</i>
+		<i>90</i>
+		<i>173</i>
+		<i>175</i>
+		<i>90</i>
+		<i>49</i>
+		<i>47</i>
+		<i>1</i>
+		<i>49</i>
+		<i>1</i>
+		<i>65</i>
+		<i>0</i>
+		<i>46</i>
+		<i>48</i>
+		<i>0</i>
+		<i>48</i>
+		<i>64</i>
+		<i>65</i>
+		<i>1</i>
+		<i>11</i>
+		<i>65</i>
+		<i>11</i>
+		<i>63</i>
+		<i>10</i>
+		<i>0</i>
+		<i>64</i>
+		<i>10</i>
+		<i>64</i>
+		<i>62</i>
+		<i>63</i>
+		<i>11</i>
+		<i>13</i>
+		<i>63</i>
+		<i>13</i>
+		<i>59</i>
+		<i>12</i>
+		<i>10</i>
+		<i>62</i>
+		<i>12</i>
+		<i>62</i>
+		<i>58</i>
+		<i>59</i>
+		<i>13</i>
+		<i>23</i>
+		<i>59</i>
+		<i>23</i>
+		<i>57</i>
+		<i>22</i>
+		<i>12</i>
+		<i>58</i>
+		<i>22</i>
+		<i>58</i>
+		<i>56</i>
+		<i>57</i>
+		<i>23</i>
+		<i>55</i>
+		<i>23</i>
+		<i>25</i>
+		<i>55</i>
+		<i>24</i>
+		<i>22</i>
+		<i>54</i>
+		<i>22</i>
+		<i>56</i>
+		<i>54</i>
+		<i>55</i>
+		<i>25</i>
+		<i>53</i>
+		<i>25</i>
+		<i>35</i>
+		<i>53</i>
+		<i>34</i>
+		<i>24</i>
+		<i>52</i>
+		<i>24</i>
+		<i>54</i>
+		<i>52</i>
+		<i>53</i>
+		<i>35</i>
+		<i>51</i>
+		<i>35</i>
+		<i>37</i>
+		<i>51</i>
+		<i>36</i>
+		<i>34</i>
+		<i>50</i>
+		<i>34</i>
+		<i>52</i>
+		<i>50</i>
+		<i>51</i>
+		<i>37</i>
+		<i>49</i>
+		<i>37</i>
+		<i>47</i>
+		<i>49</i>
+		<i>46</i>
+		<i>36</i>
+		<i>48</i>
+		<i>36</i>
+		<i>50</i>
+		<i>48</i>
+		<i>45</i>
+		<i>47</i>
+		<i>39</i>
+		<i>47</i>
+		<i>37</i>
+		<i>39</i>
+		<i>36</i>
+		<i>46</i>
+		<i>38</i>
+		<i>46</i>
+		<i>44</i>
+		<i>38</i>
+		<i>43</i>
+		<i>45</i>
+		<i>41</i>
+		<i>45</i>
+		<i>39</i>
+		<i>41</i>
+		<i>38</i>
+		<i>44</i>
+		<i>40</i>
+		<i>44</i>
+		<i>42</i>
+		<i>40</i>
+		<i>41</i>
+		<i>39</i>
+		<i>31</i>
+		<i>39</i>
+		<i>33</i>
+		<i>31</i>
+		<i>32</i>
+		<i>38</i>
+		<i>30</i>
+		<i>38</i>
+		<i>40</i>
+		<i>30</i>
+		<i>39</i>
+		<i>37</i>
+		<i>33</i>
+		<i>37</i>
+		<i>35</i>
+		<i>33</i>
+		<i>34</i>
+		<i>36</i>
+		<i>32</i>
+		<i>36</i>
+		<i>38</i>
+		<i>32</i>
+		<i>33</i>
+		<i>35</i>
+		<i>27</i>
+		<i>35</i>
+		<i>25</i>
+		<i>27</i>
+		<i>24</i>
+		<i>34</i>
+		<i>26</i>
+		<i>34</i>
+		<i>32</i>
+		<i>26</i>
+		<i>31</i>
+		<i>33</i>
+		<i>29</i>
+		<i>33</i>
+		<i>27</i>
+		<i>29</i>
+		<i>26</i>
+		<i>32</i>
+		<i>28</i>
+		<i>32</i>
+		<i>30</i>
+		<i>28</i>
+		<i>29</i>
+		<i>27</i>
+		<i>19</i>
+		<i>27</i>
+		<i>21</i>
+		<i>19</i>
+		<i>20</i>
+		<i>26</i>
+		<i>18</i>
+		<i>26</i>
+		<i>28</i>
+		<i>18</i>
+		<i>27</i>
+		<i>25</i>
+		<i>23</i>
+		<i>27</i>
+		<i>23</i>
+		<i>21</i>
+		<i>22</i>
+		<i>24</i>
+		<i>26</i>
+		<i>22</i>
+		<i>26</i>
+		<i>20</i>
+		<i>21</i>
+		<i>23</i>
+		<i>15</i>
+		<i>23</i>
+		<i>13</i>
+		<i>15</i>
+		<i>12</i>
+		<i>22</i>
+		<i>14</i>
+		<i>22</i>
+		<i>20</i>
+		<i>14</i>
+		<i>19</i>
+		<i>21</i>
+		<i>17</i>
+		<i>21</i>
+		<i>15</i>
+		<i>17</i>
+		<i>14</i>
+		<i>20</i>
+		<i>16</i>
+		<i>20</i>
+		<i>18</i>
+		<i>16</i>
+		<i>17</i>
+		<i>15</i>
+		<i>9</i>
+		<i>17</i>
+		<i>9</i>
+		<i>7</i>
+		<i>8</i>
+		<i>14</i>
+		<i>16</i>
+		<i>8</i>
+		<i>16</i>
+		<i>6</i>
+		<i>15</i>
+		<i>13</i>
+		<i>11</i>
+		<i>15</i>
+		<i>11</i>
+		<i>9</i>
+		<i>10</i>
+		<i>12</i>
+		<i>14</i>
+		<i>10</i>
+		<i>14</i>
+		<i>8</i>
+		<i>9</i>
+		<i>11</i>
+		<i>1</i>
+		<i>9</i>
+		<i>1</i>
+		<i>3</i>
+		<i>0</i>
+		<i>10</i>
+		<i>8</i>
+		<i>0</i>
+		<i>8</i>
+		<i>2</i>
+		<i>7</i>
+		<i>9</i>
+		<i>3</i>
+		<i>7</i>
+		<i>3</i>
+		<i>5</i>
+		<i>2</i>
+		<i>8</i>
+		<i>6</i>
+		<i>2</i>
+		<i>6</i>
+		<i>4</i>
+		<i>5</i>
+		<i>3</i>
+		<i>45</i>
+		<i>5</i>
+		<i>45</i>
+		<i>43</i>
+		<i>44</i>
+		<i>2</i>
+		<i>4</i>
+		<i>44</i>
+		<i>4</i>
+		<i>42</i>
+		<i>3</i>
+		<i>1</i>
+		<i>47</i>
+		<i>3</i>
+		<i>47</i>
+		<i>45</i>
+		<i>46</i>
+		<i>0</i>
+		<i>2</i>
+		<i>46</i>
+		<i>2</i>
+		<i>44</i>
+	</indices>
+	<tex>leopardfurtexture.jpg</tex>
+</model>

@@ -20,21 +20,21 @@ public class Mesh extends Group {
 	private FloatBuffer mVerticesBuffer = null;
 	private FloatBuffer mColorBuffer 	= null;
 	private FloatBuffer mTextureBuffer  = null;
+	private FloatBuffer mNormalsBuffer  = null;
+	private FloatBuffer mVNormalsBuffer = null;
 	private ShortBuffer mIndicesBuffer 	= null;
 	
 	private int 	mNumIndices 	= -1;
-	private int[] 	mTextures 		= new int[1];
+	protected int[] 	mTextures 		= new int[1];
 	
 	private float[] mRGBA = new float[] { 1.0f, 1.0f, 1.0f, 1.0f };
 	
-	private String  mTextureString 	= null;
-	
-	public boolean mTexLoaded 		= false;
+	protected String  mTextureString 	= null;
 	
 	@Override
 	public void draw(GL10 gl) throws IOException {
 		Log.e("Model", "Drawing: " + this);
-		Log.e("Model", this + " rx = " + rx);
+		Log.e("Model", this + " rx = " + mRx);
 		super.draw(gl);
 		if (mVerticesBuffer != null) {
 			
@@ -43,11 +43,14 @@ public class Mesh extends Group {
 			gl.glCullFace(GL10.GL_BACK);
 			
 			gl.glEnableClientState(GL10.GL_VERTEX_ARRAY);
+			gl.glEnableClientState(GL10.GL_NORMAL_ARRAY);
 			
 			gl.glVertexPointer(3, GL10.GL_FLOAT, 0, mVerticesBuffer);	
-		
+			gl.glNormalPointer(GL10.GL_FLOAT, 0, mVNormalsBuffer);
+			
 			if (mTextureBuffer != null && mTextureString != null) {
-				gl.glBindTexture(GL10.GL_TEXTURE_2D, mTextures[0]);
+				Log.e("Mesh", "Texture buffer not null");
+				Log.e("Mesh", "mTextures[0]: " + mTextures[0]);
 				gl.glEnableClientState(GL10.GL_TEXTURE_COORD_ARRAY);
 				gl.glTexCoordPointer(2, GL10.GL_FLOAT, 0, mTextureBuffer);
 			}
@@ -61,16 +64,18 @@ public class Mesh extends Group {
 			
 			gl.glPushMatrix();
 			
-			gl.glTranslatef(x, y, z);
-			gl.glRotatef(rx, 1, 0, 0);
-			gl.glRotatef(ry, 0, 1, 0);
-			gl.glRotatef(rz, 0, 0, 1);
+			gl.glTranslatef(mX, mY, mZ);
+			gl.glRotatef(mRx, 1, 0, 0);
+			gl.glRotatef(mRy, 0, 1, 0);
+			gl.glRotatef(mRz, 0, 0, 1);
 			
 			gl.glDrawElements(GL10.GL_TRIANGLES, mNumIndices, GL10.GL_UNSIGNED_SHORT, mIndicesBuffer);
 			
 			gl.glPopMatrix();
 			
 			gl.glDisableClientState(GL10.GL_VERTEX_ARRAY);
+			gl.glDisableClientState(GL10.GL_NORMAL_ARRAY);
+			
 			if (mTextureString != null) {
 				gl.glDisableClientState(GL10.GL_TEXTURE_COORD_ARRAY);
 			}
@@ -86,6 +91,21 @@ public class Mesh extends Group {
 		mVerticesBuffer.position(0);
 	}
 	
+	public void setNormals(float[] normals) {
+		ByteBuffer nbb = ByteBuffer.allocateDirect(normals.length * 4);
+		nbb.order(ByteOrder.nativeOrder());
+		mNormalsBuffer = nbb.asFloatBuffer();
+		mNormalsBuffer.put(normals);
+		mNormalsBuffer.position(0);
+	}
+	
+	public void setVNormals(float[] vnormals) {
+		ByteBuffer nbb = ByteBuffer.allocateDirect(vnormals.length * 4);
+		nbb.order(ByteOrder.nativeOrder());
+		mVNormalsBuffer = nbb.asFloatBuffer();
+		mVNormalsBuffer.put(vnormals);
+		mVNormalsBuffer.position(0);		
+	}
 	
 	public void setIndices(short[] indices) {
 		ByteBuffer ibb = ByteBuffer.allocateDirect(indices.length * 2);
@@ -104,36 +124,6 @@ public class Mesh extends Group {
 		mTextureBuffer.position(0);
 	}
 	
-	protected void loadTexture(GL10 gl, Context context) throws IOException {
-		Log.e("Mesh", "Loading texture: " + mTextureString);
-		AssetManager assetManager = context.getAssets();
-		InputStream is = assetManager.open(mTextureString);
-		Bitmap bitmap = null;
-		
-		try { 
-			bitmap = BitmapFactory.decodeStream(is);
-		} finally {
-			try {
-				is.close();
-				is = null;
-			} catch (IOException e) {}
-		}
-		
-		gl.glGenTextures(1, mTextures, 0);
-		gl.glBindTexture(GL10.GL_TEXTURE_2D, mTextures[0]);
-		
-		gl.glTexParameterf(GL10.GL_TEXTURE_2D, GL10.GL_TEXTURE_MIN_FILTER, GL10.GL_NEAREST);
-		gl.glTexParameterf(GL10.GL_TEXTURE_2D, GL10.GL_TEXTURE_MAG_FILTER, GL10.GL_LINEAR);
-		
-		gl.glTexParameterf(GL10.GL_TEXTURE_2D, GL10.GL_TEXTURE_WRAP_S, GL10.GL_REPEAT);
-		gl.glTexParameterf(GL10.GL_TEXTURE_2D, GL10.GL_TEXTURE_WRAP_T, GL10.GL_REPEAT);
-		
-		GLUtils.texImage2D(GL10.GL_TEXTURE_2D, 0, bitmap, 0);
-		
-		mTexLoaded = true;
-		
-		bitmap.recycle();
-	}
 	
 	protected void setColor(float red, float green, float blue, float alpha) {
 		mRGBA[0] = red;

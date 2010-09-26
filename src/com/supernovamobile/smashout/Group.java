@@ -5,6 +5,7 @@ import java.util.Vector;
 
 import javax.microedition.khronos.opengles.GL10;
 
+import android.content.Context;
 import android.util.Log;
 
 public class Group {
@@ -12,13 +13,13 @@ public class Group {
 	protected Vector<Group> mChildren = new Vector<Group>();
 	protected String mName = "" + this.hashCode();
 	
-	public float x = 0;
-	public float y = 0;
-	public float z = 0;
+	protected float mX = 0;
+	protected float mY = 0;
+	protected float mZ = 0;
 	
-	public float rx = 0;
-	public float ry = 0;
-	public float rz = 0;
+	protected float mRx = 0;
+	protected float mRy = 0;
+	protected float mRz = 0;
 	
 	public void draw(GL10 gl) throws IOException {
 		int size = mChildren.size();
@@ -62,5 +63,60 @@ public class Group {
 	@Override
 	public String toString() {
 		return mName;
+	}
+
+	protected void loadTextures(GL10 gl, Context context) throws IOException {
+		int size = mChildren.size();
+		for (int i = 0; i < size; i++) {
+			mChildren.get(i).loadTextures(gl, context);
+		}
+	}
+	
+	public void setX(float x) {
+		mX = x;
+	}
+	
+	public float getX() {
+		return mX;
+	}
+	
+	public void setY(float y) {
+		mY = y;
+	}
+	
+	public float getY() {
+		return mY;
+	}
+	
+	public void setZ(float z) {
+		mZ = z;
+	}
+	
+	public float getZ() {
+		return mZ;
+	}
+	
+	public void setRx(float rx) {
+		mRx = rx;
+	}
+	
+	public float getRx() {
+		return mRx;
+	}
+	
+	public void setRy(float ry) {
+		mRy = ry;
+	}
+	
+	public float getRy() {
+		return mRy;
+	}
+	
+	public void setRz(float rz) {
+		mRz = rz;
+	}
+	
+	public float getRz() {
+		return mRz;
 	}
 }
