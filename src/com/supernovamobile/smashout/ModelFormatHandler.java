@@ -19,6 +19,9 @@ public class ModelFormatHandler extends DefaultHandler {
     public static final int STATE_VX        = 8;
     public static final int STATE_VY        = 9;
     public static final int STATE_VZ        = 10;
+    public static final int STATE_VNX        = 11;
+    public static final int STATE_VNY        = 12;
+    public static final int STATE_VNZ        = 13;
     public static final int STATE_INDEX     = 19;
     public static final int STATE_UV        = 20;
     public static final int STATE_U         = 21;
@@ -34,6 +37,9 @@ public class ModelFormatHandler extends DefaultHandler {
     public static final String TAG_VX       = "vx";
     public static final String TAG_VY       = "vy";
     public static final String TAG_VZ       = "vz";
+    public static final String TAG_VNX      = "vnx";
+    public static final String TAG_VNY      = "vny";
+    public static final String TAG_VNZ      = "vnz";
     public static final String TAG_INDEX    = "i";
     public static final String TAG_UV       = "uv";
     public static final String TAG_U        = "u";
@@ -45,7 +51,7 @@ public class ModelFormatHandler extends DefaultHandler {
     private ArrayList<Float> mCurrentVerts      = null;
     private ArrayList<Integer> mCurrentIndices  = null;
     private ArrayList<Float> mCurrentCoords     = null;
-    
+    private ArrayList<Float> mCurrentVNormals   = null;
     public ModelFormatHandler() {
     }
     
@@ -67,6 +73,7 @@ public class ModelFormatHandler extends DefaultHandler {
             mCurrentVerts = new ArrayList<Float>();
             mCurrentIndices = new ArrayList<Integer>();
             mCurrentCoords = new ArrayList<Float>();
+            mCurrentVNormals = new ArrayList<Float>();
             
         } else if (localName.equalsIgnoreCase(TAG_TEXTURE)) {
             mState = STATE_TEXTURE;
@@ -86,8 +93,17 @@ public class ModelFormatHandler extends DefaultHandler {
         } else if (localName.equalsIgnoreCase(TAG_VZ)) {
             mState = STATE_VZ;
         
+        }else if (localName.equalsIgnoreCase(TAG_VNX)) {
+            mState = STATE_VNX;
+            
+        } else if (localName.equalsIgnoreCase(TAG_VNY)) {
+            mState = STATE_VNY;
+            
+        } else if (localName.equalsIgnoreCase(TAG_VNZ)) {
+            mState = STATE_VNZ;
+            
         } else if (localName.equalsIgnoreCase(TAG_INDEX)) {
-            mState = STATE_INDEX;
+        	mState = STATE_INDEX;
         
         } else if (localName.equalsIgnoreCase(TAG_UV)) {
             mState = STATE_UV;
@@ -125,6 +141,15 @@ public class ModelFormatHandler extends DefaultHandler {
             mModel.setIndices(indices);
             mCurrentIndices = null;
             
+            // Set Vertex Normals
+            float[] vnormals = new float[mCurrentVNormals.size()];
+            for (int i = 0; i < vnormals.length; i++) {
+            	vnormals[i] = mCurrentVNormals.get(i).floatValue();
+            }
+        
+            mModel.setVNormals(vnormals);
+            mCurrentVNormals = null;
+        
             // Set UV Coords
             float[] coords = new float[mCurrentCoords.size()];
             for (int i = 0; i < coords.length; i++) {
@@ -148,6 +173,12 @@ public class ModelFormatHandler extends DefaultHandler {
             mCurrentVerts.add(Float.valueOf(strCharacters.trim()));
         } else if (mState == STATE_VZ) {
             mCurrentVerts.add(Float.valueOf(strCharacters.trim()));
+        } else if (mState == STATE_VNX) {
+            mCurrentVNormals.add(Float.valueOf(strCharacters.trim()));
+        } else if (mState == STATE_VNY) {
+            mCurrentVNormals.add(Float.valueOf(strCharacters.trim()));
+        } else if (mState == STATE_VNZ) {
+            mCurrentVNormals.add(Float.valueOf(strCharacters.trim()));
         } else if (mState == STATE_INDEX) {
             mCurrentIndices.add(Integer.valueOf(strCharacters.trim()));
         } else if (mState == STATE_U) {

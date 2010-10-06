@@ -21,6 +21,7 @@ public class SMMesh extends SMGroup {
     private FloatBuffer mVerticesBuffer = null;
     private FloatBuffer mColorBuffer    = null;
     private FloatBuffer mTextureBuffer  = null;
+    private FloatBuffer mVNormalsBuffer = null;
     private ShortBuffer mIndicesBuffer  = null;
     
     private int     mNumIndices     = -1;
@@ -30,7 +31,6 @@ public class SMMesh extends SMGroup {
     
     protected String  mTextureString    = null;
     
-    protected Vector<SMFace> mFaces = new Vector<SMFace>();
     
     @Override
     public void draw(GL10 gl) throws IOException {
@@ -42,8 +42,10 @@ public class SMMesh extends SMGroup {
             gl.glCullFace(GL10.GL_BACK);
             
             gl.glEnableClientState(GL10.GL_VERTEX_ARRAY);
+            gl.glEnableClientState(GL10.GL_NORMAL_ARRAY);
             
             gl.glVertexPointer(3, GL10.GL_FLOAT, 0, mVerticesBuffer);   
+            gl.glNormalPointer(3, GL10.GL_FLOAT, mVNormalsBuffer);
             
             if (mTextureBuffer != null && mTextureString != null) {
                 gl.glEnableClientState(GL10.GL_TEXTURE_COORD_ARRAY);
@@ -84,12 +86,19 @@ public class SMMesh extends SMGroup {
         mVerticesBuffer = vbb.asFloatBuffer();
         mVerticesBuffer.put(vertices);
         mVerticesBuffer.position(0);
+        setNormals();
     }
     
-    public void setNormals(float[] normals) {
+    public void setNormals() {
+
     }
     
     public void setVNormals(float[] vnormals) {
+    	ByteBuffer vnbb = ByteBuffer.allocateDirect(vnormals.length * 4);
+        vnbb.order(ByteOrder.nativeOrder());
+        mVNormalsBuffer = vnbb.asFloatBuffer();
+        mVNormalsBuffer.put(vnormals);
+        mVNormalsBuffer.position(0);
     }
     
     public void setIndices(short[] indices) {
@@ -128,11 +137,7 @@ public class SMMesh extends SMGroup {
     public void setTextureStr(String texture) {
         mTextureString = texture;
     }
-    
-    public void addFace(SMFace f) {
-        mFaces.add(f);
-    }
-    
+        
     public String getTextureStr() {
         return mTextureString;
     }

@@ -12,7 +12,7 @@ public class SMFace {
         mV2 = v2;
         mV3 = v3;
         
-        mNormal = SMFace.calcSurfaceNormal(this);
+        //mNormal = SMFace.calcSurfaceNormal(this);
     }
     
     public static SMVector calcSurfaceNormal(SMFace f) {

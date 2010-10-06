@@ -32,7 +32,7 @@ public class SmashoutGLRenderer implements Renderer {
      */
     private float[] lightAmbient = {0.5f, 0.5f, 0.5f, 1.0f};
     private float[] lightDiffuse = {1.0f, 1.0f, 1.0f, 1.0f};
-    private float[] lightPosition = {0.0f, 0.0f, -3.0f, 1.0f};
+    private float[] lightPosition = {2.0f, 2.0f, 15.0f, 1.0f};
         
     /* The buffers for our light values ( NEW ) */
     private FloatBuffer lightAmbientBuffer;
@@ -90,7 +90,9 @@ public class SmashoutGLRenderer implements Renderer {
         mCube.setRy(mCube.getRy() + 5);
         
         //mCube2.setX(5.0f);
+        gl.glPopMatrix();
         
+        gl.glPushMatrix();
         try {
             mScene.draw(gl);
         } catch (IOException e) {
@@ -98,6 +100,8 @@ public class SmashoutGLRenderer implements Renderer {
             e.printStackTrace();
         }
         gl.glPopMatrix();
+        
+        
     }
 
     @Override
@@ -123,7 +127,11 @@ public class SmashoutGLRenderer implements Renderer {
         //Settings
         gl.glDisable(GL10.GL_DITHER);               //Disable dithering ( NEW )
         gl.glEnable(GL10.GL_TEXTURE_2D);            //Enable Texture Mapping
-        gl.glShadeModel(GL10.GL_SMOOTH);            //Enable Smooth Shading
+        
+        //Flat shading for now 
+        // TODO: Calculate vertex normals and switch to smooth after fixing U/V
+        // calculations.
+        gl.glShadeModel(GL10.GL_SMOOTH);            	
         gl.glClearColor(0.0f, 0.0f, 0.0f, 0.5f);    //Black Background
         gl.glClearDepthf(1.0f);                     //Depth Buffer Setup
         gl.glEnable(GL10.GL_DEPTH_TEST);            //Enables Depth Testing
