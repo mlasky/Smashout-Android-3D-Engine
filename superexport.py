@@ -17,19 +17,24 @@ def write_obj(filePath):
     mesh = obj.getData(mesh=1)
     
     out.write('<model>\n')
-    out.write('\t<verts>\n')
-    
-    for vert in mesh.verts:
-        out.write('\t\t<vx>%f</vx>\n' % (vert.co.x))
-        out.write('\t\t<vy>%f</vy>\n' % (vert.co.y))
-        out.write('\t\t<vz>%f</vz>\n\n' % (vert.co.z))
-    
-    out.write('\t</verts>\n')
+    #out.write('\t<verts>\n')
+    #out.write('\t</verts>\n')
     out.write('\t<indices>\n')
 
+    i = 0
     for face in mesh.faces:
         for vert in face.v:
-            out.write('\t\t<i>%i</i>\n' % (vert.index))
+            out.write('\t\t<vx>%f</vx>\n' % (vert.co.x))
+            out.write('\t\t<vy>%f</vy>\n' % (vert.co.y))
+            out.write('\t\t<vz>%f</vz>\n\n' % (vert.co.z))
+
+            out.write('\t\t<i>%i</i>\n' % (i))
+            i = i + 1
+            
+            out.write('\t\t<vnx>%f</vnx>\n' % (vert.no.x))
+            out.write('\t\t<vny>%f</vny>\n' % (vert.no.y))
+            out.write('\t\t<vnz>%f</vnz>\n\n' % (vert.no.z))
+                
         
     out.write('\t</indices>\n')
     if mesh.faceUV:
