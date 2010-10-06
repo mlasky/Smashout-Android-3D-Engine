@@ -18,9 +18,9 @@ import android.util.Log;
 
 public class SmashoutGLRenderer implements Renderer {
 
-	private Group 	mScene;
-	private Model 	mCube;
-	private Model	mCube2;
+	private SMGroup 	mScene;
+	private SMModel 	mCube;
+	private SMModel	mCube2;
 	private Context mContext;
 	
 	/** Is light enabled ( NEW ) */
@@ -32,7 +32,7 @@ public class SmashoutGLRenderer implements Renderer {
 	 */
 	private float[] lightAmbient = {0.5f, 0.5f, 0.5f, 1.0f};
 	private float[] lightDiffuse = {1.0f, 1.0f, 1.0f, 1.0f};
-	private float[] lightPosition = {0.0f, 0.0f, 3.0f, 1.0f};
+	private float[] lightPosition = {0.0f, 0.0f, -3.0f, 1.0f};
 		
 	/* The buffers for our light values ( NEW ) */
 	private FloatBuffer lightAmbientBuffer;
@@ -44,11 +44,11 @@ public class SmashoutGLRenderer implements Renderer {
 	{
 		mContext = context;
 		
-		mScene = new Group();
-		mCube = new Model(R.raw.cube, context, "Cube_1");
-		mCube2 = new Model(R.raw.cube, context, "Cube_2");
+		mScene = new SMGroup();
+		mCube = new SMModel(R.raw.cube, context, "Cube_1");
+		//mCube2 = new Model(R.raw.sub, context, "Cube_2");
 		mScene.add(mCube);
-		mScene.add(mCube2);
+		//mScene.add(mCube2);
 		mCube.setRx(45.0f);
 		
 		ByteBuffer byteBuf = ByteBuffer.allocateDirect(lightAmbient.length * 4);
@@ -87,9 +87,9 @@ public class SmashoutGLRenderer implements Renderer {
 		
 		gl.glPushMatrix();
 		//mCube.setRx(mCube.getRx() + 1);
-		mCube.setRy(mCube.getRy() + 1);
+		mCube.setRy(mCube.getRy() + 5);
 		
-		mCube2.setX(5.0f);
+		//mCube2.setX(5.0f);
 		
 		try {
 			mScene.draw(gl);

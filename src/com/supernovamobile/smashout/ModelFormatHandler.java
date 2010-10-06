@@ -56,7 +56,7 @@ public class ModelFormatHandler extends DefaultHandler {
 	public static final String TAG_V		= "v";
 	
 	private int 		mState 					= STATE_UNKNOWN;
-	private Mesh		mModel					= null;
+	private SMMesh		mModel					= null;
 	
 	private ArrayList<Float> mCurrentVerts 		= null;
 	private ArrayList<Integer> mCurrentIndices	= null;
@@ -81,7 +81,7 @@ public class ModelFormatHandler extends DefaultHandler {
 	public void startElement(String uri, String localName, String qName, Attributes attributes) {
 		if (localName.equalsIgnoreCase(TAG_MODEL)) {
 			mState = STATE_MODEL;
-			mModel = new Mesh();
+			mModel = new SMMesh();
 			mCurrentVerts = new ArrayList<Float>();
 			mCurrentIndices = new ArrayList<Integer>();
 			mCurrentNormals = new ArrayList<Float>();
@@ -231,7 +231,7 @@ public class ModelFormatHandler extends DefaultHandler {
 		}
 	}
 	
-	public Mesh getModel() {
+	public SMMesh getModel() {
 		return mModel;
 	}
 }

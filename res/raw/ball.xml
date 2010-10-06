@@ -1,414 +1,4003 @@
 <model>
-	<verts>
-		<v>0.000000</v>
-		<v>0.000000</v>
-		<v>-1.000000</v>
+	<face>
+		<normal>
+			<nx>0.031041</nx>
+			<ny>0.248065</ny>
+			<nz>-0.968246</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.134515</vx>
+				<vy>-0.043529</vy>
+				<vz>-0.548602</vz>
 
-		<v>0.723600</v>
-		<v>-0.525720</v>
-		<v>-0.447215</v>
+				<vnormal>
+					<vnx>-0.138859</vnx>
+					<vny>-0.041108</vny>
+					<vnz>-0.989441</vnz>
+				</vnormal>
+				<index>0</index>
+			</vert>
+			<vert>
+				<vx>0.190330</vx>
+				<vy>0.283549</vy>
+				<vz>-0.463015</vz>
 
-		<v>-0.276385</v>
-		<v>-0.850640</v>
-		<v>-0.447215</v>
+				<vnormal>
+					<vnx>-0.038209</vnx>
+					<vny>0.548753</vny>
+					<vnz>-0.835078</vnz>
+				</vnormal>
+				<index>1</index>
+			</vert>
+			<vert>
+				<vx>0.408897</vx>
+				<vy>0.078654</vy>
+				<vz>-0.508502</vz>
 
-		<v>-0.894425</v>
-		<v>0.000000</v>
-		<v>-0.447215</v>
+				<vnormal>
+					<vnx>0.355968</vnx>
+					<vny>0.179235</vny>
+					<vnz>-0.917112</vnz>
+				</vnormal>
+				<index>2</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.275918</u>  <v>0.785943</v>
+			<u>0.432413</u>  <v>0.798258</v>
+			<u>0.347925</u>  <v>0.858214</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.275717</nx>
+			<ny>0.287098</ny>
+			<nz>-0.917363</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.190330</vx>
+				<vy>0.283549</vy>
+				<vz>-0.463015</vz>
 
-		<v>-0.276385</v>
-		<v>0.850640</v>
-		<v>-0.447215</v>
+				<vnormal>
+					<vnx>-0.038209</vnx>
+					<vny>0.548753</vny>
+					<vnz>-0.835078</vnz>
+				</vnormal>
+				<index>3</index>
+			</vert>
+			<vert>
+				<vx>0.134515</vx>
+				<vy>-0.043529</vy>
+				<vz>-0.548602</vz>
 
-		<v>0.723600</v>
-		<v>0.525720</v>
-		<v>-0.447215</v>
+				<vnormal>
+					<vnx>-0.138859</vnx>
+					<vny>-0.041108</vny>
+					<vnz>-0.989441</vnz>
+				</vnormal>
+				<index>4</index>
+			</vert>
+			<vert>
+				<vx>-0.118706</vx>
+				<vy>0.143919</vy>
+				<vz>-0.413831</vz>
 
-		<v>0.276385</v>
-		<v>-0.850640</v>
-		<v>0.447215</v>
+				<vnormal>
+					<vnx>-0.595569</vnx>
+					<vny>0.296915</vny>
+					<vnz>-0.746361</vnz>
+				</vnormal>
+				<index>5</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.432413</u>  <v>0.798258</v>
+			<u>0.275918</u>  <v>0.785943</v>
+			<u>0.388484</u>  <v>0.728555</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.452450</nx>
+			<ny>0.029610</ny>
+			<nz>-0.891298</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>-0.116865</vx>
+				<vy>-0.158899</vy>
+				<vz>-0.424826</vz>
 
-		<v>-0.723600</v>
-		<v>-0.525720</v>
-		<v>0.447215</v>
+				<vnormal>
+					<vnx>-0.592273</vnx>
+					<vny>-0.249214</vny>
+					<vnz>-0.766198</vnz>
+				</vnormal>
+				<index>6</index>
+			</vert>
+			<vert>
+				<vx>-0.118706</vx>
+				<vy>0.143919</vy>
+				<vz>-0.413831</vz>
 
-		<v>-0.723600</v>
-		<v>0.525720</v>
-		<v>0.447215</v>
+				<vnormal>
+					<vnx>-0.595569</vnx>
+					<vny>0.296915</vny>
+					<vnz>-0.746361</vnz>
+				</vnormal>
+				<index>7</index>
+			</vert>
+			<vert>
+				<vx>0.134515</vx>
+				<vy>-0.043529</vy>
+				<vz>-0.548602</vz>
 
-		<v>0.276385</v>
-		<v>0.850640</v>
-		<v>0.447215</v>
+				<vnormal>
+					<vnx>-0.138859</vnx>
+					<vny>-0.041108</vny>
+					<vnz>-0.989441</vnz>
+				</vnormal>
+				<index>8</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.251779</u>  <v>0.705654</v>
+			<u>0.388484</u>  <v>0.728555</v>
+			<u>0.275918</u>  <v>0.785943</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.365120</nx>
+			<ny>0.541309</ny>
+			<nz>-0.757412</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>-0.118706</vx>
+				<vy>0.143919</vy>
+				<vz>-0.413831</vz>
 
-		<v>0.894425</v>
-		<v>0.000000</v>
-		<v>0.447215</v>
+				<vnormal>
+					<vnx>-0.595569</vnx>
+					<vny>0.296915</vny>
+					<vnz>-0.746361</vnz>
+				</vnormal>
+				<index>9</index>
+			</vert>
+			<vert>
+				<vx>-0.021908</vx>
+				<vy>0.397557</vy>
+				<vz>-0.279223</vz>
 
-		<v>0.000000</v>
-		<v>0.000000</v>
-		<v>1.000000</v>
+				<vnormal>
+					<vnx>-0.421003</vnx>
+					<vny>0.754387</vny>
+					<vnz>-0.503586</vnz>
+				</vnormal>
+				<index>10</index>
+			</vert>
+			<vert>
+				<vx>0.190330</vx>
+				<vy>0.283549</vy>
+				<vz>-0.463015</vz>
 
-		<v>0.425323</v>
-		<v>-0.309011</v>
-		<v>-0.850654</v>
+				<vnormal>
+					<vnx>-0.038209</vnx>
+					<vny>0.548753</vny>
+					<vnz>-0.835078</vnz>
+				</vnormal>
+				<index>11</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.388484</u>  <v>0.728555</v>
+			<u>0.503490</u>  <v>0.747820</v>
+			<u>0.432413</u>  <v>0.798258</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.293003</nx>
+			<ny>0.494253</ny>
+			<nz>-0.818452</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.507462</vx>
+				<vy>0.306958</vy>
+				<vz>-0.335346</vz>
 
-		<v>-0.162456</v>
-		<v>-0.499995</v>
-		<v>-0.850654</v>
+				<vnormal>
+					<vnx>0.533738</vnx>
+					<vny>0.590991</vny>
+					<vnz>-0.604816</vnz>
+				</vnormal>
+				<index>12</index>
+			</vert>
+			<vert>
+				<vx>0.408897</vx>
+				<vy>0.078654</vy>
+				<vz>-0.508502</vz>
 
-		<v>0.262869</v>
-		<v>-0.809012</v>
-		<v>-0.525738</v>
+				<vnormal>
+					<vnx>0.355968</vnx>
+					<vny>0.179235</vny>
+					<vnz>-0.917112</vnz>
+				</vnormal>
+				<index>13</index>
+			</vert>
+			<vert>
+				<vx>0.190330</vx>
+				<vy>0.283549</vy>
+				<vz>-0.463015</vz>
 
-		<v>0.425323</v>
-		<v>0.309011</v>
-		<v>-0.850654</v>
+				<vnormal>
+					<vnx>-0.038209</vnx>
+					<vny>0.548753</vny>
+					<vnz>-0.835078</vnz>
+				</vnormal>
+				<index>14</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.503489</u>  <v>0.871188</v>
+			<u>0.347925</u>  <v>0.858214</v>
+			<u>0.432413</u>  <v>0.798258</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.204313</nx>
+			<ny>0.738217</ny>
+			<nz>-0.642878</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.190330</vx>
+				<vy>0.283549</vy>
+				<vz>-0.463015</vz>
 
-		<v>0.850648</v>
-		<v>0.000000</v>
-		<v>-0.525736</v>
+				<vnormal>
+					<vnx>-0.038209</vnx>
+					<vny>0.548753</vny>
+					<vnz>-0.835078</vnz>
+				</vnormal>
+				<index>15</index>
+			</vert>
+			<vert>
+				<vx>0.254239</vx>
+				<vy>0.494405</vy>
+				<vz>-0.200578</vz>
 
-		<v>-0.525730</v>
-		<v>0.000000</v>
-		<v>-0.850652</v>
+				<vnormal>
+					<vnx>0.077029</vnx>
+					<vny>0.929075</vny>
+					<vnz>-0.361736</vnz>
+				</vnormal>
+				<index>16</index>
+			</vert>
+			<vert>
+				<vx>0.507462</vx>
+				<vy>0.306958</vy>
+				<vz>-0.335346</vz>
 
-		<v>-0.688189</v>
-		<v>-0.499997</v>
-		<v>-0.525736</v>
+				<vnormal>
+					<vnx>0.533738</vnx>
+					<vny>0.590991</vny>
+					<vnz>-0.604816</vnz>
+				</vnormal>
+				<index>17</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.432413</u>  <v>0.798258</v>
+			<u>0.574566</u>  <v>0.798258</v>
+			<u>0.503489</u>  <v>0.871188</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.392990</nx>
+			<ny>0.824138</ny>
+			<nz>-0.407868</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.517627</vx>
+				<vy>0.437381</vy>
+				<vz>-0.062019</vz>
 
-		<v>-0.162456</v>
-		<v>0.499995</v>
-		<v>-0.850654</v>
+				<vnormal>
+					<vnx>0.552080</vnx>
+					<vny>0.826228</vny>
+					<vnz>-0.111850</vnz>
+				</vnormal>
+				<index>18</index>
+			</vert>
+			<vert>
+				<vx>0.507462</vx>
+				<vy>0.306958</vy>
+				<vz>-0.335346</vz>
 
-		<v>-0.688189</v>
-		<v>0.499997</v>
-		<v>-0.525736</v>
+				<vnormal>
+					<vnx>0.533738</vnx>
+					<vny>0.590991</vny>
+					<vnz>-0.604816</vnz>
+				</vnormal>
+				<index>19</index>
+			</vert>
+			<vert>
+				<vx>0.254239</vx>
+				<vy>0.494405</vy>
+				<vz>-0.200578</vz>
 
-		<v>0.262869</v>
-		<v>0.809012</v>
-		<v>-0.525738</v>
+				<vnormal>
+					<vnx>0.077029</vnx>
+					<vny>0.929075</vny>
+					<vnz>-0.361736</vnz>
+				</vnormal>
+				<index>20</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.659054</u>  <v>0.858214</v>
+			<u>0.503489</u>  <v>0.871188</v>
+			<u>0.574566</u>  <v>0.798258</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.103144</nx>
+			<ny>0.787510</ny>
+			<nz>-0.607609</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.190330</vx>
+				<vy>0.283549</vy>
+				<vz>-0.463015</vz>
 
-		<v>0.951058</v>
-		<v>0.309013</v>
-		<v>0.000000</v>
+				<vnormal>
+					<vnx>-0.038209</vnx>
+					<vny>0.548753</vny>
+					<vnz>-0.835078</vnz>
+				</vnormal>
+				<index>21</index>
+			</vert>
+			<vert>
+				<vx>-0.021908</vx>
+				<vy>0.397557</vy>
+				<vz>-0.279223</vz>
 
-		<v>0.951058</v>
-		<v>-0.309013</v>
-		<v>0.000000</v>
+				<vnormal>
+					<vnx>-0.421003</vnx>
+					<vny>0.754387</vny>
+					<vnz>-0.503586</vnz>
+				</vnormal>
+				<index>22</index>
+			</vert>
+			<vert>
+				<vx>0.254239</vx>
+				<vy>0.494405</vy>
+				<vz>-0.200578</vz>
 
-		<v>0.587786</v>
-		<v>-0.809017</v>
-		<v>0.000000</v>
+				<vnormal>
+					<vnx>0.077029</vnx>
+					<vny>0.929075</vny>
+					<vnz>-0.361736</vnz>
+				</vnormal>
+				<index>23</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.432413</u>  <v>0.798258</v>
+			<u>0.503490</u>  <v>0.747820</v>
+			<u>0.574566</u>  <v>0.798258</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.758792</nx>
+			<ny>0.019024</ny>
+			<nz>-0.651056</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>-0.301611</vx>
+				<vy>-0.058599</vy>
+				<vz>-0.206577</vz>
 
-		<v>0.000000</v>
-		<v>-1.000000</v>
-		<v>0.000000</v>
+				<vnormal>
+					<vnx>-0.925474</vnx>
+					<vny>-0.068300</vny>
+					<vnz>-0.372570</vnz>
+				</vnormal>
+				<index>24</index>
+			</vert>
+			<vert>
+				<vx>-0.118706</vx>
+				<vy>0.143919</vy>
+				<vz>-0.413831</vz>
 
-		<v>-0.587786</v>
-		<v>-0.809017</v>
-		<v>0.000000</v>
+				<vnormal>
+					<vnx>-0.595569</vnx>
+					<vny>0.296915</vny>
+					<vnz>-0.746361</vnz>
+				</vnormal>
+				<index>25</index>
+			</vert>
+			<vert>
+				<vx>-0.116865</vx>
+				<vy>-0.158899</vy>
+				<vz>-0.424826</vz>
 
-		<v>-0.951058</v>
-		<v>-0.309013</v>
-		<v>0.000000</v>
+				<vnormal>
+					<vnx>-0.592273</vnx>
+					<vny>-0.249214</vny>
+					<vnz>-0.766198</vnz>
+				</vnormal>
+				<index>26</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.362842</u>  <v>0.648013</v>
+			<u>0.388484</u>  <v>0.728555</v>
+			<u>0.251779</u>  <v>0.705654</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.837064</nx>
+			<ny>0.267700</ny>
+			<nz>-0.477139</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>-0.118706</vx>
+				<vy>0.143919</vy>
+				<vz>-0.413831</vz>
 
-		<v>-0.951058</v>
-		<v>0.309013</v>
-		<v>0.000000</v>
+				<vnormal>
+					<vnx>-0.595569</vnx>
+					<vny>0.296915</vny>
+					<vnz>-0.746361</vnz>
+				</vnormal>
+				<index>27</index>
+			</vert>
+			<vert>
+				<vx>-0.301611</vx>
+				<vy>-0.058599</vy>
+				<vz>-0.206577</vz>
 
-		<v>-0.587786</v>
-		<v>0.809017</v>
-		<v>0.000000</v>
+				<vnormal>
+					<vnx>-0.925474</vnx>
+					<vny>-0.068300</vny>
+					<vnz>-0.372570</vnz>
+				</vnormal>
+				<index>28</index>
+			</vert>
+			<vert>
+				<vx>-0.245794</vx>
+				<vy>0.268478</vy>
+				<vz>-0.120992</vz>
 
-		<v>0.000000</v>
-		<v>1.000000</v>
-		<v>0.000000</v>
+				<vnormal>
+					<vnx>-0.824793</vnx>
+					<vny>0.521592</vny>
+					<vnz>-0.218207</vnz>
+				</vnormal>
+				<index>29</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.388484</u>  <v>0.728555</v>
+			<u>0.362842</u>  <v>0.648013</v>
+			<u>0.503489</u>  <v>0.685474</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.957615</nx>
+			<ny>0.213904</ny>
+			<nz>-0.192923</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>-0.333081</vx>
+				<vy>0.053014</vy>
+				<vz>0.073379</vz>
 
-		<v>0.587786</v>
-		<v>0.809017</v>
-		<v>0.000000</v>
+				<vnormal>
+					<vnx>-0.982238</vnx>
+					<vny>0.132969</vny>
+					<vnz>0.132328</vnz>
+				</vnormal>
+				<index>30</index>
+			</vert>
+			<vert>
+				<vx>-0.245794</vx>
+				<vy>0.268478</vy>
+				<vz>-0.120992</vz>
 
-		<v>0.688189</v>
-		<v>-0.499997</v>
-		<v>0.525736</v>
+				<vnormal>
+					<vnx>-0.824793</vnx>
+					<vny>0.521592</vny>
+					<vnz>-0.218207</vnz>
+				</vnormal>
+				<index>31</index>
+			</vert>
+			<vert>
+				<vx>-0.301611</vx>
+				<vy>-0.058599</vy>
+				<vz>-0.206577</vz>
 
-		<v>-0.262869</v>
-		<v>-0.809012</v>
-		<v>0.525738</v>
+				<vnormal>
+					<vnx>-0.925474</vnx>
+					<vny>-0.068300</vny>
+					<vnz>-0.372570</vnz>
+				</vnormal>
+				<index>32</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.503489</u>  <v>0.611366</v>
+			<u>0.503489</u>  <v>0.685474</v>
+			<u>0.362842</u>  <v>0.648013</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.671480</nx>
+			<ny>0.530722</ny>
+			<nz>-0.517154</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>-0.245794</vx>
+				<vy>0.268478</vy>
+				<vz>-0.120992</vz>
 
-		<v>-0.850648</v>
-		<v>0.000000</v>
-		<v>0.525736</v>
+				<vnormal>
+					<vnx>-0.824793</vnx>
+					<vny>0.521592</vny>
+					<vnz>-0.218207</vnz>
+				</vnormal>
+				<index>33</index>
+			</vert>
+			<vert>
+				<vx>-0.021908</vx>
+				<vy>0.397557</vy>
+				<vz>-0.279223</vz>
 
-		<v>-0.262869</v>
-		<v>0.809012</v>
-		<v>0.525738</v>
+				<vnormal>
+					<vnx>-0.421003</vnx>
+					<vny>0.754387</vny>
+					<vnz>-0.503586</vnz>
+				</vnormal>
+				<index>34</index>
+			</vert>
+			<vert>
+				<vx>-0.118706</vx>
+				<vy>0.143919</vy>
+				<vz>-0.413831</vz>
 
-		<v>0.688189</v>
-		<v>0.499997</v>
-		<v>0.525736</v>
+				<vnormal>
+					<vnx>-0.595569</vnx>
+					<vny>0.296915</vny>
+					<vnz>-0.746361</vnz>
+				</vnormal>
+				<index>35</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.503489</u>  <v>0.685474</v>
+			<u>0.503490</u>  <v>0.747820</v>
+			<u>0.388484</u>  <v>0.728555</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.884975</nx>
+			<ny>0.453561</ny>
+			<nz>0.105362</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>-0.198202</vx>
+				<vy>0.282576</vy>
+				<vz>0.218059</vz>
 
-		<v>0.525730</v>
-		<v>0.000000</v>
-		<v>0.850652</v>
+				<vnormal>
+					<vnx>-0.738945</vnx>
+					<vny>0.547014</vny>
+					<vnz>0.393292</vnz>
+				</vnormal>
+				<index>36</index>
+			</vert>
+			<vert>
+				<vx>-0.245794</vx>
+				<vy>0.268478</vy>
+				<vz>-0.120992</vz>
 
-		<v>0.162456</v>
-		<v>-0.499995</v>
-		<v>0.850654</v>
+				<vnormal>
+					<vnx>-0.824793</vnx>
+					<vny>0.521592</vny>
+					<vnz>-0.218207</vnz>
+				</vnormal>
+				<index>37</index>
+			</vert>
+			<vert>
+				<vx>-0.333081</vx>
+				<vy>0.053014</vy>
+				<vz>0.073379</vz>
 
-		<v>-0.425323</v>
-		<v>-0.309011</v>
-		<v>0.850654</v>
+				<vnormal>
+					<vnx>-0.982238</vnx>
+					<vny>0.132969</vny>
+					<vnz>0.132328</vnz>
+				</vnormal>
+				<index>38</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.644136</u>  <v>0.648013</v>
+			<u>0.503489</u>  <v>0.685474</v>
+			<u>0.503489</u>  <v>0.611366</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.703963</nx>
+			<ny>0.706836</ny>
+			<nz>0.069422</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>-0.245794</vx>
+				<vy>0.268478</vy>
+				<vz>-0.120992</vz>
 
-		<v>-0.425323</v>
-		<v>0.309011</v>
-		<v>0.850654</v>
+				<vnormal>
+					<vnx>-0.824793</vnx>
+					<vny>0.521592</vny>
+					<vnz>-0.218207</vnz>
+				</vnormal>
+				<index>39</index>
+			</vert>
+			<vert>
+				<vx>-0.198202</vx>
+				<vy>0.282576</vy>
+				<vz>0.218059</vz>
 
-		<v>0.162456</v>
-		<v>0.499995</v>
-		<v>0.850654</v>
+				<vnormal>
+					<vnx>-0.738945</vnx>
+					<vny>0.547014</vny>
+					<vnz>0.393292</vnz>
+				</vnormal>
+				<index>40</index>
+			</vert>
+			<vert>
+				<vx>-0.015298</vx>
+				<vy>0.485093</vy>
+				<vz>0.010804</vz>
 
-	</verts>
-	<indices>
-		<i>14</i>
-		<i>12</i>
-		<i>1</i>
-		<i>12</i>
-		<i>14</i>
-		<i>13</i>
-		<i>2</i>
-		<i>13</i>
-		<i>14</i>
-		<i>13</i>
-		<i>0</i>
-		<i>12</i>
-		<i>16</i>
-		<i>1</i>
-		<i>12</i>
-		<i>12</i>
-		<i>15</i>
-		<i>16</i>
-		<i>5</i>
-		<i>16</i>
-		<i>15</i>
-		<i>12</i>
-		<i>0</i>
-		<i>15</i>
-		<i>18</i>
-		<i>13</i>
-		<i>2</i>
-		<i>13</i>
-		<i>18</i>
-		<i>17</i>
-		<i>3</i>
-		<i>17</i>
-		<i>18</i>
-		<i>17</i>
-		<i>0</i>
-		<i>13</i>
-		<i>20</i>
-		<i>17</i>
-		<i>3</i>
-		<i>17</i>
-		<i>20</i>
-		<i>19</i>
-		<i>4</i>
-		<i>19</i>
-		<i>20</i>
-		<i>19</i>
-		<i>0</i>
-		<i>17</i>
-		<i>21</i>
-		<i>19</i>
-		<i>4</i>
-		<i>19</i>
-		<i>21</i>
-		<i>15</i>
-		<i>5</i>
-		<i>15</i>
-		<i>21</i>
-		<i>15</i>
-		<i>0</i>
-		<i>19</i>
-		<i>23</i>
-		<i>1</i>
-		<i>16</i>
-		<i>16</i>
-		<i>22</i>
-		<i>23</i>
-		<i>10</i>
-		<i>23</i>
-		<i>22</i>
-		<i>22</i>
-		<i>16</i>
-		<i>5</i>
-		<i>25</i>
-		<i>2</i>
-		<i>14</i>
-		<i>14</i>
-		<i>24</i>
-		<i>25</i>
-		<i>6</i>
-		<i>25</i>
-		<i>24</i>
-		<i>24</i>
-		<i>14</i>
-		<i>1</i>
-		<i>27</i>
-		<i>3</i>
-		<i>18</i>
-		<i>18</i>
-		<i>26</i>
-		<i>27</i>
-		<i>7</i>
-		<i>27</i>
-		<i>26</i>
-		<i>26</i>
-		<i>18</i>
-		<i>2</i>
-		<i>29</i>
-		<i>4</i>
-		<i>20</i>
-		<i>20</i>
-		<i>28</i>
-		<i>29</i>
-		<i>8</i>
-		<i>29</i>
-		<i>28</i>
-		<i>28</i>
-		<i>20</i>
-		<i>3</i>
-		<i>31</i>
-		<i>5</i>
-		<i>21</i>
-		<i>21</i>
-		<i>30</i>
-		<i>31</i>
-		<i>9</i>
-		<i>31</i>
-		<i>30</i>
-		<i>30</i>
-		<i>21</i>
-		<i>4</i>
-		<i>32</i>
-		<i>23</i>
-		<i>10</i>
-		<i>23</i>
-		<i>32</i>
-		<i>24</i>
-		<i>6</i>
-		<i>24</i>
-		<i>32</i>
-		<i>24</i>
-		<i>1</i>
-		<i>23</i>
-		<i>33</i>
-		<i>25</i>
-		<i>6</i>
-		<i>25</i>
-		<i>33</i>
-		<i>26</i>
-		<i>7</i>
-		<i>26</i>
-		<i>33</i>
-		<i>26</i>
-		<i>2</i>
-		<i>25</i>
-		<i>34</i>
-		<i>27</i>
-		<i>7</i>
-		<i>27</i>
-		<i>34</i>
-		<i>28</i>
-		<i>8</i>
-		<i>28</i>
-		<i>34</i>
-		<i>28</i>
-		<i>3</i>
-		<i>27</i>
-		<i>35</i>
-		<i>29</i>
-		<i>8</i>
-		<i>29</i>
-		<i>35</i>
-		<i>30</i>
-		<i>9</i>
-		<i>30</i>
-		<i>35</i>
-		<i>30</i>
-		<i>4</i>
-		<i>29</i>
-		<i>36</i>
-		<i>31</i>
-		<i>9</i>
-		<i>31</i>
-		<i>36</i>
-		<i>22</i>
-		<i>10</i>
-		<i>22</i>
-		<i>36</i>
-		<i>22</i>
-		<i>5</i>
-		<i>31</i>
-		<i>38</i>
-		<i>6</i>
-		<i>32</i>
-		<i>32</i>
-		<i>37</i>
-		<i>38</i>
-		<i>11</i>
-		<i>38</i>
-		<i>37</i>
-		<i>37</i>
-		<i>32</i>
-		<i>10</i>
-		<i>39</i>
-		<i>7</i>
-		<i>33</i>
-		<i>33</i>
-		<i>38</i>
-		<i>39</i>
-		<i>11</i>
-		<i>39</i>
-		<i>38</i>
-		<i>38</i>
-		<i>33</i>
-		<i>6</i>
-		<i>40</i>
-		<i>8</i>
-		<i>34</i>
-		<i>34</i>
-		<i>39</i>
-		<i>40</i>
-		<i>11</i>
-		<i>40</i>
-		<i>39</i>
-		<i>39</i>
-		<i>34</i>
-		<i>7</i>
-		<i>41</i>
-		<i>9</i>
-		<i>35</i>
-		<i>35</i>
-		<i>40</i>
-		<i>41</i>
-		<i>11</i>
-		<i>41</i>
-		<i>40</i>
-		<i>40</i>
-		<i>35</i>
-		<i>8</i>
-		<i>37</i>
-		<i>10</i>
-		<i>36</i>
-		<i>36</i>
-		<i>41</i>
-		<i>37</i>
-		<i>11</i>
-		<i>37</i>
-		<i>41</i>
-		<i>41</i>
-		<i>36</i>
-		<i>9</i>
-	</indices>
+				<vnormal>
+					<vnx>-0.409070</vnx>
+					<vny>0.912259</vny>
+					<vnz>0.019471</vnz>
+				</vnormal>
+				<index>41</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.503489</u>  <v>0.685474</v>
+			<u>0.644136</u>  <v>0.648013</v>
+			<u>0.618495</u>  <v>0.728555</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.524371</nx>
+			<ny>0.792442</ny>
+			<nz>0.311562</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.059064</vx>
+				<vy>0.421539</vy>
+				<vz>0.297603</vz>
+
+				<vnormal>
+					<vnx>-0.274972</vnx>
+					<vny>0.797662</vny>
+					<vnz>0.536760</vnz>
+				</vnormal>
+				<index>42</index>
+			</vert>
+			<vert>
+				<vx>-0.015298</vx>
+				<vy>0.485093</vy>
+				<vz>0.010804</vz>
+
+				<vnormal>
+					<vnx>-0.409070</vnx>
+					<vny>0.912259</vny>
+					<vnz>0.019471</vnz>
+				</vnormal>
+				<index>43</index>
+			</vert>
+			<vert>
+				<vx>-0.198202</vx>
+				<vy>0.282576</vy>
+				<vz>0.218059</vz>
+
+				<vnormal>
+					<vnx>-0.738945</vnx>
+					<vny>0.547014</vny>
+					<vnz>0.393292</vnz>
+				</vnormal>
+				<index>44</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.755201</u>  <v>0.705654</v>
+			<u>0.618495</u>  <v>0.728555</v>
+			<u>0.644136</u>  <v>0.648013</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.598840</nx>
+			<ny>0.770382</ny>
+			<nz>-0.218866</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>-0.015298</vx>
+				<vy>0.485093</vy>
+				<vz>0.010804</vz>
+
+				<vnormal>
+					<vnx>-0.409070</vnx>
+					<vny>0.912259</vny>
+					<vnz>0.019471</vnz>
+				</vnormal>
+				<index>45</index>
+			</vert>
+			<vert>
+				<vx>-0.021908</vx>
+				<vy>0.397557</vy>
+				<vz>-0.279223</vz>
+
+				<vnormal>
+					<vnx>-0.421003</vnx>
+					<vny>0.754387</vny>
+					<vnz>-0.503586</vnz>
+				</vnormal>
+				<index>46</index>
+			</vert>
+			<vert>
+				<vx>-0.245794</vx>
+				<vy>0.268478</vy>
+				<vz>-0.120992</vz>
+
+				<vnormal>
+					<vnx>-0.824793</vnx>
+					<vny>0.521592</vny>
+					<vnz>-0.218207</vnz>
+				</vnormal>
+				<index>47</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.618495</u>  <v>0.728555</v>
+			<u>0.503490</u>  <v>0.747820</v>
+			<u>0.503489</u>  <v>0.685474</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.173138</nx>
+			<ny>0.951137</ny>
+			<nz>0.255660</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.301834</vx>
+				<vy>0.508504</vy>
+				<vz>0.138474</vz>
+
+				<vnormal>
+					<vnx>0.162877</vnx>
+					<vny>0.954497</vny>
+					<vnz>0.249733</vnz>
+				</vnormal>
+				<index>48</index>
+			</vert>
+			<vert>
+				<vx>-0.015298</vx>
+				<vy>0.485093</vy>
+				<vz>0.010804</vz>
+
+				<vnormal>
+					<vnx>-0.409070</vnx>
+					<vny>0.912259</vny>
+					<vnz>0.019471</vnz>
+				</vnormal>
+				<index>49</index>
+			</vert>
+			<vert>
+				<vx>0.059064</vx>
+				<vy>0.421539</vy>
+				<vz>0.297603</vz>
+
+				<vnormal>
+					<vnx>-0.274972</vnx>
+					<vny>0.797662</vny>
+					<vnz>0.536760</vnz>
+				</vnormal>
+				<index>50</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.731061</u>  <v>0.785943</v>
+			<u>0.618495</u>  <v>0.728555</v>
+			<u>0.755201</u>  <v>0.705654</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.060357</nx>
+			<ny>0.997631</ny>
+			<nz>-0.033014</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>-0.015298</vx>
+				<vy>0.485093</vy>
+				<vz>0.010804</vz>
+
+				<vnormal>
+					<vnx>-0.409070</vnx>
+					<vny>0.912259</vny>
+					<vnz>0.019471</vnz>
+				</vnormal>
+				<index>51</index>
+			</vert>
+			<vert>
+				<vx>0.301834</vx>
+				<vy>0.508504</vy>
+				<vz>0.138474</vz>
+
+				<vnormal>
+					<vnx>0.162877</vnx>
+					<vny>0.954497</vny>
+					<vnz>0.249733</vnz>
+				</vnormal>
+				<index>52</index>
+			</vert>
+			<vert>
+				<vx>0.254239</vx>
+				<vy>0.494405</vy>
+				<vz>-0.200578</vz>
+
+				<vnormal>
+					<vnx>0.077029</vnx>
+					<vny>0.929075</vny>
+					<vnz>-0.361736</vnz>
+				</vnormal>
+				<index>53</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.618495</u>  <v>0.728555</v>
+			<u>0.731061</u>  <v>0.785943</v>
+			<u>0.574566</u>  <v>0.798258</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.248556</nx>
+			<ny>0.965706</ny>
+			<nz>-0.075050</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.517627</vx>
+				<vy>0.437381</vy>
+				<vz>-0.062019</vz>
+
+				<vnormal>
+					<vnx>0.552080</vnx>
+					<vny>0.826228</vny>
+					<vnz>-0.111850</vnz>
+				</vnormal>
+				<index>54</index>
+			</vert>
+			<vert>
+				<vx>0.254239</vx>
+				<vy>0.494405</vy>
+				<vz>-0.200578</vz>
+
+				<vnormal>
+					<vnx>0.077029</vnx>
+					<vny>0.929075</vny>
+					<vnz>-0.361736</vnz>
+				</vnormal>
+				<index>55</index>
+			</vert>
+			<vert>
+				<vx>0.301834</vx>
+				<vy>0.508504</vy>
+				<vz>0.138474</vz>
+
+				<vnormal>
+					<vnx>0.162877</vnx>
+					<vny>0.954497</vny>
+					<vnz>0.249733</vnz>
+				</vnormal>
+				<index>56</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.659054</u>  <v>0.858214</v>
+			<u>0.574566</u>  <v>0.798258</v>
+			<u>0.731061</u>  <v>0.785943</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.247586</nx>
+			<ny>0.929086</ny>
+			<nz>-0.274772</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.254239</vx>
+				<vy>0.494405</vy>
+				<vz>-0.200578</vz>
+
+				<vnormal>
+					<vnx>0.077029</vnx>
+					<vny>0.929075</vny>
+					<vnz>-0.361736</vnz>
+				</vnormal>
+				<index>57</index>
+			</vert>
+			<vert>
+				<vx>-0.021908</vx>
+				<vy>0.397557</vy>
+				<vz>-0.279223</vz>
+
+				<vnormal>
+					<vnx>-0.421003</vnx>
+					<vny>0.754387</vny>
+					<vnz>-0.503586</vnz>
+				</vnormal>
+				<index>58</index>
+			</vert>
+			<vert>
+				<vx>-0.015298</vx>
+				<vy>0.485093</vy>
+				<vz>0.010804</vz>
+
+				<vnormal>
+					<vnx>-0.409070</vnx>
+					<vny>0.912259</vny>
+					<vnz>0.019471</vnz>
+				</vnormal>
+				<index>59</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.574566</u>  <v>0.798258</v>
+			<u>0.503490</u>  <v>0.747820</v>
+			<u>0.618495</u>  <v>0.728555</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.614235</nx>
+			<ny>0.291111</ny>
+			<nz>-0.733465</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.647648</vx>
+				<vy>-0.005653</vy>
+				<vz>-0.342023</vz>
+
+				<vnormal>
+					<vnx>0.786584</vnx>
+					<vny>0.027161</vny>
+					<vnz>-0.616871</vnz>
+				</vnormal>
+				<index>60</index>
+			</vert>
+			<vert>
+				<vx>0.408897</vx>
+				<vy>0.078654</vy>
+				<vz>-0.508502</vz>
+
+				<vnormal>
+					<vnx>0.355968</vnx>
+					<vny>0.179235</vny>
+					<vnz>-0.917112</vnz>
+				</vnormal>
+				<index>61</index>
+			</vert>
+			<vert>
+				<vx>0.507462</vx>
+				<vy>0.306958</vy>
+				<vz>-0.335346</vz>
+
+				<vnormal>
+					<vnx>0.533738</vnx>
+					<vny>0.590991</vny>
+					<vnz>-0.604816</vnz>
+				</vnormal>
+				<index>62</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.368115</u>  <v>0.962874</v>
+			<u>0.347925</u>  <v>0.858214</v>
+			<u>0.503489</u>  <v>0.871188</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.792933</nx>
+			<ny>0.365984</ny>
+			<nz>-0.487149</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.507462</vx>
+				<vy>0.306958</vy>
+				<vz>-0.335346</vz>
+
+				<vnormal>
+					<vnx>0.533738</vnx>
+					<vny>0.590991</vny>
+					<vnz>-0.604816</vnz>
+				</vnormal>
+				<index>63</index>
+			</vert>
+			<vert>
+				<vx>0.711558</vx>
+				<vy>0.205203</vy>
+				<vz>-0.079586</vz>
+
+				<vnormal>
+					<vnx>0.901852</vnx>
+					<vny>0.407483</vny>
+					<vnz>-0.143529</vnz>
+				</vnormal>
+				<index>64</index>
+			</vert>
+			<vert>
+				<vx>0.647648</vx>
+				<vy>-0.005653</vy>
+				<vz>-0.342023</vz>
+
+				<vnormal>
+					<vnx>0.786584</vnx>
+					<vny>0.027161</vny>
+					<vnz>-0.616871</vnz>
+				</vnormal>
+				<index>65</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.503489</u>  <v>0.871188</v>
+			<u>0.638864</u>  <v>0.962874</v>
+			<u>0.368115</u>  <v>0.962874</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.933533</nx>
+			<ny>0.131927</ny>
+			<nz>-0.333335</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.756123</vx>
+				<vy>-0.094462</vy>
+				<vz>-0.073379</vz>
+
+				<vnormal>
+					<vnx>0.982238</vnx>
+					<vny>-0.132969</vny>
+					<vnz>-0.132328</vnz>
+				</vnormal>
+				<index>66</index>
+			</vert>
+			<vert>
+				<vx>0.647648</vx>
+				<vy>-0.005653</vy>
+				<vz>-0.342023</vz>
+
+				<vnormal>
+					<vnx>0.786584</vnx>
+					<vny>0.027161</vny>
+					<vnz>-0.616871</vnz>
+				</vnormal>
+				<index>67</index>
+			</vert>
+			<vert>
+				<vx>0.711558</vx>
+				<vy>0.205203</vy>
+				<vz>-0.079586</vz>
+
+				<vnormal>
+					<vnx>0.901852</vnx>
+					<vny>0.407483</vny>
+					<vnz>-0.143529</vnz>
+				</vnormal>
+				<index>68</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.503490</u>  <v>0.181304</v>
+			<u>0.367839</u>  <v>0.102751</v>
+			<u>0.639142</u>  <v>0.102751</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.714222</nx>
+			<ny>0.620995</ny>
+			<nz>-0.322881</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.711558</vx>
+				<vy>0.205203</vy>
+				<vz>-0.079586</vz>
+
+				<vnormal>
+					<vnx>0.901852</vnx>
+					<vny>0.407483</vny>
+					<vnz>-0.143529</vnz>
+				</vnormal>
+				<index>69</index>
+			</vert>
+			<vert>
+				<vx>0.507462</vx>
+				<vy>0.306958</vy>
+				<vz>-0.335346</vz>
+
+				<vnormal>
+					<vnx>0.533738</vnx>
+					<vny>0.590991</vny>
+					<vnz>-0.604816</vnz>
+				</vnormal>
+				<index>70</index>
+			</vert>
+			<vert>
+				<vx>0.517627</vx>
+				<vy>0.437381</vy>
+				<vz>-0.062019</vz>
+
+				<vnormal>
+					<vnx>0.552080</vnx>
+					<vny>0.826228</vny>
+					<vnz>-0.111850</vnz>
+				</vnormal>
+				<index>71</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.638864</u>  <v>0.962874</v>
+			<u>0.503489</u>  <v>0.871188</v>
+			<u>0.659054</u>  <v>0.858214</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.293127</nx>
+			<ny>-0.325686</ny>
+			<nz>-0.898891</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.108111</vx>
+				<vy>-0.361901</vy>
+				<vz>-0.424639</vz>
+
+				<vnormal>
+					<vnx>-0.186499</vnx>
+					<vny>-0.615314</vny>
+					<vnz>-0.765862</vnz>
+				</vnormal>
+				<index>72</index>
+			</vert>
+			<vert>
+				<vx>-0.116865</vx>
+				<vy>-0.158899</vy>
+				<vz>-0.424826</vz>
+
+				<vnormal>
+					<vnx>-0.592273</vnx>
+					<vny>-0.249214</vny>
+					<vnz>-0.766198</vnz>
+				</vnormal>
+				<index>73</index>
+			</vert>
+			<vert>
+				<vx>0.134515</vx>
+				<vy>-0.043529</vy>
+				<vz>-0.548602</vz>
+
+				<vnormal>
+					<vnx>-0.138859</vnx>
+					<vny>-0.041108</vny>
+					<vnz>-0.989441</vnz>
+				</vnormal>
+				<index>74</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.064956</u>  <v>0.747895</v>
+			<u>0.251779</u>  <v>0.705654</v>
+			<u>0.275918</u>  <v>0.785943</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.016224</nx>
+			<ny>-0.363951</ny>
+			<nz>-0.931277</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.134515</vx>
+				<vy>-0.043529</vy>
+				<vz>-0.548602</vz>
+
+				<vnormal>
+					<vnx>-0.138859</vnx>
+					<vny>-0.041108</vny>
+					<vnz>-0.989441</vnz>
+				</vnormal>
+				<index>75</index>
+			</vert>
+			<vert>
+				<vx>0.417151</vx>
+				<vy>-0.222270</vy>
+				<vz>-0.473824</vz>
+
+				<vnormal>
+					<vnx>0.370861</vnx>
+					<vny>-0.363506</vny>
+					<vnz>-0.854579</vnz>
+				</vnormal>
+				<index>76</index>
+			</vert>
+			<vert>
+				<vx>0.108111</vx>
+				<vy>-0.361901</vy>
+				<vz>-0.424639</vz>
+
+				<vnormal>
+					<vnx>-0.186499</vnx>
+					<vny>-0.615314</vny>
+					<vnz>-0.765862</vnz>
+				</vnormal>
+				<index>77</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.275918</u>  <v>0.785943</v>
+			<u>0.148622</u>  <v>0.880655</v>
+			<u>0.064956</u>  <v>0.747895</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.149058</nx>
+			<ny>-0.605326</ny>
+			<nz>-0.781896</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.363978</vx>
+				<vy>-0.462986</vy>
+				<vz>-0.297603</vz>
+
+				<vnormal>
+					<vnx>0.274972</vnx>
+					<vny>-0.797662</vny>
+					<vnz>-0.536760</vnz>
+				</vnormal>
+				<index>78</index>
+			</vert>
+			<vert>
+				<vx>0.108111</vx>
+				<vy>-0.361901</vy>
+				<vz>-0.424639</vz>
+
+				<vnormal>
+					<vnx>-0.186499</vnx>
+					<vny>-0.615314</vny>
+					<vnz>-0.765862</vnz>
+				</vnormal>
+				<index>79</index>
+			</vert>
+			<vert>
+				<vx>0.417151</vx>
+				<vy>-0.222270</vy>
+				<vz>-0.473824</vz>
+
+				<vnormal>
+					<vnx>0.370861</vnx>
+					<vny>-0.363506</vny>
+					<vnz>-0.854579</vnz>
+				</vnormal>
+				<index>80</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.251779</u>  <v>0.275593</v>
+			<u>0.064956</u>  <v>0.317834</v>
+			<u>0.148794</u>  <v>0.184802</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.190365</nx>
+			<ny>-0.107232</ny>
+			<nz>-0.975839</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.417151</vx>
+				<vy>-0.222270</vy>
+				<vz>-0.473824</vz>
+
+				<vnormal>
+					<vnx>0.370861</vnx>
+					<vny>-0.363506</vny>
+					<vnz>-0.854579</vnz>
+				</vnormal>
+				<index>81</index>
+			</vert>
+			<vert>
+				<vx>0.134515</vx>
+				<vy>-0.043529</vy>
+				<vz>-0.548602</vz>
+
+				<vnormal>
+					<vnx>-0.138859</vnx>
+					<vny>-0.041108</vny>
+					<vnz>-0.989441</vnz>
+				</vnormal>
+				<index>82</index>
+			</vert>
+			<vert>
+				<vx>0.408897</vx>
+				<vy>0.078654</vy>
+				<vz>-0.508502</vz>
+
+				<vnormal>
+					<vnx>0.355968</vnx>
+					<vny>0.179235</vny>
+					<vnz>-0.917112</vnz>
+				</vnormal>
+				<index>83</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.148622</u>  <v>0.880655</v>
+			<u>0.275918</u>  <v>0.785943</v>
+			<u>0.347925</u>  <v>0.858214</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.987625</nx>
+			<ny>-0.147954</ny>
+			<nz>-0.052030</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>-0.288516</vx>
+				<vy>-0.246651</vy>
+				<vz>0.079586</vz>
+
+				<vnormal>
+					<vnx>-0.901852</vnx>
+					<vny>-0.407483</vny>
+					<vnz>0.143529</vnz>
+				</vnormal>
+				<index>84</index>
+			</vert>
+			<vert>
+				<vx>-0.333081</vx>
+				<vy>0.053014</vy>
+				<vz>0.073379</vz>
+
+				<vnormal>
+					<vnx>-0.982238</vnx>
+					<vny>0.132969</vny>
+					<vnz>0.132328</vnz>
+				</vnormal>
+				<index>85</index>
+			</vert>
+			<vert>
+				<vx>-0.301611</vx>
+				<vy>-0.058599</vy>
+				<vz>-0.206577</vz>
+
+				<vnormal>
+					<vnx>-0.925474</vnx>
+					<vny>-0.068300</vny>
+					<vnz>-0.372570</vnz>
+				</vnormal>
+				<index>86</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.367838</u>  <v>0.532813</v>
+			<u>0.503489</u>  <v>0.611366</v>
+			<u>0.362842</u>  <v>0.648013</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.892055</nx>
+			<ny>-0.395335</ny>
+			<nz>-0.218970</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>-0.301611</vx>
+				<vy>-0.058599</vy>
+				<vz>-0.206577</vz>
+
+				<vnormal>
+					<vnx>-0.925474</vnx>
+					<vny>-0.068300</vny>
+					<vnz>-0.372570</vnz>
+				</vnormal>
+				<index>87</index>
+			</vert>
+			<vert>
+				<vx>-0.161429</vx>
+				<vy>-0.371214</vy>
+				<vz>-0.213256</vz>
+
+				<vnormal>
+					<vnx>-0.672628</vnx>
+					<vny>-0.632130</vny>
+					<vnz>-0.384625</vnz>
+				</vnormal>
+				<index>88</index>
+			</vert>
+			<vert>
+				<vx>-0.288516</vx>
+				<vy>-0.246651</vy>
+				<vz>0.079586</vz>
+
+				<vnormal>
+					<vnx>-0.901852</vnx>
+					<vny>-0.407483</vny>
+					<vnz>0.143529</vnz>
+				</vnormal>
+				<index>89</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.362842</u>  <v>0.648013</v>
+			<u>0.148793</u>  <v>0.614863</v>
+			<u>0.367838</u>  <v>0.532813</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.768312</nx>
+			<ny>-0.637020</ny>
+			<nz>-0.062465</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>-0.094585</vx>
+				<vy>-0.478829</vy>
+				<vz>0.062019</vz>
+
+				<vnormal>
+					<vnx>-0.552080</vnx>
+					<vny>-0.826228</vny>
+					<vnz>0.111850</vnz>
+				</vnormal>
+				<index>90</index>
+			</vert>
+			<vert>
+				<vx>-0.288516</vx>
+				<vy>-0.246651</vy>
+				<vz>0.079586</vz>
+
+				<vnormal>
+					<vnx>-0.901852</vnx>
+					<vny>-0.407483</vny>
+					<vnz>0.143529</vnz>
+				</vnormal>
+				<index>91</index>
+			</vert>
+			<vert>
+				<vx>-0.161429</vx>
+				<vy>-0.371214</vy>
+				<vz>-0.213256</vz>
+
+				<vnormal>
+					<vnx>-0.672628</vnx>
+					<vny>-0.632130</vny>
+					<vnz>-0.384625</vnz>
+				</vnormal>
+				<index>92</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.347925</u>  <v>0.428152</v>
+			<u>0.368116</u>  <v>0.532813</v>
+			<u>0.148622</u>  <v>0.450594</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.788800</nx>
+			<ny>-0.342813</ny>
+			<nz>-0.510170</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>-0.161429</vx>
+				<vy>-0.371214</vy>
+				<vz>-0.213256</vz>
+
+				<vnormal>
+					<vnx>-0.672628</vnx>
+					<vny>-0.632130</vny>
+					<vnz>-0.384625</vnz>
+				</vnormal>
+				<index>93</index>
+			</vert>
+			<vert>
+				<vx>-0.301611</vx>
+				<vy>-0.058599</vy>
+				<vz>-0.206577</vz>
+
+				<vnormal>
+					<vnx>-0.925474</vnx>
+					<vny>-0.068300</vny>
+					<vnz>-0.372570</vnz>
+				</vnormal>
+				<index>94</index>
+			</vert>
+			<vert>
+				<vx>-0.116865</vx>
+				<vy>-0.158899</vy>
+				<vz>-0.424826</vz>
+
+				<vnormal>
+					<vnx>-0.592273</vnx>
+					<vny>-0.249214</vny>
+					<vnz>-0.766198</vnz>
+				</vnormal>
+				<index>95</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.148793</u>  <v>0.614863</v>
+			<u>0.362842</u>  <v>0.648013</v>
+			<u>0.251779</u>  <v>0.705654</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.509487</nx>
+			<ny>0.578719</ny>
+			<nz>0.636795</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.005891</vx>
+				<vy>0.180822</vy>
+				<vz>0.473824</vz>
+
+				<vnormal>
+					<vnx>-0.370861</vnx>
+					<vny>0.363506</vny>
+					<vnz>0.854579</vnz>
+				</vnormal>
+				<index>96</index>
+			</vert>
+			<vert>
+				<vx>0.059064</vx>
+				<vy>0.421539</vy>
+				<vz>0.297603</vz>
+
+				<vnormal>
+					<vnx>-0.274972</vnx>
+					<vny>0.797662</vny>
+					<vnz>0.536760</vnz>
+				</vnormal>
+				<index>97</index>
+			</vert>
+			<vert>
+				<vx>-0.198202</vx>
+				<vy>0.282576</vy>
+				<vz>0.218059</vz>
+
+				<vnormal>
+					<vnx>-0.738945</vnx>
+					<vny>0.547014</vny>
+					<vnz>0.393292</vnz>
+				</vnormal>
+				<index>98</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.858186</u>  <v>0.614863</v>
+			<u>0.755201</u>  <v>0.705654</v>
+			<u>0.644136</u>  <v>0.648013</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.676694</nx>
+			<ny>0.315201</ny>
+			<nz>0.665383</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>-0.198202</vx>
+				<vy>0.282576</vy>
+				<vz>0.218059</vz>
+
+				<vnormal>
+					<vnx>-0.738945</vnx>
+					<vny>0.547014</vny>
+					<vnz>0.393292</vnz>
+				</vnormal>
+				<index>99</index>
+			</vert>
+			<vert>
+				<vx>-0.224606</vx>
+				<vy>-0.035795</vy>
+				<vz>0.342023</vz>
+
+				<vnormal>
+					<vnx>-0.786584</vnx>
+					<vny>-0.027161</vny>
+					<vnz>0.616871</vnz>
+				</vnormal>
+				<index>100</index>
+			</vert>
+			<vert>
+				<vx>0.005891</vx>
+				<vy>0.180822</vy>
+				<vz>0.473824</vz>
+
+				<vnormal>
+					<vnx>-0.370861</vnx>
+					<vny>0.363506</vny>
+					<vnz>0.854579</vnz>
+				</vnormal>
+				<index>101</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.644136</u>  <v>0.648013</v>
+			<u>0.639141</u>  <v>0.532813</v>
+			<u>0.858186</u>  <v>0.614863</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.550796</nx>
+			<ny>0.080625</ny>
+			<nz>0.830737</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.014145</vx>
+				<vy>-0.120102</vy>
+				<vz>0.508502</vz>
+
+				<vnormal>
+					<vnx>-0.355968</vnx>
+					<vny>-0.179235</vny>
+					<vnz>0.917112</vnz>
+				</vnormal>
+				<index>102</index>
+			</vert>
+			<vert>
+				<vx>0.005891</vx>
+				<vy>0.180822</vy>
+				<vz>0.473824</vz>
+
+				<vnormal>
+					<vnx>-0.370861</vnx>
+					<vny>0.363506</vny>
+					<vnz>0.854579</vnz>
+				</vnormal>
+				<index>103</index>
+			</vert>
+			<vert>
+				<vx>-0.224606</vx>
+				<vy>-0.035795</vy>
+				<vz>0.342023</vz>
+
+				<vnormal>
+					<vnx>-0.786584</vnx>
+					<vny>-0.027161</vny>
+					<vnz>0.616871</vnz>
+				</vnormal>
+				<index>104</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.659055</u>  <v>0.428152</v>
+			<u>0.858358</u>  <v>0.450594</v>
+			<u>0.638865</u>  <v>0.532812</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.870090</nx>
+			<ny>0.239827</ny>
+			<nz>0.430612</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>-0.224606</vx>
+				<vy>-0.035795</vy>
+				<vz>0.342023</vz>
+
+				<vnormal>
+					<vnx>-0.786584</vnx>
+					<vny>-0.027161</vny>
+					<vnz>0.616871</vnz>
+				</vnormal>
+				<index>105</index>
+			</vert>
+			<vert>
+				<vx>-0.198202</vx>
+				<vy>0.282576</vy>
+				<vz>0.218059</vz>
+
+				<vnormal>
+					<vnx>-0.738945</vnx>
+					<vny>0.547014</vny>
+					<vnz>0.393292</vnz>
+				</vnormal>
+				<index>106</index>
+			</vert>
+			<vert>
+				<vx>-0.333081</vx>
+				<vy>0.053014</vy>
+				<vz>0.073379</vz>
+
+				<vnormal>
+					<vnx>-0.982238</vnx>
+					<vny>0.132969</vny>
+					<vnz>0.132328</vnz>
+				</vnormal>
+				<index>107</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.639141</u>  <v>0.532813</v>
+			<u>0.644136</u>  <v>0.648013</v>
+			<u>0.503489</u>  <v>0.611366</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.480518</nx>
+			<ny>0.850061</ny>
+			<nz>0.215635</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.584472</vx>
+				<vy>0.329767</vy>
+				<vz>0.213256</vz>
+
+				<vnormal>
+					<vnx>0.672628</vnx>
+					<vny>0.632130</vny>
+					<vnz>0.384625</vnz>
+				</vnormal>
+				<index>108</index>
+			</vert>
+			<vert>
+				<vx>0.517627</vx>
+				<vy>0.437381</vy>
+				<vz>-0.062019</vz>
+
+				<vnormal>
+					<vnx>0.552080</vnx>
+					<vny>0.826228</vny>
+					<vnz>-0.111850</vnz>
+				</vnormal>
+				<index>109</index>
+			</vert>
+			<vert>
+				<vx>0.301834</vx>
+				<vy>0.508504</vy>
+				<vz>0.138474</vz>
+
+				<vnormal>
+					<vnx>0.162877</vnx>
+					<vny>0.954497</vny>
+					<vnz>0.249733</vnz>
+				</vnormal>
+				<index>110</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.858357</u>  <v>0.880656</v>
+			<u>0.659054</u>  <v>0.858214</v>
+			<u>0.731061</u>  <v>0.785943</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.364687</nx>
+			<ny>0.785724</ny>
+			<nz>0.499641</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.301834</vx>
+				<vy>0.508504</vy>
+				<vz>0.138474</vz>
+
+				<vnormal>
+					<vnx>0.162877</vnx>
+					<vny>0.954497</vny>
+					<vnz>0.249733</vnz>
+				</vnormal>
+				<index>111</index>
+			</vert>
+			<vert>
+				<vx>0.314931</vx>
+				<vy>0.320453</vy>
+				<vz>0.424639</vz>
+
+				<vnormal>
+					<vnx>0.186499</vnx>
+					<vny>0.615314</vny>
+					<vnz>0.765862</vnz>
+				</vnormal>
+				<index>112</index>
+			</vert>
+			<vert>
+				<vx>0.584472</vx>
+				<vy>0.329767</vy>
+				<vz>0.213256</vz>
+
+				<vnormal>
+					<vnx>0.672628</vnx>
+					<vny>0.632130</vny>
+					<vnz>0.384625</vnz>
+				</vnormal>
+				<index>113</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.731061</u>  <v>0.785943</v>
+			<u>0.942025</u>  <v>0.747895</v>
+			<u>0.858357</u>  <v>0.880656</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.501008</nx>
+			<ny>0.555852</ny>
+			<nz>0.663340</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.539907</vx>
+				<vy>0.117452</vy>
+				<vz>0.424826</vz>
+
+				<vnormal>
+					<vnx>0.592273</vnx>
+					<vny>0.249214</vny>
+					<vnz>0.766198</vnz>
+				</vnormal>
+				<index>114</index>
+			</vert>
+			<vert>
+				<vx>0.584472</vx>
+				<vy>0.329767</vy>
+				<vz>0.213256</vz>
+
+				<vnormal>
+					<vnx>0.672628</vnx>
+					<vny>0.632130</vny>
+					<vnz>0.384625</vnz>
+				</vnormal>
+				<index>115</index>
+			</vert>
+			<vert>
+				<vx>0.314931</vx>
+				<vy>0.320453</vy>
+				<vz>0.424639</vz>
+
+				<vnormal>
+					<vnx>0.186499</vnx>
+					<vny>0.615314</vny>
+					<vnz>0.765862</vnz>
+				</vnormal>
+				<index>116</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.755201</u>  <v>0.275593</v>
+			<u>0.858186</u>  <v>0.184802</v>
+			<u>0.942025</u>  <v>0.317834</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.058823</nx>
+			<ny>0.835493</ny>
+			<nz>0.546344</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.314931</vx>
+				<vy>0.320453</vy>
+				<vz>0.424639</vz>
+
+				<vnormal>
+					<vnx>0.186499</vnx>
+					<vny>0.615314</vny>
+					<vnz>0.765862</vnz>
+				</vnormal>
+				<index>117</index>
+			</vert>
+			<vert>
+				<vx>0.301834</vx>
+				<vy>0.508504</vy>
+				<vz>0.138474</vz>
+
+				<vnormal>
+					<vnx>0.162877</vnx>
+					<vny>0.954497</vny>
+					<vnz>0.249733</vnz>
+				</vnormal>
+				<index>118</index>
+			</vert>
+			<vert>
+				<vx>0.059064</vx>
+				<vy>0.421539</vy>
+				<vz>0.297603</vz>
+
+				<vnormal>
+					<vnx>-0.274972</vnx>
+					<vny>0.797662</vny>
+					<vnz>0.536760</vnz>
+				</vnormal>
+				<index>119</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.942025</u>  <v>0.747895</v>
+			<u>0.731061</u>  <v>0.785943</v>
+			<u>0.755201</u>  <v>0.705654</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.870090</nx>
+			<ny>-0.239827</ny>
+			<nz>-0.430612</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.621244</vx>
+				<vy>-0.324023</vy>
+				<vz>-0.218059</vz>
+
+				<vnormal>
+					<vnx>0.738945</vnx>
+					<vny>-0.547014</vny>
+					<vnz>-0.393292</vnz>
+				</vnormal>
+				<index>120</index>
+			</vert>
+			<vert>
+				<vx>0.647648</vx>
+				<vy>-0.005653</vy>
+				<vz>-0.342023</vz>
+
+				<vnormal>
+					<vnx>0.786584</vnx>
+					<vny>0.027161</vny>
+					<vnz>-0.616871</vnz>
+				</vnormal>
+				<index>121</index>
+			</vert>
+			<vert>
+				<vx>0.756123</vx>
+				<vy>-0.094462</vy>
+				<vz>-0.073379</vz>
+
+				<vnormal>
+					<vnx>0.982238</vnx>
+					<vny>-0.132969</vny>
+					<vnz>-0.132328</vnz>
+				</vnormal>
+				<index>122</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.362843</u>  <v>0.217952</v>
+			<u>0.367839</u>  <v>0.102751</v>
+			<u>0.503490</u>  <v>0.181304</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.676694</nx>
+			<ny>-0.315201</ny>
+			<nz>-0.665383</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.647648</vx>
+				<vy>-0.005653</vy>
+				<vz>-0.342023</vz>
+
+				<vnormal>
+					<vnx>0.786584</vnx>
+					<vny>0.027161</vny>
+					<vnz>-0.616871</vnz>
+				</vnormal>
+				<index>123</index>
+			</vert>
+			<vert>
+				<vx>0.621244</vx>
+				<vy>-0.324023</vy>
+				<vz>-0.218059</vz>
+
+				<vnormal>
+					<vnx>0.738945</vnx>
+					<vny>-0.547014</vny>
+					<vnz>-0.393292</vnz>
+				</vnormal>
+				<index>124</index>
+			</vert>
+			<vert>
+				<vx>0.417151</vx>
+				<vy>-0.222270</vy>
+				<vz>-0.473824</vz>
+
+				<vnormal>
+					<vnx>0.370861</vnx>
+					<vny>-0.363506</vny>
+					<vnz>-0.854579</vnz>
+				</vnormal>
+				<index>125</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.367839</u>  <v>0.102751</v>
+			<u>0.362843</u>  <v>0.217952</v>
+			<u>0.148794</u>  <v>0.184802</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.509487</nx>
+			<ny>-0.578719</ny>
+			<nz>-0.636795</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.363978</vx>
+				<vy>-0.462986</vy>
+				<vz>-0.297603</vz>
+
+				<vnormal>
+					<vnx>0.274972</vnx>
+					<vny>-0.797662</vny>
+					<vnz>-0.536760</vnz>
+				</vnormal>
+				<index>126</index>
+			</vert>
+			<vert>
+				<vx>0.417151</vx>
+				<vy>-0.222270</vy>
+				<vz>-0.473824</vz>
+
+				<vnormal>
+					<vnx>0.370861</vnx>
+					<vny>-0.363506</vny>
+					<vnz>-0.854579</vnz>
+				</vnormal>
+				<index>127</index>
+			</vert>
+			<vert>
+				<vx>0.621244</vx>
+				<vy>-0.324023</vy>
+				<vz>-0.218059</vz>
+
+				<vnormal>
+					<vnx>0.738945</vnx>
+					<vny>-0.547014</vny>
+					<vnz>-0.393292</vnz>
+				</vnormal>
+				<index>128</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.251779</u>  <v>0.275593</v>
+			<u>0.148794</u>  <v>0.184802</v>
+			<u>0.362843</u>  <v>0.217952</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.550795</nx>
+			<ny>-0.080625</ny>
+			<nz>-0.830737</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.417151</vx>
+				<vy>-0.222270</vy>
+				<vz>-0.473824</vz>
+
+				<vnormal>
+					<vnx>0.370861</vnx>
+					<vny>-0.363506</vny>
+					<vnz>-0.854579</vnz>
+				</vnormal>
+				<index>129</index>
+			</vert>
+			<vert>
+				<vx>0.408897</vx>
+				<vy>0.078654</vy>
+				<vz>-0.508502</vz>
+
+				<vnormal>
+					<vnx>0.355968</vnx>
+					<vny>0.179235</vny>
+					<vnz>-0.917112</vnz>
+				</vnormal>
+				<index>130</index>
+			</vert>
+			<vert>
+				<vx>0.647648</vx>
+				<vy>-0.005653</vy>
+				<vz>-0.342023</vz>
+
+				<vnormal>
+					<vnx>0.786584</vnx>
+					<vny>0.027161</vny>
+					<vnz>-0.616871</vnz>
+				</vnormal>
+				<index>131</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.148622</u>  <v>0.880655</v>
+			<u>0.347925</u>  <v>0.858214</v>
+			<u>0.368115</u>  <v>0.962874</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.058824</nx>
+			<ny>-0.835493</ny>
+			<nz>-0.546344</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.121208</vx>
+				<vy>-0.549952</vy>
+				<vz>-0.138474</vz>
+
+				<vnormal>
+					<vnx>-0.162877</vnx>
+					<vny>-0.954497</vny>
+					<vnz>-0.249733</vnz>
+				</vnormal>
+				<index>132</index>
+			</vert>
+			<vert>
+				<vx>0.108111</vx>
+				<vy>-0.361901</vy>
+				<vz>-0.424639</vz>
+
+				<vnormal>
+					<vnx>-0.186499</vnx>
+					<vny>-0.615314</vny>
+					<vnz>-0.765862</vnz>
+				</vnormal>
+				<index>133</index>
+			</vert>
+			<vert>
+				<vx>0.363978</vx>
+				<vy>-0.462986</vy>
+				<vz>-0.297603</vz>
+
+				<vnormal>
+					<vnx>0.274972</vnx>
+					<vny>-0.797662</vny>
+					<vnz>-0.536760</vnz>
+				</vnormal>
+				<index>134</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.275918</u>  <v>0.355882</v>
+			<u>0.064956</u>  <v>0.317834</v>
+			<u>0.251779</u>  <v>0.275593</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.364687</nx>
+			<ny>-0.785724</ny>
+			<nz>-0.499641</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.108111</vx>
+				<vy>-0.361901</vy>
+				<vz>-0.424639</vz>
+
+				<vnormal>
+					<vnx>-0.186499</vnx>
+					<vny>-0.615314</vny>
+					<vnz>-0.765862</vnz>
+				</vnormal>
+				<index>135</index>
+			</vert>
+			<vert>
+				<vx>0.121208</vx>
+				<vy>-0.549952</vy>
+				<vz>-0.138474</vz>
+
+				<vnormal>
+					<vnx>-0.162877</vnx>
+					<vny>-0.954497</vny>
+					<vnz>-0.249733</vnz>
+				</vnormal>
+				<index>136</index>
+			</vert>
+			<vert>
+				<vx>-0.161429</vx>
+				<vy>-0.371214</vy>
+				<vz>-0.213256</vz>
+
+				<vnormal>
+					<vnx>-0.672628</vnx>
+					<vny>-0.632130</vny>
+					<vnz>-0.384625</vnz>
+				</vnormal>
+				<index>137</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.064956</u>  <v>0.317834</v>
+			<u>0.275918</u>  <v>0.355882</v>
+			<u>0.148622</u>  <v>0.450594</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.480518</nx>
+			<ny>-0.850061</ny>
+			<nz>-0.215635</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>-0.094585</vx>
+				<vy>-0.478829</vy>
+				<vz>0.062019</vz>
+
+				<vnormal>
+					<vnx>-0.552080</vnx>
+					<vny>-0.826228</vny>
+					<vnz>0.111850</vnz>
+				</vnormal>
+				<index>138</index>
+			</vert>
+			<vert>
+				<vx>-0.161429</vx>
+				<vy>-0.371214</vy>
+				<vz>-0.213256</vz>
+
+				<vnormal>
+					<vnx>-0.672628</vnx>
+					<vny>-0.632130</vny>
+					<vnz>-0.384625</vnz>
+				</vnormal>
+				<index>139</index>
+			</vert>
+			<vert>
+				<vx>0.121208</vx>
+				<vy>-0.549952</vy>
+				<vz>-0.138474</vz>
+
+				<vnormal>
+					<vnx>-0.162877</vnx>
+					<vny>-0.954497</vny>
+					<vnz>-0.249733</vnz>
+				</vnormal>
+				<index>140</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.347925</u>  <v>0.428152</v>
+			<u>0.148622</u>  <v>0.450594</v>
+			<u>0.275918</u>  <v>0.355882</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.501008</nx>
+			<ny>-0.555852</ny>
+			<nz>-0.663340</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>-0.161429</vx>
+				<vy>-0.371214</vy>
+				<vz>-0.213256</vz>
+
+				<vnormal>
+					<vnx>-0.672628</vnx>
+					<vny>-0.632130</vny>
+					<vnz>-0.384625</vnz>
+				</vnormal>
+				<index>141</index>
+			</vert>
+			<vert>
+				<vx>-0.116865</vx>
+				<vy>-0.158899</vy>
+				<vz>-0.424826</vz>
+
+				<vnormal>
+					<vnx>-0.592273</vnx>
+					<vny>-0.249214</vny>
+					<vnz>-0.766198</vnz>
+				</vnormal>
+				<index>142</index>
+			</vert>
+			<vert>
+				<vx>0.108111</vx>
+				<vy>-0.361901</vy>
+				<vz>-0.424639</vz>
+
+				<vnormal>
+					<vnx>-0.186499</vnx>
+					<vny>-0.615314</vny>
+					<vnz>-0.765862</vnz>
+				</vnormal>
+				<index>143</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.148793</u>  <v>0.614863</v>
+			<u>0.251779</u>  <v>0.705654</v>
+			<u>0.064956</u>  <v>0.747895</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.714222</nx>
+			<ny>-0.620995</ny>
+			<nz>0.322881</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>-0.084420</vx>
+				<vy>-0.348406</vy>
+				<vz>0.335346</vz>
+
+				<vnormal>
+					<vnx>-0.533738</vnx>
+					<vny>-0.590991</vny>
+					<vnz>0.604816</vnz>
+				</vnormal>
+				<index>144</index>
+			</vert>
+			<vert>
+				<vx>-0.288516</vx>
+				<vy>-0.246651</vy>
+				<vz>0.079586</vz>
+
+				<vnormal>
+					<vnx>-0.901852</vnx>
+					<vny>-0.407483</vny>
+					<vnz>0.143529</vnz>
+				</vnormal>
+				<index>145</index>
+			</vert>
+			<vert>
+				<vx>-0.094585</vx>
+				<vy>-0.478829</vy>
+				<vz>0.062019</vz>
+
+				<vnormal>
+					<vnx>-0.552080</vnx>
+					<vny>-0.826228</vny>
+					<vnz>0.111850</vnz>
+				</vnormal>
+				<index>146</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.503490</u>  <v>0.441127</v>
+			<u>0.368116</u>  <v>0.532813</v>
+			<u>0.347925</u>  <v>0.428152</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.792933</nx>
+			<ny>-0.365984</ny>
+			<nz>0.487149</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>-0.288516</vx>
+				<vy>-0.246651</vy>
+				<vz>0.079586</vz>
+
+				<vnormal>
+					<vnx>-0.901852</vnx>
+					<vny>-0.407483</vny>
+					<vnz>0.143529</vnz>
+				</vnormal>
+				<index>147</index>
+			</vert>
+			<vert>
+				<vx>-0.084420</vx>
+				<vy>-0.348406</vy>
+				<vz>0.335346</vz>
+
+				<vnormal>
+					<vnx>-0.533738</vnx>
+					<vny>-0.590991</vny>
+					<vnz>0.604816</vnz>
+				</vnormal>
+				<index>148</index>
+			</vert>
+			<vert>
+				<vx>-0.224606</vx>
+				<vy>-0.035795</vy>
+				<vz>0.342023</vz>
+
+				<vnormal>
+					<vnx>-0.786584</vnx>
+					<vny>-0.027161</vny>
+					<vnz>0.616871</vnz>
+				</vnormal>
+				<index>149</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.368116</u>  <v>0.532813</v>
+			<u>0.503490</u>  <v>0.441127</v>
+			<u>0.638865</u>  <v>0.532812</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.614235</nx>
+			<ny>-0.291111</ny>
+			<nz>0.733465</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.014145</vx>
+				<vy>-0.120102</vy>
+				<vz>0.508502</vz>
+
+				<vnormal>
+					<vnx>-0.355968</vnx>
+					<vny>-0.179235</vny>
+					<vnz>0.917112</vnz>
+				</vnormal>
+				<index>150</index>
+			</vert>
+			<vert>
+				<vx>-0.224606</vx>
+				<vy>-0.035795</vy>
+				<vz>0.342023</vz>
+
+				<vnormal>
+					<vnx>-0.786584</vnx>
+					<vny>-0.027161</vny>
+					<vnz>0.616871</vnz>
+				</vnormal>
+				<index>151</index>
+			</vert>
+			<vert>
+				<vx>-0.084420</vx>
+				<vy>-0.348406</vy>
+				<vz>0.335346</vz>
+
+				<vnormal>
+					<vnx>-0.533738</vnx>
+					<vny>-0.590991</vny>
+					<vnz>0.604816</vnz>
+				</vnormal>
+				<index>152</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.659055</u>  <v>0.428152</v>
+			<u>0.638865</u>  <v>0.532812</v>
+			<u>0.503490</u>  <v>0.441127</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.933533</nx>
+			<ny>-0.131927</ny>
+			<nz>0.333335</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>-0.224606</vx>
+				<vy>-0.035795</vy>
+				<vz>0.342023</vz>
+
+				<vnormal>
+					<vnx>-0.786584</vnx>
+					<vny>-0.027161</vny>
+					<vnz>0.616871</vnz>
+				</vnormal>
+				<index>153</index>
+			</vert>
+			<vert>
+				<vx>-0.333081</vx>
+				<vy>0.053014</vy>
+				<vz>0.073379</vz>
+
+				<vnormal>
+					<vnx>-0.982238</vnx>
+					<vny>0.132969</vny>
+					<vnz>0.132328</vnz>
+				</vnormal>
+				<index>154</index>
+			</vert>
+			<vert>
+				<vx>-0.288516</vx>
+				<vy>-0.246651</vy>
+				<vz>0.079586</vz>
+
+				<vnormal>
+					<vnx>-0.901852</vnx>
+					<vny>-0.407483</vny>
+					<vnz>0.143529</vnz>
+				</vnormal>
+				<index>155</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.639141</u>  <v>0.532813</v>
+			<u>0.503489</u>  <v>0.611366</v>
+			<u>0.367838</u>  <v>0.532813</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.190365</nx>
+			<ny>0.107232</ny>
+			<nz>0.975839</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.288527</vx>
+				<vy>0.002081</vy>
+				<vz>0.548602</vz>
+
+				<vnormal>
+					<vnx>0.138859</vnx>
+					<vny>0.041108</vny>
+					<vnz>0.989441</vnz>
+				</vnormal>
+				<index>156</index>
+			</vert>
+			<vert>
+				<vx>0.005891</vx>
+				<vy>0.180822</vy>
+				<vz>0.473824</vz>
+
+				<vnormal>
+					<vnx>-0.370861</vnx>
+					<vny>0.363506</vny>
+					<vnz>0.854579</vnz>
+				</vnormal>
+				<index>157</index>
+			</vert>
+			<vert>
+				<vx>0.014145</vx>
+				<vy>-0.120102</vy>
+				<vz>0.508502</vz>
+
+				<vnormal>
+					<vnx>-0.355968</vnx>
+					<vny>-0.179235</vny>
+					<vnz>0.917112</vnz>
+				</vnormal>
+				<index>158</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.731062</u>  <v>0.355882</v>
+			<u>0.858358</u>  <v>0.450594</v>
+			<u>0.659055</u>  <v>0.428152</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.016224</nx>
+			<ny>0.363951</ny>
+			<nz>0.931277</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.005891</vx>
+				<vy>0.180822</vy>
+				<vz>0.473824</vz>
+
+				<vnormal>
+					<vnx>-0.370861</vnx>
+					<vny>0.363506</vny>
+					<vnz>0.854579</vnz>
+				</vnormal>
+				<index>159</index>
+			</vert>
+			<vert>
+				<vx>0.288527</vx>
+				<vy>0.002081</vy>
+				<vz>0.548602</vz>
+
+				<vnormal>
+					<vnx>0.138859</vnx>
+					<vny>0.041108</vny>
+					<vnz>0.989441</vnz>
+				</vnormal>
+				<index>160</index>
+			</vert>
+			<vert>
+				<vx>0.314931</vx>
+				<vy>0.320453</vy>
+				<vz>0.424639</vz>
+
+				<vnormal>
+					<vnx>0.186499</vnx>
+					<vny>0.615314</vny>
+					<vnz>0.765862</vnz>
+				</vnormal>
+				<index>161</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.858358</u>  <v>0.450594</v>
+			<u>0.731062</u>  <v>0.355882</v>
+			<u>0.942025</u>  <v>0.317834</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.293127</nx>
+			<ny>0.325686</ny>
+			<nz>0.898891</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.539907</vx>
+				<vy>0.117452</vy>
+				<vz>0.424826</vz>
+
+				<vnormal>
+					<vnx>0.592273</vnx>
+					<vny>0.249214</vny>
+					<vnz>0.766198</vnz>
+				</vnormal>
+				<index>162</index>
+			</vert>
+			<vert>
+				<vx>0.314931</vx>
+				<vy>0.320453</vy>
+				<vz>0.424639</vz>
+
+				<vnormal>
+					<vnx>0.186499</vnx>
+					<vny>0.615314</vny>
+					<vnz>0.765862</vnz>
+				</vnormal>
+				<index>163</index>
+			</vert>
+			<vert>
+				<vx>0.288527</vx>
+				<vy>0.002081</vy>
+				<vz>0.548602</vz>
+
+				<vnormal>
+					<vnx>0.138859</vnx>
+					<vny>0.041108</vny>
+					<vnz>0.989441</vnz>
+				</vnormal>
+				<index>164</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.755201</u>  <v>0.275593</v>
+			<u>0.942025</u>  <v>0.317834</v>
+			<u>0.731062</u>  <v>0.355882</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.149058</nx>
+			<ny>0.605326</ny>
+			<nz>0.781896</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.314931</vx>
+				<vy>0.320453</vy>
+				<vz>0.424639</vz>
+
+				<vnormal>
+					<vnx>0.186499</vnx>
+					<vny>0.615314</vny>
+					<vnz>0.765862</vnz>
+				</vnormal>
+				<index>165</index>
+			</vert>
+			<vert>
+				<vx>0.059064</vx>
+				<vy>0.421539</vy>
+				<vz>0.297603</vz>
+
+				<vnormal>
+					<vnx>-0.274972</vnx>
+					<vny>0.797662</vny>
+					<vnz>0.536760</vnz>
+				</vnormal>
+				<index>166</index>
+			</vert>
+			<vert>
+				<vx>0.005891</vx>
+				<vy>0.180822</vy>
+				<vz>0.473824</vz>
+
+				<vnormal>
+					<vnx>-0.370861</vnx>
+					<vny>0.363506</vny>
+					<vnz>0.854579</vnz>
+				</vnormal>
+				<index>167</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.942025</u>  <v>0.747895</v>
+			<u>0.755201</u>  <v>0.705654</v>
+			<u>0.858186</u>  <v>0.614863</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.788800</nx>
+			<ny>0.342813</ny>
+			<nz>0.510170</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.724654</vx>
+				<vy>0.017152</vy>
+				<vz>0.206577</vz>
+
+				<vnormal>
+					<vnx>0.925474</vnx>
+					<vny>0.068300</vny>
+					<vnz>0.372570</vnz>
+				</vnormal>
+				<index>168</index>
+			</vert>
+			<vert>
+				<vx>0.584472</vx>
+				<vy>0.329767</vy>
+				<vz>0.213256</vz>
+
+				<vnormal>
+					<vnx>0.672628</vnx>
+					<vny>0.632130</vny>
+					<vnz>0.384625</vnz>
+				</vnormal>
+				<index>169</index>
+			</vert>
+			<vert>
+				<vx>0.539907</vx>
+				<vy>0.117452</vy>
+				<vz>0.424826</vz>
+
+				<vnormal>
+					<vnx>0.592273</vnx>
+					<vny>0.249214</vny>
+					<vnz>0.766198</vnz>
+				</vnormal>
+				<index>170</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.644137</u>  <v>0.217952</v>
+			<u>0.858186</u>  <v>0.184802</v>
+			<u>0.755201</u>  <v>0.275593</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.892055</nx>
+			<ny>0.395335</ny>
+			<nz>0.218970</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.584472</vx>
+				<vy>0.329767</vy>
+				<vz>0.213256</vz>
+
+				<vnormal>
+					<vnx>0.672628</vnx>
+					<vny>0.632130</vny>
+					<vnz>0.384625</vnz>
+				</vnormal>
+				<index>171</index>
+			</vert>
+			<vert>
+				<vx>0.724654</vx>
+				<vy>0.017152</vy>
+				<vz>0.206577</vz>
+
+				<vnormal>
+					<vnx>0.925474</vnx>
+					<vny>0.068300</vny>
+					<vnz>0.372570</vnz>
+				</vnormal>
+				<index>172</index>
+			</vert>
+			<vert>
+				<vx>0.711558</vx>
+				<vy>0.205203</vy>
+				<vz>-0.079586</vz>
+
+				<vnormal>
+					<vnx>0.901852</vnx>
+					<vny>0.407483</vny>
+					<vnz>-0.143529</vnz>
+				</vnormal>
+				<index>173</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.858186</u>  <v>0.184802</v>
+			<u>0.644137</u>  <v>0.217952</v>
+			<u>0.639142</u>  <v>0.102751</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.987625</nx>
+			<ny>0.147954</ny>
+			<nz>0.052030</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.756123</vx>
+				<vy>-0.094462</vy>
+				<vz>-0.073379</vz>
+
+				<vnormal>
+					<vnx>0.982238</vnx>
+					<vny>-0.132969</vny>
+					<vnz>-0.132328</vnz>
+				</vnormal>
+				<index>174</index>
+			</vert>
+			<vert>
+				<vx>0.711558</vx>
+				<vy>0.205203</vy>
+				<vz>-0.079586</vz>
+
+				<vnormal>
+					<vnx>0.901852</vnx>
+					<vny>0.407483</vny>
+					<vnz>-0.143529</vnz>
+				</vnormal>
+				<index>175</index>
+			</vert>
+			<vert>
+				<vx>0.724654</vx>
+				<vy>0.017152</vy>
+				<vz>0.206577</vz>
+
+				<vnormal>
+					<vnx>0.925474</vnx>
+					<vny>0.068300</vny>
+					<vnz>0.372570</vnz>
+				</vnormal>
+				<index>176</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.503490</u>  <v>0.181304</v>
+			<u>0.639142</u>  <v>0.102751</v>
+			<u>0.644137</u>  <v>0.217952</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.768312</nx>
+			<ny>0.637020</ny>
+			<nz>0.062465</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.711558</vx>
+				<vy>0.205203</vy>
+				<vz>-0.079586</vz>
+
+				<vnormal>
+					<vnx>0.901852</vnx>
+					<vny>0.407483</vny>
+					<vnz>-0.143529</vnz>
+				</vnormal>
+				<index>177</index>
+			</vert>
+			<vert>
+				<vx>0.517627</vx>
+				<vy>0.437381</vy>
+				<vz>-0.062019</vz>
+
+				<vnormal>
+					<vnx>0.552080</vnx>
+					<vny>0.826228</vny>
+					<vnz>-0.111850</vnz>
+				</vnormal>
+				<index>178</index>
+			</vert>
+			<vert>
+				<vx>0.584472</vx>
+				<vy>0.329767</vy>
+				<vz>0.213256</vz>
+
+				<vnormal>
+					<vnx>0.672628</vnx>
+					<vny>0.632130</vny>
+					<vnz>0.384625</vnz>
+				</vnormal>
+				<index>179</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.638864</u>  <v>0.962874</v>
+			<u>0.659054</u>  <v>0.858214</v>
+			<u>0.858357</u>  <v>0.880656</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.524371</nx>
+			<ny>-0.792442</ny>
+			<nz>-0.311562</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.438340</vx>
+				<vy>-0.526540</vy>
+				<vz>-0.010804</vz>
+
+				<vnormal>
+					<vnx>0.409070</vnx>
+					<vny>-0.912259</vny>
+					<vnz>-0.019471</vnz>
+				</vnormal>
+				<index>180</index>
+			</vert>
+			<vert>
+				<vx>0.363978</vx>
+				<vy>-0.462986</vy>
+				<vz>-0.297603</vz>
+
+				<vnormal>
+					<vnx>0.274972</vnx>
+					<vny>-0.797662</vny>
+					<vnz>-0.536760</vnz>
+				</vnormal>
+				<index>181</index>
+			</vert>
+			<vert>
+				<vx>0.621244</vx>
+				<vy>-0.324023</vy>
+				<vz>-0.218059</vz>
+
+				<vnormal>
+					<vnx>0.738945</vnx>
+					<vny>-0.547014</vny>
+					<vnz>-0.393292</vnz>
+				</vnormal>
+				<index>182</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.388484</u>  <v>0.298493</v>
+			<u>0.251779</u>  <v>0.275593</v>
+			<u>0.362843</u>  <v>0.217952</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.703963</nx>
+			<ny>-0.706836</ny>
+			<nz>-0.069422</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.621244</vx>
+				<vy>-0.324023</vy>
+				<vz>-0.218059</vz>
+
+				<vnormal>
+					<vnx>0.738945</vnx>
+					<vny>-0.547014</vny>
+					<vnz>-0.393292</vnz>
+				</vnormal>
+				<index>183</index>
+			</vert>
+			<vert>
+				<vx>0.668836</vx>
+				<vy>-0.309925</vy>
+				<vz>0.120992</vz>
+
+				<vnormal>
+					<vnx>0.824793</vnx>
+					<vny>-0.521592</vny>
+					<vnz>0.218207</vnz>
+				</vnormal>
+				<index>184</index>
+			</vert>
+			<vert>
+				<vx>0.438340</vx>
+				<vy>-0.526540</vy>
+				<vz>-0.010804</vz>
+
+				<vnormal>
+					<vnx>0.409070</vnx>
+					<vny>-0.912259</vny>
+					<vnz>-0.019471</vnz>
+				</vnormal>
+				<index>185</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.362843</u>  <v>0.217952</v>
+			<u>0.503490</u>  <v>0.255413</v>
+			<u>0.388484</u>  <v>0.298493</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.598840</nx>
+			<ny>-0.770382</ny>
+			<nz>0.218867</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.444950</vx>
+				<vy>-0.439005</vy>
+				<vz>0.279223</vz>
+
+				<vnormal>
+					<vnx>0.421003</vnx>
+					<vny>-0.754387</vny>
+					<vnz>0.503586</vnz>
+				</vnormal>
+				<index>186</index>
+			</vert>
+			<vert>
+				<vx>0.438340</vx>
+				<vy>-0.526540</vy>
+				<vz>-0.010804</vz>
+
+				<vnormal>
+					<vnx>0.409070</vnx>
+					<vny>-0.912259</vny>
+					<vnz>-0.019471</vnz>
+				</vnormal>
+				<index>187</index>
+			</vert>
+			<vert>
+				<vx>0.668836</vx>
+				<vy>-0.309925</vy>
+				<vz>0.120992</vz>
+
+				<vnormal>
+					<vnx>0.824793</vnx>
+					<vny>-0.521592</vny>
+					<vnz>0.218207</vnz>
+				</vnormal>
+				<index>188</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.503490</u>  <v>0.317758</v>
+			<u>0.388484</u>  <v>0.298493</v>
+			<u>0.503490</u>  <v>0.255413</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.884975</nx>
+			<ny>-0.453561</ny>
+			<nz>-0.105362</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.668836</vx>
+				<vy>-0.309925</vy>
+				<vz>0.120992</vz>
+
+				<vnormal>
+					<vnx>0.824793</vnx>
+					<vny>-0.521592</vny>
+					<vnz>0.218207</vnz>
+				</vnormal>
+				<index>189</index>
+			</vert>
+			<vert>
+				<vx>0.621244</vx>
+				<vy>-0.324023</vy>
+				<vz>-0.218059</vz>
+
+				<vnormal>
+					<vnx>0.738945</vnx>
+					<vny>-0.547014</vny>
+					<vnz>-0.393292</vnz>
+				</vnormal>
+				<index>190</index>
+			</vert>
+			<vert>
+				<vx>0.756123</vx>
+				<vy>-0.094462</vy>
+				<vz>-0.073379</vz>
+
+				<vnormal>
+					<vnx>0.982238</vnx>
+					<vny>-0.132969</vny>
+					<vnz>-0.132328</vnz>
+				</vnormal>
+				<index>191</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.503490</u>  <v>0.255413</v>
+			<u>0.362843</u>  <v>0.217952</v>
+			<u>0.503490</u>  <v>0.181304</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.248556</nx>
+			<ny>-0.965706</ny>
+			<nz>0.075050</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.168803</vx>
+				<vy>-0.535852</vy>
+				<vz>0.200578</vz>
+
+				<vnormal>
+					<vnx>-0.077029</vnx>
+					<vny>-0.929075</vny>
+					<vnz>0.361736</vnz>
+				</vnormal>
+				<index>192</index>
+			</vert>
+			<vert>
+				<vx>-0.094585</vx>
+				<vy>-0.478829</vy>
+				<vz>0.062019</vz>
+
+				<vnormal>
+					<vnx>-0.552080</vnx>
+					<vny>-0.826228</vny>
+					<vnz>0.111850</vnz>
+				</vnormal>
+				<index>193</index>
+			</vert>
+			<vert>
+				<vx>0.121208</vx>
+				<vy>-0.549952</vy>
+				<vz>-0.138474</vz>
+
+				<vnormal>
+					<vnx>-0.162877</vnx>
+					<vny>-0.954497</vny>
+					<vnz>-0.249733</vnz>
+				</vnormal>
+				<index>194</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.432413</u>  <v>0.368197</v>
+			<u>0.347925</u>  <v>0.428152</v>
+			<u>0.275918</u>  <v>0.355882</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.060357</nx>
+			<ny>-0.997631</ny>
+			<nz>0.033013</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.121208</vx>
+				<vy>-0.549952</vy>
+				<vz>-0.138474</vz>
+
+				<vnormal>
+					<vnx>-0.162877</vnx>
+					<vny>-0.954497</vny>
+					<vnz>-0.249733</vnz>
+				</vnormal>
+				<index>195</index>
+			</vert>
+			<vert>
+				<vx>0.438340</vx>
+				<vy>-0.526540</vy>
+				<vz>-0.010804</vz>
+
+				<vnormal>
+					<vnx>0.409070</vnx>
+					<vny>-0.912259</vny>
+					<vnz>-0.019471</vnz>
+				</vnormal>
+				<index>196</index>
+			</vert>
+			<vert>
+				<vx>0.168803</vx>
+				<vy>-0.535852</vy>
+				<vz>0.200578</vz>
+
+				<vnormal>
+					<vnx>-0.077029</vnx>
+					<vny>-0.929075</vny>
+					<vnz>0.361736</vnz>
+				</vnormal>
+				<index>197</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.275918</u>  <v>0.355882</v>
+			<u>0.388484</u>  <v>0.298493</v>
+			<u>0.432413</u>  <v>0.368197</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.247586</nx>
+			<ny>-0.929086</ny>
+			<nz>0.274772</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.444950</vx>
+				<vy>-0.439005</vy>
+				<vz>0.279223</vz>
+
+				<vnormal>
+					<vnx>0.421003</vnx>
+					<vny>-0.754387</vny>
+					<vnz>0.503586</vnz>
+				</vnormal>
+				<index>198</index>
+			</vert>
+			<vert>
+				<vx>0.168803</vx>
+				<vy>-0.535852</vy>
+				<vz>0.200578</vz>
+
+				<vnormal>
+					<vnx>-0.077029</vnx>
+					<vny>-0.929075</vny>
+					<vnz>0.361736</vnz>
+				</vnormal>
+				<index>199</index>
+			</vert>
+			<vert>
+				<vx>0.438340</vx>
+				<vy>-0.526540</vy>
+				<vz>-0.010804</vz>
+
+				<vnormal>
+					<vnx>0.409070</vnx>
+					<vny>-0.912259</vny>
+					<vnz>-0.019471</vnz>
+				</vnormal>
+				<index>200</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.503490</u>  <v>0.317758</v>
+			<u>0.432413</u>  <v>0.368197</v>
+			<u>0.388484</u>  <v>0.298493</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.173138</nx>
+			<ny>-0.951137</ny>
+			<nz>-0.255660</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.438340</vx>
+				<vy>-0.526540</vy>
+				<vz>-0.010804</vz>
+
+				<vnormal>
+					<vnx>0.409070</vnx>
+					<vny>-0.912259</vny>
+					<vnz>-0.019471</vnz>
+				</vnormal>
+				<index>201</index>
+			</vert>
+			<vert>
+				<vx>0.121208</vx>
+				<vy>-0.549952</vy>
+				<vz>-0.138474</vz>
+
+				<vnormal>
+					<vnx>-0.162877</vnx>
+					<vny>-0.954497</vny>
+					<vnz>-0.249733</vnz>
+				</vnormal>
+				<index>202</index>
+			</vert>
+			<vert>
+				<vx>0.363978</vx>
+				<vy>-0.462986</vy>
+				<vz>-0.297603</vz>
+
+				<vnormal>
+					<vnx>0.274972</vnx>
+					<vny>-0.797662</vny>
+					<vnz>-0.536760</vnz>
+				</vnormal>
+				<index>203</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.388484</u>  <v>0.298493</v>
+			<u>0.275918</u>  <v>0.355882</v>
+			<u>0.251779</u>  <v>0.275593</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.293003</nx>
+			<ny>-0.494252</ny>
+			<nz>0.818452</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.232712</vx>
+				<vy>-0.324997</vy>
+				<vz>0.463015</vz>
+
+				<vnormal>
+					<vnx>0.038209</vnx>
+					<vny>-0.548753</vny>
+					<vnz>0.835078</vnz>
+				</vnormal>
+				<index>204</index>
+			</vert>
+			<vert>
+				<vx>0.014145</vx>
+				<vy>-0.120102</vy>
+				<vz>0.508502</vz>
+
+				<vnormal>
+					<vnx>-0.355968</vnx>
+					<vny>-0.179235</vny>
+					<vnz>0.917112</vnz>
+				</vnormal>
+				<index>205</index>
+			</vert>
+			<vert>
+				<vx>-0.084420</vx>
+				<vy>-0.348406</vy>
+				<vz>0.335346</vz>
+
+				<vnormal>
+					<vnx>-0.533738</vnx>
+					<vny>-0.590991</vny>
+					<vnz>0.604816</vnz>
+				</vnormal>
+				<index>206</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.574567</u>  <v>0.368197</v>
+			<u>0.659055</u>  <v>0.428152</v>
+			<u>0.503490</u>  <v>0.441127</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.204313</nx>
+			<ny>-0.738217</ny>
+			<nz>0.642878</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>-0.084420</vx>
+				<vy>-0.348406</vy>
+				<vz>0.335346</vz>
+
+				<vnormal>
+					<vnx>-0.533738</vnx>
+					<vny>-0.590991</vny>
+					<vnz>0.604816</vnz>
+				</vnormal>
+				<index>207</index>
+			</vert>
+			<vert>
+				<vx>0.168803</vx>
+				<vy>-0.535852</vy>
+				<vz>0.200578</vz>
+
+				<vnormal>
+					<vnx>-0.077029</vnx>
+					<vny>-0.929075</vny>
+					<vnz>0.361736</vnz>
+				</vnormal>
+				<index>208</index>
+			</vert>
+			<vert>
+				<vx>0.232712</vx>
+				<vy>-0.324997</vy>
+				<vz>0.463015</vz>
+
+				<vnormal>
+					<vnx>0.038209</vnx>
+					<vny>-0.548753</vny>
+					<vnz>0.835078</vnz>
+				</vnormal>
+				<index>209</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.503490</u>  <v>0.441127</v>
+			<u>0.432413</u>  <v>0.368197</v>
+			<u>0.574567</u>  <v>0.368197</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.103144</nx>
+			<ny>-0.787510</ny>
+			<nz>0.607609</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.444950</vx>
+				<vy>-0.439005</vy>
+				<vz>0.279223</vz>
+
+				<vnormal>
+					<vnx>0.421003</vnx>
+					<vny>-0.754387</vny>
+					<vnz>0.503586</vnz>
+				</vnormal>
+				<index>210</index>
+			</vert>
+			<vert>
+				<vx>0.232712</vx>
+				<vy>-0.324997</vy>
+				<vz>0.463015</vz>
+
+				<vnormal>
+					<vnx>0.038209</vnx>
+					<vny>-0.548753</vny>
+					<vnz>0.835078</vnz>
+				</vnormal>
+				<index>211</index>
+			</vert>
+			<vert>
+				<vx>0.168803</vx>
+				<vy>-0.535852</vy>
+				<vz>0.200578</vz>
+
+				<vnormal>
+					<vnx>-0.077029</vnx>
+					<vny>-0.929075</vny>
+					<vnz>0.361736</vnz>
+				</vnormal>
+				<index>212</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.503490</u>  <v>0.317758</v>
+			<u>0.574567</u>  <v>0.368197</v>
+			<u>0.432413</u>  <v>0.368197</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.392990</nx>
+			<ny>-0.824138</ny>
+			<nz>0.407868</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.168803</vx>
+				<vy>-0.535852</vy>
+				<vz>0.200578</vz>
+
+				<vnormal>
+					<vnx>-0.077029</vnx>
+					<vny>-0.929075</vny>
+					<vnz>0.361736</vnz>
+				</vnormal>
+				<index>213</index>
+			</vert>
+			<vert>
+				<vx>-0.084420</vx>
+				<vy>-0.348406</vy>
+				<vz>0.335346</vz>
+
+				<vnormal>
+					<vnx>-0.533738</vnx>
+					<vny>-0.590991</vny>
+					<vnz>0.604816</vnz>
+				</vnormal>
+				<index>214</index>
+			</vert>
+			<vert>
+				<vx>-0.094585</vx>
+				<vy>-0.478829</vy>
+				<vz>0.062019</vz>
+
+				<vnormal>
+					<vnx>-0.552080</vnx>
+					<vny>-0.826228</vny>
+					<vnz>0.111850</vnz>
+				</vnormal>
+				<index>215</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.432413</u>  <v>0.368197</v>
+			<u>0.503490</u>  <v>0.441127</v>
+			<u>0.347925</u>  <v>0.428152</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.452450</nx>
+			<ny>-0.029610</ny>
+			<nz>0.891298</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.541749</vx>
+				<vy>-0.185366</vy>
+				<vz>0.413831</vz>
+
+				<vnormal>
+					<vnx>0.595569</vnx>
+					<vny>-0.296915</vny>
+					<vnz>0.746361</vnz>
+				</vnormal>
+				<index>216</index>
+			</vert>
+			<vert>
+				<vx>0.539907</vx>
+				<vy>0.117452</vy>
+				<vz>0.424826</vz>
+
+				<vnormal>
+					<vnx>0.592273</vnx>
+					<vny>0.249214</vny>
+					<vnz>0.766198</vnz>
+				</vnormal>
+				<index>217</index>
+			</vert>
+			<vert>
+				<vx>0.288527</vx>
+				<vy>0.002081</vy>
+				<vz>0.548602</vz>
+
+				<vnormal>
+					<vnx>0.138859</vnx>
+					<vny>0.041108</vny>
+					<vnz>0.989441</vnz>
+				</vnormal>
+				<index>218</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.618496</u>  <v>0.298493</v>
+			<u>0.755201</u>  <v>0.275593</v>
+			<u>0.731062</u>  <v>0.355882</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.275717</nx>
+			<ny>-0.287098</ny>
+			<nz>0.917363</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.288527</vx>
+				<vy>0.002081</vy>
+				<vz>0.548602</vz>
+
+				<vnormal>
+					<vnx>0.138859</vnx>
+					<vny>0.041108</vny>
+					<vnz>0.989441</vnz>
+				</vnormal>
+				<index>219</index>
+			</vert>
+			<vert>
+				<vx>0.232712</vx>
+				<vy>-0.324997</vy>
+				<vz>0.463015</vz>
+
+				<vnormal>
+					<vnx>0.038209</vnx>
+					<vny>-0.548753</vny>
+					<vnz>0.835078</vnz>
+				</vnormal>
+				<index>220</index>
+			</vert>
+			<vert>
+				<vx>0.541749</vx>
+				<vy>-0.185366</vy>
+				<vz>0.413831</vz>
+
+				<vnormal>
+					<vnx>0.595569</vnx>
+					<vny>-0.296915</vny>
+					<vnz>0.746361</vnz>
+				</vnormal>
+				<index>221</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.731062</u>  <v>0.355882</v>
+			<u>0.574567</u>  <v>0.368197</v>
+			<u>0.618496</u>  <v>0.298493</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.365120</nx>
+			<ny>-0.541309</ny>
+			<nz>0.757412</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.444950</vx>
+				<vy>-0.439005</vy>
+				<vz>0.279223</vz>
+
+				<vnormal>
+					<vnx>0.421003</vnx>
+					<vny>-0.754387</vny>
+					<vnz>0.503586</vnz>
+				</vnormal>
+				<index>222</index>
+			</vert>
+			<vert>
+				<vx>0.541749</vx>
+				<vy>-0.185366</vy>
+				<vz>0.413831</vz>
+
+				<vnormal>
+					<vnx>0.595569</vnx>
+					<vny>-0.296915</vny>
+					<vnz>0.746361</vnz>
+				</vnormal>
+				<index>223</index>
+			</vert>
+			<vert>
+				<vx>0.232712</vx>
+				<vy>-0.324997</vy>
+				<vz>0.463015</vz>
+
+				<vnormal>
+					<vnx>0.038209</vnx>
+					<vny>-0.548753</vny>
+					<vnz>0.835078</vnz>
+				</vnormal>
+				<index>224</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.503490</u>  <v>0.317758</v>
+			<u>0.618496</u>  <v>0.298493</v>
+			<u>0.574567</u>  <v>0.368197</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>-0.031041</nx>
+			<ny>-0.248065</ny>
+			<nz>0.968246</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.232712</vx>
+				<vy>-0.324997</vy>
+				<vz>0.463015</vz>
+
+				<vnormal>
+					<vnx>0.038209</vnx>
+					<vny>-0.548753</vny>
+					<vnz>0.835078</vnz>
+				</vnormal>
+				<index>225</index>
+			</vert>
+			<vert>
+				<vx>0.288527</vx>
+				<vy>0.002081</vy>
+				<vz>0.548602</vz>
+
+				<vnormal>
+					<vnx>0.138859</vnx>
+					<vny>0.041108</vny>
+					<vnz>0.989441</vnz>
+				</vnormal>
+				<index>226</index>
+			</vert>
+			<vert>
+				<vx>0.014145</vx>
+				<vy>-0.120102</vy>
+				<vz>0.508502</vz>
+
+				<vnormal>
+					<vnx>-0.355968</vnx>
+					<vny>-0.179235</vny>
+					<vnz>0.917112</vnz>
+				</vnormal>
+				<index>227</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.574567</u>  <v>0.368197</v>
+			<u>0.731062</u>  <v>0.355882</v>
+			<u>0.659055</u>  <v>0.428152</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.957615</nx>
+			<ny>-0.213904</ny>
+			<nz>0.192923</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.668836</vx>
+				<vy>-0.309925</vy>
+				<vz>0.120992</vz>
+
+				<vnormal>
+					<vnx>0.824793</vnx>
+					<vny>-0.521592</vny>
+					<vnz>0.218207</vnz>
+				</vnormal>
+				<index>228</index>
+			</vert>
+			<vert>
+				<vx>0.756123</vx>
+				<vy>-0.094462</vy>
+				<vz>-0.073379</vz>
+
+				<vnormal>
+					<vnx>0.982238</vnx>
+					<vny>-0.132969</vny>
+					<vnz>-0.132328</vnz>
+				</vnormal>
+				<index>229</index>
+			</vert>
+			<vert>
+				<vx>0.724654</vx>
+				<vy>0.017152</vy>
+				<vz>0.206577</vz>
+
+				<vnormal>
+					<vnx>0.925474</vnx>
+					<vny>0.068300</vny>
+					<vnz>0.372570</vnz>
+				</vnormal>
+				<index>230</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.503490</u>  <v>0.255413</v>
+			<u>0.503490</u>  <v>0.181304</v>
+			<u>0.644137</u>  <v>0.217952</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.837063</nx>
+			<ny>-0.267700</ny>
+			<nz>0.477139</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.724654</vx>
+				<vy>0.017152</vy>
+				<vz>0.206577</vz>
+
+				<vnormal>
+					<vnx>0.925474</vnx>
+					<vny>0.068300</vny>
+					<vnz>0.372570</vnz>
+				</vnormal>
+				<index>231</index>
+			</vert>
+			<vert>
+				<vx>0.541749</vx>
+				<vy>-0.185366</vy>
+				<vz>0.413831</vz>
+
+				<vnormal>
+					<vnx>0.595569</vnx>
+					<vny>-0.296915</vny>
+					<vnz>0.746361</vnz>
+				</vnormal>
+				<index>232</index>
+			</vert>
+			<vert>
+				<vx>0.668836</vx>
+				<vy>-0.309925</vy>
+				<vz>0.120992</vz>
+
+				<vnormal>
+					<vnx>0.824793</vnx>
+					<vny>-0.521592</vny>
+					<vnz>0.218207</vnz>
+				</vnormal>
+				<index>233</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.644137</u>  <v>0.217952</v>
+			<u>0.618496</u>  <v>0.298493</v>
+			<u>0.503490</u>  <v>0.255413</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.671480</nx>
+			<ny>-0.530722</ny>
+			<nz>0.517154</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.444950</vx>
+				<vy>-0.439005</vy>
+				<vz>0.279223</vz>
+
+				<vnormal>
+					<vnx>0.421003</vnx>
+					<vny>-0.754387</vny>
+					<vnz>0.503586</vnz>
+				</vnormal>
+				<index>234</index>
+			</vert>
+			<vert>
+				<vx>0.668836</vx>
+				<vy>-0.309925</vy>
+				<vz>0.120992</vz>
+
+				<vnormal>
+					<vnx>0.824793</vnx>
+					<vny>-0.521592</vny>
+					<vnz>0.218207</vnz>
+				</vnormal>
+				<index>235</index>
+			</vert>
+			<vert>
+				<vx>0.541749</vx>
+				<vy>-0.185366</vy>
+				<vz>0.413831</vz>
+
+				<vnormal>
+					<vnx>0.595569</vnx>
+					<vny>-0.296915</vny>
+					<vnz>0.746361</vnz>
+				</vnormal>
+				<index>236</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.503490</u>  <v>0.317758</v>
+			<u>0.503490</u>  <v>0.255413</v>
+			<u>0.618496</u>  <v>0.298493</v>
+		</uv>
+	</face>
+	<face>
+		<normal>
+			<nx>0.758792</nx>
+			<ny>-0.019024</ny>
+			<nz>0.651056</nz>
+		</normal>
+		<verts>
+			<vert>
+				<vx>0.541749</vx>
+				<vy>-0.185366</vy>
+				<vz>0.413831</vz>
+
+				<vnormal>
+					<vnx>0.595569</vnx>
+					<vny>-0.296915</vny>
+					<vnz>0.746361</vnz>
+				</vnormal>
+				<index>237</index>
+			</vert>
+			<vert>
+				<vx>0.724654</vx>
+				<vy>0.017152</vy>
+				<vz>0.206577</vz>
+
+				<vnormal>
+					<vnx>0.925474</vnx> 
+					<vny>0.068300</vny>
+					<vnz>0.372570</vnz>
+				</vnormal>
+				<index>238</index>
+			</vert>
+			<vert>
+				<vx>0.539907</vx>
+				<vy>0.117452</vy>
+				<vz>0.424826</vz>
+
+				<vnormal>
+					<vnx>0.592273</vnx>
+					<vny>0.249214</vny>
+					<vnz>0.766198</vnz>
+				</vnormal>
+				<index>239</index>
+			</vert>
+		</verts>
+		<uv>
+			<u>0.618496</u>  <v>0.298493</v>
+			<u>0.644137</u>  <v>0.217952</v>
+			<u>0.755201</u>  <v>0.275593</v>
+		</uv>
+	</face>
+	<tex>earth.jpg</tex>
 </model>
