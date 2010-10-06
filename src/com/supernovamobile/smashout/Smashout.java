@@ -13,27 +13,27 @@ import android.view.Window;
 import android.view.WindowManager;
 
 public class Smashout extends Activity {
-	public void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		
-		this.requestWindowFeature(Window.FEATURE_NO_TITLE); 
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-        					 WindowManager.LayoutParams.FLAG_FULLSCREEN);
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
         
-		GLSurfaceView view = new GLSurfaceView(this);
-		
-		try {
-			view.setRenderer(new SmashoutGLRenderer(this));
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (ParserConfigurationException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (SAXException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} 
-		setContentView(view);
-	}
+        this.requestWindowFeature(Window.FEATURE_NO_TITLE); 
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                             WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        
+        GLSurfaceView view = new GLSurfaceView(this);
+        
+        try {
+            view.setRenderer(new SmashoutGLRenderer(this));
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        } catch (ParserConfigurationException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        } catch (SAXException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        } 
+        setContentView(view);
+    }
 } 
