@@ -20,25 +20,19 @@ public class SmashoutGLRenderer implements Renderer {
 
     private SMGroup     mScene;
     private SMModel     mCube;
-    private SMModel mCube2;
-    private Context mContext;
+    private SMModel 	mCube2;
+    private Context 	mContext;
     
-    /** Is light enabled ( NEW ) */
-    private boolean light = false;
+    private boolean 	light = false;
 
-    /* 
-     * The initial light values for ambient and diffuse
-     * as well as the light position ( NEW ) 
-     */
-    private float[] lightAmbient = {0.5f, 0.5f, 0.5f, 1.0f};
-    private float[] lightDiffuse = {1.0f, 1.0f, 1.0f, 1.0f};
-    private float[] lightPosition = {2.0f, 2.0f, 15.0f, 1.0f};
-        
-    /* The buffers for our light values ( NEW ) */
-    private FloatBuffer lightAmbientBuffer;
-    private FloatBuffer lightDiffuseBuffer;
-    private FloatBuffer lightPositionBuffer;
-    
+    private float[] 	mLightAmbient = {0.5f, 0.5f, 0.5f, 1.0f};
+	private float[] 	mLightDiffuse = {1.0f, 1.0f, 1.0f, 1.0f};
+	private float[] 	mLightPosition = {0.0f, 0.0f, 2.0f, 1.0f};
+		
+	private FloatBuffer mLightAmbientBuffer;
+	private FloatBuffer mLightDiffuseBuffer;
+	private FloatBuffer mLightPositionBuffer;
+	
     public SmashoutGLRenderer(Context context) 
         throws IOException, ParserConfigurationException, SAXException 
     {
@@ -51,23 +45,24 @@ public class SmashoutGLRenderer implements Renderer {
         //mScene.add(mCube2);
         mCube.setRx(45.0f);
         
-        ByteBuffer byteBuf = ByteBuffer.allocateDirect(lightAmbient.length * 4);
-        byteBuf.order(ByteOrder.nativeOrder());
-        lightAmbientBuffer = byteBuf.asFloatBuffer();
-        lightAmbientBuffer.put(lightAmbient);
-        lightAmbientBuffer.position(0);
+        ByteBuffer byteBuf = ByteBuffer.allocateDirect(mLightAmbient.length * 4);
+		byteBuf.order(ByteOrder.nativeOrder());
+		mLightAmbientBuffer = byteBuf.asFloatBuffer();
+		mLightAmbientBuffer.put(mLightAmbient);
+		mLightAmbientBuffer.position(0);
+		
+		byteBuf = ByteBuffer.allocateDirect(mLightDiffuse.length * 4);
+		byteBuf.order(ByteOrder.nativeOrder());
+		mLightDiffuseBuffer = byteBuf.asFloatBuffer();
+		mLightDiffuseBuffer.put(mLightDiffuse);
+		mLightDiffuseBuffer.position(0);
+		
+		byteBuf = ByteBuffer.allocateDirect(mLightPosition.length * 4);
+		byteBuf.order(ByteOrder.nativeOrder());
+		mLightPositionBuffer = byteBuf.asFloatBuffer();
+		mLightPositionBuffer.put(mLightPosition);
+		mLightPositionBuffer.position(0);
         
-        byteBuf = ByteBuffer.allocateDirect(lightDiffuse.length * 4);
-        byteBuf.order(ByteOrder.nativeOrder());
-        lightDiffuseBuffer = byteBuf.asFloatBuffer();
-        lightDiffuseBuffer.put(lightDiffuse);
-        lightDiffuseBuffer.position(0);
-        
-        byteBuf = ByteBuffer.allocateDirect(lightPosition.length * 4);
-        byteBuf.order(ByteOrder.nativeOrder());
-        lightPositionBuffer = byteBuf.asFloatBuffer();
-        lightPositionBuffer.put(lightPosition);
-        lightPositionBuffer.position(0);
     }
      
     @Override
@@ -77,7 +72,7 @@ public class SmashoutGLRenderer implements Renderer {
         gl.glLoadIdentity();
         gl.glTranslatef(0.0f, 0.0f, -7.0f);
         
-        //Check if the light flag has been set to enable/disable lighting
+         //Check if the light flag has been set to enable/disable lighting
         light = true;
         if(light) {
             gl.glEnable(GL10.GL_LIGHTING);
@@ -85,14 +80,13 @@ public class SmashoutGLRenderer implements Renderer {
             gl.glDisable(GL10.GL_LIGHTING);
         }
         
-        gl.glPushMatrix();
+        
         //mCube.setRx(mCube.getRx() + 1);
         mCube.setRy(mCube.getRy() + 5);
         
-        //mCube2.setX(5.0f);
-        gl.glPopMatrix();
-        
         gl.glPushMatrix();
+        //mCube2.setX(5.0f);
+       
         try {
             mScene.draw(gl);
         } catch (IOException e) {
@@ -106,8 +100,8 @@ public class SmashoutGLRenderer implements Renderer {
 
     @Override
     public void onSurfaceChanged(GL10 gl, int width, int height) {
-        // TODO Auto-generated method stub
-        gl.glViewport(0, 0, width, height);
+    	
+    	gl.glViewport(0, 0, width, height);
         gl.glMatrixMode(GL10.GL_PROJECTION);
         gl.glLoadIdentity();
         GLU.gluPerspective(gl, 45.0f, (float) width / (float) height, 0.1f, 100.0f);
@@ -118,21 +112,18 @@ public class SmashoutGLRenderer implements Renderer {
     @Override
     public void onSurfaceCreated(GL10 gl, EGLConfig config) {
         
-        //And there'll be light!
-        gl.glLightfv(GL10.GL_LIGHT0, GL10.GL_AMBIENT, lightAmbientBuffer);      //Setup The Ambient Light ( NEW )
-        gl.glLightfv(GL10.GL_LIGHT0, GL10.GL_DIFFUSE, lightDiffuseBuffer);      //Setup The Diffuse Light ( NEW )
-        gl.glLightfv(GL10.GL_LIGHT0, GL10.GL_POSITION, lightPositionBuffer);    //Position The Light ( NEW )
-        gl.glEnable(GL10.GL_LIGHT0);                
-        
+    	gl.glLightfv(GL10.GL_LIGHT0, GL10.GL_AMBIENT, mLightAmbientBuffer);		//Setup The Ambient Light 
+		gl.glLightfv(GL10.GL_LIGHT0, GL10.GL_DIFFUSE, mLightDiffuseBuffer);		//Setup The Diffuse Light 
+		gl.glLightfv(GL10.GL_LIGHT0, GL10.GL_POSITION, mLightPositionBuffer);	//Position The Light 
+		gl.glEnable(GL10.GL_LIGHT0);
+		
         //Settings
-        gl.glDisable(GL10.GL_DITHER);               //Disable dithering ( NEW )
+        gl.glDisable(GL10.GL_DITHER);               //Disable dithering 
         gl.glEnable(GL10.GL_TEXTURE_2D);            //Enable Texture Mapping
         
-        //Flat shading for now 
-        // TODO: Calculate vertex normals and switch to smooth after fixing U/V
-        // calculations.
+        
         gl.glShadeModel(GL10.GL_SMOOTH);            	
-        gl.glClearColor(0.0f, 0.0f, 0.0f, 0.5f);    //Black Background
+        gl.glClearColor(0.0f, 0.0f, 0.5f, 0.5f);    //Black Background
         gl.glClearDepthf(1.0f);                     //Depth Buffer Setup
         gl.glEnable(GL10.GL_DEPTH_TEST);            //Enables Depth Testing
         gl.glDepthFunc(GL10.GL_LEQUAL);             //The Type Of Depth Testing To Do
