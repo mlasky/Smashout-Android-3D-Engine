@@ -131,7 +131,7 @@ public class ModelFormatHandler extends DefaultHandler {
         
             mModel.setVertices(verts);
             mCurrentVerts = null;
-            
+             
             // Set Indices
             short[] indices = new short[mCurrentIndices.size()];
             for (int i = 0; i < indices.length; i++) {
@@ -148,6 +148,7 @@ public class ModelFormatHandler extends DefaultHandler {
             }
         
             mModel.setVNormals(vnormals);
+            Log.e("ModelFormatHelper", "vNormals length: " + vnormals.length);
             mCurrentVNormals = null;
         
             // Set UV Coords
